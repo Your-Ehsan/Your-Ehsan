@@ -28,7 +28,7 @@
 
 <p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=your-ehsan&" alt="your-ehsan" /></p>
 
-# Blogs posts
+<!-- # Blogs posts -->
 
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
