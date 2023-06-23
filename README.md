@@ -13,6 +13,6 @@
 - 📫 How to reach me **ehsanshahid787@gmail.com**
 
 
-<p align="center">
+<!-- <p align="center">
 <img src="https://github.com/akshitagupta15june/akshitagupta15june/raw/output/github-contribution-grid-snake.svg">
-</p>
+</p> -->
