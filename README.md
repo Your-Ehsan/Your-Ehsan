@@ -6,9 +6,14 @@
 <p align="center"><img src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif"></p>
 
 
-- 🌱 I’m currently learning **React.js**
+- 🌱 I’m currently learning **Astro 🚀**
 
-- 💬 Ask me about **Html,css & JavaScript**
+- 💬 Ask me about
+    - **Html**
+    - **css**
+    - **JS**
+    - **React.js**
+    - **Next.js**
 
 - 📫 How to reach me **ehsanshahid787@gmail.com**
 
