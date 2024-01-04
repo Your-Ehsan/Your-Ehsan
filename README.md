@@ -8,17 +8,4 @@
 
 
 - 🌱 I’m currently learning **Astro 🚀**
-
-- 💬 Ask me about
-    - **Html**
-    - **css**
-    - **JS**
-    - **React.js**
-    - **Next.js**
-
 - 📫 How to reach me **ehsanshahid787@gmail.com**
-
-
-<!-- <p align="center">
-<img src="https://github.com/akshitagupta15june/akshitagupta15june/raw/output/github-contribution-grid-snake.svg">
-</p> -->
