@@ -1,0 +1,32 @@
+---
+import { Image } from 'astro:assets'
+import imageUrlBuilder from '@sanity/image-url'
+import type { ImageType } from '../lib/types/siteConfigs.types'
+import env from '../lib/env'
+import assertValue from '../lib/handlers/assertValue'
+
+type Props = {
+  sanitySrc: ImageType
+  height: number
+  width: number
+  alt: string
+}
+
+const { sanitySrc, ...restProps } = Astro.props
+---
+
+<Image
+  src={imageUrlBuilder({
+    projectId: assertValue({
+      value: env.sanity.projectId,
+      errorMessage: 'projectId not found in SanityImage.astro',
+    }),
+    dataset: assertValue({
+      value: env.sanity.dataset,
+      errorMessage: 'dataset not found in SanityImage.astro',
+    }),
+  })
+    .image(sanitySrc)
+    .url()}
+  {...restProps}
+/>
