@@ -12,7 +12,6 @@ import spotlightjs from '@spotlightjs/astro'
 // https://astro.build/config
 export default defineConfig({
   site: 'https://example.com',
-  output: 'server',
   // output: 'server', // TODO: learn about this completely, later 🔥
   integrations: [
     mdx(),

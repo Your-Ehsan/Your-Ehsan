@@ -1,0 +1,9 @@
+{
+  "cSpell.enableFiletypes": ["astro"],
+  "prettier.enable": true,
+  "prettier.documentSelectors": ["**/*.astro"],
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

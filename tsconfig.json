@@ -6,4 +6,5 @@
     "verbatimModuleSyntax": true,
     "paths": { "@/*": ["./src/*"] },
   },
+  "exclude": ["studio", "client"],
 }

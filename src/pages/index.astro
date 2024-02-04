@@ -10,7 +10,7 @@ import { state } from '../lib/store'
 const siteConfigsData: SiteConfigsType[] = await client.fetch(queries.siteConfigs),
   { overview, poster, title } = siteConfigsData[0]
 
-  state.set({data: siteConfigsData[0]})
+state.set({ data: siteConfigsData[0] })
 ---
 
 <!doctype html>
