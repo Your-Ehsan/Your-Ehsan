@@ -1,0 +1,28 @@
+{
+  "folders": [
+    { "name": "root", "path": "./" },
+    { "name": "app", "path": "./app" },
+    { "name": "studio", "path": "./studio" }
+  ],
+  "settings": {
+    
+      "prettier.documentSelectors": ["**/*.astro"],
+      "[astro]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+    
+    "cSpell.words": [
+      "hookform",
+      "lucide",
+      "nextjs",
+      "supabase",
+      "tanstack",
+      "upsert",
+      "zustand"
+    ],
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "cSpell.enableFiletypes": [
+      "astro"
+    ]
+  }
+}
