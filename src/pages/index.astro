@@ -1,26 +1,18 @@
 ---
-import BaseHead from '@/components/BaseHead.astro'
-import Header from '@/components/Header.astro'
-import Footer from '@/components/Footer.astro'
-import queries from '../lib/sanity/queries'
-import type { SiteConfigsType } from '../lib/types/siteConfigs.types'
+import type { SiteConfigsType } from '@/lib/types/siteConfigs.types'
+import client from '@/lib/sanity/client'
+
+import queries from '@/lib/sanity/queries'
+import MainLayout from '@/layouts/MainLayout.astro'
 import SanityImage from '@/components/SanityImage.astro'
-import client from '../lib/sanity/client'
-import { state } from '../lib/store'
+import { state } from '@/lib/store'
+
 const siteConfigsData: SiteConfigsType[] = await client.fetch(queries.siteConfigs),
   { overview, poster, title } = siteConfigsData[0]
 
 state.set({ data: siteConfigsData[0] })
 ---
 
-<!doctype html>
-<html lang='en'>
-  <head>
-    <BaseHead title={title} description={overview} />
-  </head>
-  <body>
-    <Header />
-    <SanityImage height={300} sanitySrc={poster} width={400} alt={title} />
-    <Footer />
-  </body>
-</html>
+<MainLayout title={title} description={overview}>
+  <SanityImage height={300} sanitySrc={poster} width={400} alt={title} />
+</MainLayout>

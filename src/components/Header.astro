@@ -1,13 +1,17 @@
 ---
 import HeaderLink from './HeaderLink.astro'
 import { state } from '../lib/store'
+
+import { useTranslations } from '@/i18n/utils'
+
+const translate = useTranslations({ url: Astro.url })
 ---
 
 <header>
   <nav>
     <h2><a href='/'>{state.get().data?.title}</a></h2>
     <div class='internal-links'>
-      <HeaderLink href='/'>Home</HeaderLink>
+      <HeaderLink href='/'>{translate('nav.home')}</HeaderLink>
       <HeaderLink href='/blog'>Blog</HeaderLink>
       <HeaderLink href='/about'>About</HeaderLink>
     </div>

@@ -27,11 +27,13 @@ const { title, description, image = '/blog-placeholder-1.jpg' } = Astro.props
 <!-- Canonical URL -->
 <link rel='canonical' href={new URL(Astro.url.pathname, Astro.site)} />
 
+<!-- <meta http-equiv="refresh" content="0;url=/en/" /> -->
+
 <!-- Primary Meta Tags -->
 <title>{title}</title>
 <meta name='title' content={title} />
 <meta name='description' content={description} />
-
+<!-- hjdshdj -->
 <!-- Open Graph / Facebook -->
 <meta property='og:type' content='website' />
 <meta property='og:url' content={Astro.url} />
