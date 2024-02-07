@@ -19,7 +19,7 @@
     "@astrojs/tailwind": "^5.1.0",
     "@sanity/astro": "^2.2.0",
     "@sanity/client": "^6.12.3",
-    "@sentry/astro": "^7.99.0",
+    "@sentry/astro": "^7.100.0",
     "@spotlightjs/astro": "^1.0.14",
     "astro": "^4.3.2",
     "astro-portabletext": "^0.9.6",
