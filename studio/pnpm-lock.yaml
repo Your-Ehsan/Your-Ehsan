@@ -22,7 +22,7 @@ dependencies:
     version: 18.2.0
   sanity:
     specifier: ^3.28.0
-    version: 3.28.0(@types/react@18.2.52)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)
+    version: 3.28.0(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)
   styled-components:
     specifier: ^6.0.7
     version: 6.1.8(react-dom@18.2.0)(react@18.2.0)
@@ -32,8 +32,8 @@ devDependencies:
     specifier: ^3.0.1
     version: 3.0.1(eslint@8.56.0)(typescript@5.3.3)
   '@types/react':
-    specifier: ^18.2.52
-    version: 18.2.52
+    specifier: ^18.2.55
+    version: 18.2.55
   eslint:
     specifier: ^8.6.0
     version: 8.56.0
@@ -2397,7 +2397,7 @@ packages:
     resolution: {integrity: sha512-k3y7mD9QLN4PQVla5kkRKUu/JcEzByYhAAp8kFYRyZPBpJO3/BWZQVufWzbIfmyHrH5fu+O0XDP/MVATyYwoGQ==}
     dependencies:
       '@sanity/client': 6.12.3
-      '@types/react': 18.2.52
+      '@types/react': 18.2.55
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -2579,17 +2579,17 @@ packages:
   /@types/react-copy-to-clipboard@5.0.7:
     resolution: {integrity: sha512-Gft19D+as4M+9Whq1oglhmK49vqPhcLzk8WfvfLvaYMIPYanyfLy0+CwFucMJfdKoSFyySPmkkWn8/E6voQXjQ==}
     dependencies:
-      '@types/react': 18.2.52
+      '@types/react': 18.2.55
     dev: false
 
   /@types/react-is@18.2.4:
     resolution: {integrity: sha512-wBc7HgmbCcrvw0fZjxbgz/xrrlZKzEqmABBMeSvpTvdm25u6KI6xdIi9pRE2G0C1Lw5ETFdcn4UbYZ4/rpqUYw==}
     dependencies:
-      '@types/react': 18.2.52
+      '@types/react': 18.2.55
     dev: false
 
-  /@types/react@18.2.52:
-    resolution: {integrity: sha512-E/YjWh3tH+qsLKaUzgpZb5AY0ChVa+ZJzF7ogehVILrFpdQk6nC/WXOv0bfFEABbXbgNxLBGU7IIZByPKb6eBw==}
+  /@types/react@18.2.55:
+    resolution: {integrity: sha512-Y2Tz5P4yz23brwm2d7jNon39qoAtMMmalOQv6+fEFt1mT+FcM3D841wDpoUvFXhaYenuROCy3FZYqdTjM7qVyA==}
     dependencies:
       '@types/prop-types': 15.7.11
       '@types/scheduler': 0.16.8
@@ -3386,6 +3386,7 @@ packages:
       loose-envify: 1.4.0
       object-assign: 4.1.1
     dev: false
+    bundledDependencies: false
 
   /crelt@1.0.6:
     resolution: {integrity: sha512-VQ2MBenTq1fWZUH9DJNGti7kKv6EeAuYr3cLwxUWhIu1baTaXh4Ib5W2CqHVqib4/MqbYGJqiL3Zb8GJZr3l4g==}
@@ -4707,10 +4708,6 @@ packages:
     resolution: {integrity: sha512-gyPJuv83bHMpocVYoqof5VDiZveEoGoFL8m3BXNb2VW8Xs+rz9kqO8LOQ5DH6EsuvilT1ApazU0pyl+ytbPtlw==}
     dev: false
 
-  /is-hotkey@0.1.8:
-    resolution: {integrity: sha512-qs3NZ1INIS+H+yeo7cD9pDfwYV/jqRh1JG9S9zYrNudkoUQg7OL7ziXqRKu+InFjUIDoP2o6HIkLYMh1pcWgyQ==}
-    dev: false
-
   /is-hotkey@0.2.0:
     resolution: {integrity: sha512-UknnZK4RakDmTgz4PI1wIph5yxSs/mvChWs9ifnlXsKuXgWmOkY/hAE0H/k2MIqH0RlRye0i1oC07MCRSD28Mw==}
     dev: false
@@ -5690,7 +5687,7 @@ packages:
     resolution: {integrity: sha512-nsO+KSNgo1SbJqJEYRE9ERzo7YtYbou/OqjSQKxV7jcKox7+usiUVZOAC+XnDOABXggQTno0Y1CpVnuWEc1boQ==}
     dev: false
 
-  /react-focus-lock@2.9.7(@types/react@18.2.52)(react@18.2.0):
+  /react-focus-lock@2.9.7(@types/react@18.2.55)(react@18.2.0):
     resolution: {integrity: sha512-EfhX040SELLqnQ9JftqsmQCG49iByg8F5X5m19Er+n371OaETZ35dlNPZrLOOTlnnwD4c2Zv0KDgabDTc7dPHw==}
     peerDependencies:
       '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -5700,13 +5697,13 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.23.9
-      '@types/react': 18.2.52
+      '@types/react': 18.2.55
       focus-lock: 1.0.0
       prop-types: 15.8.1
       react: 18.2.0
       react-clientside-effect: 1.2.6(react@18.2.0)
-      use-callback-ref: 1.3.1(@types/react@18.2.52)(react@18.2.0)
-      use-sidecar: 1.1.2(@types/react@18.2.52)(react@18.2.0)
+      use-callback-ref: 1.3.1(@types/react@18.2.55)(react@18.2.0)
+      use-sidecar: 1.1.2(@types/react@18.2.55)(react@18.2.0)
     dev: false
 
   /react-i18next@13.5.0(i18next@23.7.20)(react-dom@18.2.0)(react@18.2.0):
@@ -6048,7 +6045,7 @@ packages:
       '@sanity/diff-match-patch': 3.1.1
     dev: false
 
-  /sanity@3.28.0(@types/react@18.2.52)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8):
+  /sanity@3.28.0(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8):
     resolution: {integrity: sha512-wPccrB9RcOR2adWRU4bZyUrvSzB4hE+p6LMr7Plx++A3zY2rk6T539owbSzU0jnzvXf4uQRFPL0IMNUkkUMdcA==}
     engines: {node: '>=18'}
     hasBin: true
@@ -6146,7 +6143,7 @@ packages:
       react-copy-to-clipboard: 5.1.0(react@18.2.0)
       react-dom: 18.2.0(react@18.2.0)
       react-fast-compare: 3.2.2
-      react-focus-lock: 2.9.7(@types/react@18.2.52)(react@18.2.0)
+      react-focus-lock: 2.9.7(@types/react@18.2.55)(react@18.2.0)
       react-i18next: 13.5.0(i18next@23.7.20)(react-dom@18.2.0)(react@18.2.0)
       react-is: 18.2.0
       react-refractor: 2.1.7(react@18.2.0)
@@ -6787,7 +6784,7 @@ packages:
       requires-port: 1.0.0
     dev: false
 
-  /use-callback-ref@1.3.1(@types/react@18.2.52)(react@18.2.0):
+  /use-callback-ref@1.3.1(@types/react@18.2.55)(react@18.2.0):
     resolution: {integrity: sha512-Lg4Vx1XZQauB42Hw3kK7JM6yjVjgFmFC5/Ab797s79aARomD2nEErc4mCgM8EZrARLmmbWpi5DGCadmK50DcAQ==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -6797,7 +6794,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.52
+      '@types/react': 18.2.55
       react: 18.2.0
       tslib: 2.6.2
     dev: false
@@ -6818,7 +6815,7 @@ packages:
       react: 18.2.0
     dev: false
 
-  /use-sidecar@1.1.2(@types/react@18.2.52)(react@18.2.0):
+  /use-sidecar@1.1.2(@types/react@18.2.55)(react@18.2.0):
     resolution: {integrity: sha512-epTbsLuzZ7lPClpz2TyryBfztm7m+28DlEv2ZCQ3MDr5ssiwyOwGH/e5F9CkfWjJ1t4clvI58yF822/GUkjjhw==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -6828,7 +6825,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.52
+      '@types/react': 18.2.55
       detect-node-es: 1.1.0
       react: 18.2.0
       tslib: 2.6.2
