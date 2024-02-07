@@ -45,8 +45,8 @@ dependencies:
     specifier: ^12.0.0
     version: 12.0.0
   firebase-tools:
-    specifier: ^13.1.0
-    version: 13.1.0
+    specifier: ^13.2.0
+    version: 13.2.0
   nanostores:
     specifier: ^0.9.5
     version: 0.9.5
@@ -1722,6 +1722,7 @@ packages:
   /@isaacs/cliui@8.0.2:
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
     engines: {node: '>=12'}
+    requiresBuild: true
     dependencies:
       string-width: 5.1.2
       string-width-cjs: /string-width@4.2.3
@@ -3257,6 +3258,7 @@ packages:
   /ansi-styles@6.2.1:
     resolution: {integrity: sha512-bN798gFfQX+viw3R7yrGWRqnrN2oRkEkUjjl4JNn4E8GxxbjtG3FbrEIIY3l8/hrwUwIeCZvi4QuOTP4MErVug==}
     engines: {node: '>=12'}
+    requiresBuild: true
 
   /ansicolors@0.3.2:
     resolution: {integrity: sha512-QXu7BPrP29VllRxH8GwB7x5iX5qWKAAMLqKQGWTeLWVlNHNOpVMJ91dsxQAIWXpjuW5wqvxu3Jd/nRjrJ+0pqg==}
@@ -4248,6 +4250,7 @@ packages:
       loose-envify: 1.4.0
       object-assign: 4.1.1
     dev: false
+    bundledDependencies: false
 
   /cross-env@5.2.1:
     resolution: {integrity: sha512-1yHhtcfAd1r4nwQgknowuUNfIT9E8dOMMspC36g45dN+iD1blloi7xp8X/xAIDnjHWyt1uQ8PHk2fkNaym7soQ==}
@@ -4655,6 +4658,7 @@ packages:
 
   /emoji-regex@9.2.2:
     resolution: {integrity: sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==}
+    requiresBuild: true
 
   /enabled@2.0.0:
     resolution: {integrity: sha512-AKrN98kuwOzMIdAizXGI86UFBoo26CL21UM763y1h/GMSJ4/OHU9k2YlsmBpyScFo/wbLzWQJBMCW4+IO3/+OQ==}
@@ -5255,8 +5259,8 @@ packages:
       - supports-color
     dev: false
 
-  /firebase-tools@13.1.0:
-    resolution: {integrity: sha512-kY3p3nCv3kjf90AZMhrMu4PT6/otI1kcZGpJJkN9cqBbvj/nNYnnCVy4bXdCVqgCX1+s4G4FwuoW07f9xv/kXw==}
+  /firebase-tools@13.2.0:
+    resolution: {integrity: sha512-TaOJSVE7Io48wixH7uyADYn1IBeCTpAyL1qKxuSJFEzM+gyaFdZepummEWPj6DF1XMsKjmRPc9q/2W7gXvFz6g==}
     engines: {node: '>=18.0.0 || >=20.0.0'}
     hasBin: true
     dependencies:
@@ -5397,6 +5401,7 @@ packages:
   /foreground-child@3.1.1:
     resolution: {integrity: sha512-TMKDUnIte6bfb5nWv7V/caI169OHgvwjb7V4WkeUvbQQdjr5rWKqHFiKWb/fcOwB+CzBT+qbWjvj+DVwRskpIg==}
     engines: {node: '>=14'}
+    requiresBuild: true
     dependencies:
       cross-spawn: 7.0.3
       signal-exit: 4.1.0
@@ -6767,6 +6772,7 @@ packages:
   /jackspeak@2.3.6:
     resolution: {integrity: sha512-N3yCS/NegsOBokc8GAdM8UcmfsKiSS8cipheD/nivzr700H+nsMOxJjQnvwOcRYVuFkdH0wGUvW2WbXGmrZGbQ==}
     engines: {node: '>=14'}
+    requiresBuild: true
     dependencies:
       '@isaacs/cliui': 8.0.2
     optionalDependencies:
@@ -7247,6 +7253,7 @@ packages:
   /lru-cache@10.2.0:
     resolution: {integrity: sha512-2bIM8x+VAf6JT4bKAljS1qUWgMsqZRPGJS6FSahIMPVvctcNhyVp7AJu7quxOW9jwkryBReKZY5tY5JYv2n/7Q==}
     engines: {node: 14 || >=16.14}
+    requiresBuild: true
 
   /lru-cache@4.0.2:
     resolution: {integrity: sha512-uQw9OqphAGiZhkuPlpFGmdTU2tEuhxTourM/19qGJrxBPHAr/f8BT1a0i/lOclESnGatdJG/UCkP9kZB/Lh1iw==}
@@ -8056,6 +8063,7 @@ packages:
   /minimatch@9.0.3:
     resolution: {integrity: sha512-RHiac9mvaRw0x3AYRgDC1CxAP7HTcNrrECeA8YYJeWnpo+2Q5CegtZjaotWTWxDG3UeGA1coE05iH1mPjT/2mg==}
     engines: {node: '>=16 || 14 >=14.17'}
+    requiresBuild: true
     dependencies:
       brace-expansion: 2.0.1
 
@@ -8133,6 +8141,7 @@ packages:
   /minipass@7.0.4:
     resolution: {integrity: sha512-jYofLM5Dam9279rdkWzqHozUo4ybjdZmCsDHePy5V/PbBcVMiSZR97gmAy45aqi8CK1lG2ECd356FU86avfwUQ==}
     engines: {node: '>=16 || 14 >=14.17'}
+    requiresBuild: true
 
   /minizlib@2.1.2:
     resolution: {integrity: sha512-bAxsR8BVfj60DWXHE3u30oHzfl4G7khkSuPW+qvpd7jFRHm7dLxOjUk1EHACJ/hxLY8phGJ0YhYHZo7jil7Qdg==}
