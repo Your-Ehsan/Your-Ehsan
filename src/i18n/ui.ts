@@ -2,7 +2,7 @@ export const languages = {
   en: 'English',
   fr: 'Français',
 }
-
+export const locales =  ['en', 'fr']
 export const defaultLang = 'en'
 
 export const ui = {

@@ -1,4 +1,5 @@
 import { defineConfig } from 'astro/config'
+import { defaultLang, locales } from './src/i18n/ui'
 // import mdx from '@astrojs/mdx'
 import sitemap from '@astrojs/sitemap'
 import tailwind from '@astrojs/tailwind'
@@ -13,10 +14,10 @@ import spotlightjs from '@spotlightjs/astro'
 export default defineConfig({
   site: 'https://example.com',
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'fr'],
+    defaultLocale: defaultLang,
+    locales: locales, // ['en', 'fr'],
     routing: {
-      prefixDefaultLocale: false,
+      prefixDefaultLocale: true,
     },
   },
   // output: 'server', // TODO: learn about this completely, later 🔥

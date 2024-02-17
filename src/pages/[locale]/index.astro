@@ -1,10 +1,16 @@
-<!-- ---
+---
 import type { SiteConfigsType } from '@/lib/types/siteConfigs.types'
 import client from '@/lib/sanity/client'
+import { locales } from '@/i18n/ui'
 
 import queries from '@/lib/sanity/queries'
 import MainLayout from '@/layouts/MainLayout.astro'
 import SanityImage from '@/components/SanityImage.astro'
+
+export async function getStaticPaths() {
+  // Map each locale to its corresponding path format
+  return locales.map((locale) => ({ params: { locale } }))
+}
 
 import { state } from '@/lib/store'
 
@@ -13,8 +19,9 @@ const siteConfigsData: SiteConfigsType[] = await client.fetch(queries.siteConfig
 
 state.set({ data: siteConfigsData[0] })
 ---
+
 <MainLayout title={title} description={overview}>
-  <section class="bg-doted"> 
+  <section class='bg-doted'>
     <SanityImage height={300} sanitySrc={poster} width={400} alt={title} />
   </section>
-</MainLayout> -->
+</MainLayout>

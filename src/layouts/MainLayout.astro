@@ -10,7 +10,7 @@ type Props = {
 }
 
 const lang = getLangFromUrl(Astro.url)
-const { description, title, } = Astro.props
+const { description, title } = Astro.props
 ---
 
 <!doctype html>
@@ -19,6 +19,13 @@ const { description, title, } = Astro.props
     <BaseHead description={description} title={title} />
   </head>
   <body>
+    <style is:global>
+      .bg-doted {
+        background-color: #e5e5f7;
+        background-image: radial-gradient(#444cf7 0.5px, #fff 0.8px);
+        background-size: 10px 10px;
+      }
+    </style>
     <Header />
     <slot />
     <Footer />

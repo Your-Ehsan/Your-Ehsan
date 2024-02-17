@@ -17,7 +17,6 @@
         "parser": "astro"
       }
     },
-
     {
       "files": "*.json",
       "options": {
