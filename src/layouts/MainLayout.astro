@@ -29,5 +29,11 @@ const { description, title } = Astro.props
     <Header />
     <slot />
     <Footer />
+    <script>
+      document.documentElement.dataset.theme =
+        localStorage.getItem('theme') || window.matchMedia('(prefers-color-scheme: dark)').matches
+          ? 'dark'
+          : 'light'
+    </script>
   </body>
 </html>

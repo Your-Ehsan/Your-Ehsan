@@ -1,10 +1,11 @@
-import { defineConfig } from 'astro/config'
-import { defaultLang, locales } from './src/i18n/ui'
 // import mdx from '@astrojs/mdx'
+import sentry from '@sentry/astro'
 import sitemap from '@astrojs/sitemap'
 import tailwind from '@astrojs/tailwind'
-import sentry from '@sentry/astro'
 import spotlightjs from '@spotlightjs/astro'
+
+import { defineConfig } from 'astro/config'
+import { defaultLang, locales } from './src/i18n/ui'
 
 /**
  * for more info @see https://astro.build/config
@@ -15,7 +16,8 @@ export default defineConfig({
   site: 'https://example.com',
   i18n: {
     defaultLocale: defaultLang,
-    locales: locales, // ['en', 'fr'],
+    locales: locales,
+    // ['en', 'fr'],
     routing: {
       prefixDefaultLocale: true,
     },
@@ -23,11 +25,10 @@ export default defineConfig({
   // output: 'server', // TODO: learn about this completely, later 🔥
   integrations: [
     // mdx(),
-    sitemap(),
     sentry(),
+    sitemap(),
     spotlightjs(),
-    tailwind({
-      nesting: true,
-    }),
+    tailwind({ nesting: true }),
+    // react({ experimentalReactChildren: true }),
   ],
 })

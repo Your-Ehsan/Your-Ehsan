@@ -1,10 +1,18 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "C:/Users/pc/Desktop/— Astro/your-ehsan",
     "strictNullChecks": true,
     "verbatimModuleSyntax": true,
-    "paths": { "@/*": ["./src/*"] },
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
   },
-  "exclude": ["studio"],
+  "exclude": [
+    "studio"
+  ]
 }
