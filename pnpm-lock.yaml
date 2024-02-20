@@ -1920,15 +1920,13 @@ packages:
       - styled-components
     dev: false
 
-  /@sanity/preview-url-secret@1.6.1(@sanity/client@6.14.0):
-    resolution:
-      {
-        integrity: sha512-pgYx8GfvxhI0BBoZ/5gqun8jbMuwysVewTqudmSsYLEEHa6OQzGnW0SUcTPsl2REDDZlgYVod9IZAl7lLToZjg==,
-      }
+  /@sanity/preview-url-secret@1.6.1(@sanity/client@6.13.3):
+    resolution: {integrity: sha512-pgYx8GfvxhI0BBoZ/5gqun8jbMuwysVewTqudmSsYLEEHa6OQzGnW0SUcTPsl2REDDZlgYVod9IZAl7lLToZjg==}
     engines: {node: '>=18'}
     peerDependencies:
       '@sanity/client': ^6.12.3
     dependencies:
+      '@sanity/client': 6.14.0
       '@sanity/client': 6.14.0
       '@sanity/uuid': 3.0.2
     dev: false
@@ -1970,8 +1968,8 @@ packages:
         integrity: sha512-jvOdoQWEI4IOhob/XtfUZCOM3aY1b6QpbxheUP9PjH4SqglcqiaXDsLU/iUWxu4NiJYvEI60gawrCna3Frt3lQ==,
       }
     dependencies:
-      '@sanity/client': 6.14.0
-      '@types/react': 18.2.56
+      '@sanity/client': 6.13.3
+      '@types/react': 18.2.52
     transitivePeerDependencies:
       - supports-color
     dev: false
