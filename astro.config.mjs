@@ -4,8 +4,8 @@ import sitemap from '@astrojs/sitemap'
 import tailwind from '@astrojs/tailwind'
 import spotlightjs from '@spotlightjs/astro'
 
-import { defineConfig } from 'astro/config'
-import { defaultLang, locales } from './src/i18n/ui'
+import {defineConfig} from 'astro/config'
+import {defaultLang, locales} from './src/i18n/ui'
 
 /**
  * for more info @see https://astro.build/config
@@ -28,7 +28,7 @@ export default defineConfig({
     sentry(),
     sitemap(),
     spotlightjs(),
-    tailwind({ nesting: true }),
+    tailwind({nesting: true}),
     // react({ experimentalReactChildren: true }),
   ],
 })

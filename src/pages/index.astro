@@ -1,20 +1,21 @@
-<!-- ---
-import type { SiteConfigsType } from '@/lib/types/siteConfigs.types'
+---
+import type {SiteConfigsType} from '@/lib/types/siteConfigs.types'
 import client from '@/lib/sanity/client'
 
 import queries from '@/lib/sanity/queries'
 import MainLayout from '@/layouts/MainLayout.astro'
 import SanityImage from '@/components/SanityImage.astro'
 
-import { state } from '@/lib/store'
+import {state} from '@/lib/store'
 
 const siteConfigsData: SiteConfigsType[] = await client.fetch(queries.siteConfigs),
-  { overview, poster, title } = siteConfigsData[0]
+  {overview, poster, title} = siteConfigsData[0]
 
-state.set({ data: siteConfigsData[0] })
+state.set({data: siteConfigsData[0]})
 ---
+
 <MainLayout title={title} description={overview}>
-  <section class="bg-doted"> 
+  <section class='bg-doted'>
     <SanityImage height={300} sanitySrc={poster} width={400} alt={title} />
   </section>
-</MainLayout> -->
+</MainLayout>

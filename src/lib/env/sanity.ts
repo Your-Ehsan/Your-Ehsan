@@ -1,4 +1,4 @@
-import type { ClientConfig } from '@sanity/client'
+import type {ClientConfig} from '@sanity/client'
 import assertValue from '../handlers/assertValue'
 
 const sanity: ClientConfig = {

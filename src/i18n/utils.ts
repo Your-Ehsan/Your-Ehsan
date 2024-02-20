@@ -1,6 +1,6 @@
-import { ui, defaultLang } from './ui'
+import {ui, defaultLang} from './ui'
 
-type useTranslationsType = { url: URL }
+type useTranslationsType = {url: URL}
 
 /**
  * Extracts language from the provided URL and returns the language if found,
@@ -18,7 +18,7 @@ export function getLangFromUrl(url: URL): keyof typeof ui {
  * @param url - The URL object to extract language from.
  * @returns The translation function.
  */
-export function useTranslations({ url }: useTranslationsType) {
+export function useTranslations({url}: useTranslationsType) {
   /**
    * Translates the given key based on the extracted language.
    * If the translation is not found for the specified language,

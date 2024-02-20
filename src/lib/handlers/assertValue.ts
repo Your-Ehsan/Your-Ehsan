@@ -15,7 +15,7 @@ type assertValueType<T> = {
  * @returns {T} - The asserted value.
  * @throws {Error} - Throws an error if the value is undefined.
  */
-const assertValue = <T>({ value, errorMessage }: assertValueType<T>): T => {
+const assertValue = <T>({value, errorMessage}: assertValueType<T>): T => {
   // Check if the value is undefined
   if (value === undefined) {
     // Throw an error with the provided error message

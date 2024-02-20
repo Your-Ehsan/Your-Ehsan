@@ -5,14 +5,10 @@
     "strictNullChecks": true,
     "verbatimModuleSyntax": true,
     "paths": {
-      "@/*": [
-        "./src/*"
-      ]
+      "@/*": ["./src/*"]
     },
     "jsx": "react-jsx",
     "jsxImportSource": "react"
   },
-  "exclude": [
-    "studio"
-  ]
+  "exclude": ["studio"]
 }
