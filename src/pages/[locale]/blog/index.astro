@@ -1,9 +1,13 @@
 ---
-import {locales} from '@/i18n/ui'
-
-import BaseHead from '@/components/BaseHead.astro'
-import Header from '@/components/Header.astro'
-import Footer from '@/components/Footer.astro'
+// import {locales} from '@/i18n/ui'
+import BaseHead from '../../../components/BaseHead.astro';
+import Footer from '../../../components/Footer.astro';
+import Header from '../../../components/Header.astro';
+import { locales } from '../../../i18n/ui';
+import { state } from '../../../lib/store';
+// import BaseHead from '@/components/BaseHead.astro'
+// import Header from '@/components/Header.astro'
+// import Footer from '@/components/Footer.astro'
 
 export async function getStaticPaths() {
   // Map each locale to its corresponding path format
@@ -12,7 +16,7 @@ export async function getStaticPaths() {
 
 // import { getCollection } from 'astro:content'
 // import FormattedDate from '@/components/FormattedDate.astro'
-import {state} from '@/lib/store'
+// import {state} from '@/lib/store'
 
 // const posts = (await getCollection('blog')).sort(
 //   (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
