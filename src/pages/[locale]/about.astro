@@ -1,13 +1,15 @@
 ---
-import {locales} from '@/i18n/ui'
-import Layout from '@/layouts/BlogPost.astro'
+import { locales } from '../../i18n/ui';
+import BlogPost from '../../layouts/BlogPost.astro';
+
+
 export async function getStaticPaths() {
   // Map each locale to its corresponding path format
   return locales.map((locale) => ({params: {locale}}))
 }
 ---
 
-<Layout
+<BlogPost
   title='About Me'
   description='Lorem ipsum dolor sit amet'
   pubDate={new Date('August 08 2021')}
@@ -64,4 +66,4 @@ export async function getStaticPaths() {
     ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar
     proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
   </p>
-</Layout>
+</BlogPost>

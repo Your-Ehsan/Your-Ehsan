@@ -1,18 +1,26 @@
 ---
-import type {SiteConfigsType} from '@/lib/types/siteConfigs.types'
-import client from '@/lib/sanity/client'
-import {locales} from '@/i18n/ui'
+import SanityImage from '../../components/SanityImage.astro';
+import { locales } from '../../i18n/ui';
+import MainLayout from '../../layouts/MainLayout.astro';
+import client from '../../lib/sanity/client';
+import queries from '../../lib/sanity/queries';
+import { state } from '../../lib/store';
+import type { SiteConfigsType } from '../../lib/types/siteConfigs.types';
 
-import queries from '@/lib/sanity/queries'
-import MainLayout from '@/layouts/MainLayout.astro'
-import SanityImage from '@/components/SanityImage.astro'
+// import type {SiteConfigsType} from '@/lib/types/siteConfigs.types'
+// import client from '@/lib/sanity/client'
+// import {locales} from '@/i18n/ui'
+
+// import queries from '@/lib/sanity/queries'
+// import MainLayout from '@/layouts/MainLayout.astro'
+// import SanityImage from '@/components/SanityImage.astro'
 
 export async function getStaticPaths() {
   // Map each locale to its corresponding path format
   return locales.map((locale) => ({params: {locale}}))
 }
 
-import {state} from '@/lib/store'
+// import {state} from '@/lib/store'
 
 const siteConfigsData: SiteConfigsType[] = await client.fetch(queries.siteConfigs),
   {overview, poster, title} = siteConfigsData[0]
