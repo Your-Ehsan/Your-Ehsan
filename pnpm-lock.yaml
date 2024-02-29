@@ -18,8 +18,8 @@ dependencies:
     specifier: ^5.1.0
     version: 5.1.0(astro@4.4.6)(tailwindcss@3.4.1)
   '@sanity/client':
-    specifier: ^6.15.0
-    version: 6.15.0
+    specifier: ^6.15.1
+    version: 6.15.1
   '@sentry/astro':
     specifier: ^7.103.0
     version: 7.103.0(astro@4.4.6)
@@ -1271,8 +1271,8 @@ packages:
       - supports-color
     dev: false
 
-  /@sanity/client@6.15.0:
-    resolution: {integrity: sha512-xcoWkhLk5vR/hxDvMm/fCGBYU7+H7G+6EHPySMWmwLBArgQnEnDvujverxCLubEzcYKENtK1mKSwWtlH4krP3w==}
+  /@sanity/client@6.15.1:
+    resolution: {integrity: sha512-WA85uX8FX7PbWyDyQiTsRn75OLt1GNtQPTzlHyNymAfItDgVmbP7Cwk5aH2B+7gMSkAK7wuK9Ea2YyHl7Kl2WA==}
     engines: {node: '>=14.18'}
     dependencies:
       '@sanity/eventsource': 5.0.1
@@ -1394,7 +1394,7 @@ packages:
     engines: {node: '>=18'}
     dependencies:
       '@bjoerge/mutiny': 0.5.3
-      '@sanity/client': 6.15.0
+      '@sanity/client': 6.15.1
       '@sanity/types': 3.30.1
       '@sanity/util': 3.30.1
       arrify: 2.0.1
@@ -1442,15 +1442,15 @@ packages:
       - supports-color
     dev: false
 
-  /@sanity/presentation@1.11.2(@sanity/client@6.15.0)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(styled-components@6.1.8):
+  /@sanity/presentation@1.11.2(@sanity/client@6.15.1)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(styled-components@6.1.8):
     resolution: {integrity: sha512-WsjLXFhlUb9M/HIPvLyrAoQtwHAog7SqtkHAMajAwdvHRECRVeAQanE2I2Xgutd/bnA5//OqzB34D2pJ23Z6sA==}
     engines: {node: '>=16.14'}
     peerDependencies:
       '@sanity/client': ^6.15.0
     dependencies:
-      '@sanity/client': 6.15.0
+      '@sanity/client': 6.15.1
       '@sanity/icons': 2.10.3(react@18.2.0)
-      '@sanity/preview-url-secret': 1.6.4(@sanity/client@6.15.0)
+      '@sanity/preview-url-secret': 1.6.4(@sanity/client@6.15.1)
       '@sanity/ui': 2.0.7(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(styled-components@6.1.8)
       '@sanity/uuid': 3.0.2
       '@types/lodash.isequal': 4.5.8
@@ -1468,13 +1468,13 @@ packages:
       - styled-components
     dev: false
 
-  /@sanity/preview-url-secret@1.6.4(@sanity/client@6.15.0):
+  /@sanity/preview-url-secret@1.6.4(@sanity/client@6.15.1):
     resolution: {integrity: sha512-iOu6n5Zt7kuWoOYRliS2o/MDDBWcWkrnwwss2tglIBl744RPRkz0yi9qulnpAqMnWrZyIU8fV1yPCdg0RY+olw==}
     engines: {node: '>=18'}
     peerDependencies:
       '@sanity/client': ^6.14.4
     dependencies:
-      '@sanity/client': 6.15.0
+      '@sanity/client': 6.15.1
       '@sanity/uuid': 3.0.2
     dev: false
 
@@ -1506,7 +1506,7 @@ packages:
   /@sanity/types@3.30.1:
     resolution: {integrity: sha512-JrFYZQJShRpmDrhLfoUGU+szhCV1brU/ufS+HZWkfRZB/QeClLkvOwwhi90LQdm+3BD3G/3QvdqzLnfbi9BZiQ==}
     dependencies:
-      '@sanity/client': 6.15.0
+      '@sanity/client': 6.15.1
       '@types/react': 18.2.56
     transitivePeerDependencies:
       - supports-color
@@ -1558,7 +1558,7 @@ packages:
     resolution: {integrity: sha512-GLld25WE9+mbXM+hAhLyTbuMuxBRUCAf2i8HqMFSThHj9IVZI3BTRnDvtbLXrkfbSXok71NdrbcUb/M60Bj8tQ==}
     engines: {node: '>=18'}
     dependencies:
-      '@sanity/client': 6.15.0
+      '@sanity/client': 6.15.1
       '@sanity/types': 3.30.1
       get-random-values-esm: 1.0.0
       moment: 2.30.1
@@ -6421,7 +6421,7 @@ packages:
       '@sanity/bifur-client': 0.3.1
       '@sanity/block-tools': 3.30.1
       '@sanity/cli': 3.30.1
-      '@sanity/client': 6.15.0
+      '@sanity/client': 6.15.1
       '@sanity/color': 3.0.0
       '@sanity/diff': 3.30.1
       '@sanity/diff-match-patch': 3.1.1
@@ -6435,7 +6435,7 @@ packages:
       '@sanity/migrate': 3.30.1
       '@sanity/mutator': 3.30.1
       '@sanity/portable-text-editor': 3.30.1(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)(styled-components@6.1.8)
-      '@sanity/presentation': 1.11.2(@sanity/client@6.15.0)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(styled-components@6.1.8)
+      '@sanity/presentation': 1.11.2(@sanity/client@6.15.1)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(styled-components@6.1.8)
       '@sanity/schema': 3.30.1
       '@sanity/telemetry': 0.7.7
       '@sanity/types': 3.30.1
