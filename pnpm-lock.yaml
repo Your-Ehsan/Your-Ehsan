@@ -30,8 +30,8 @@ dependencies:
     specifier: ^4.5.6
     version: 4.5.6(typescript@5.4.2)
   astro-portabletext:
-    specifier: ^0.9.6
-    version: 0.9.6
+    specifier: ^0.9.7
+    version: 0.9.7
   nanostores:
     specifier: ^0.10.0
     version: 0.10.0
@@ -1121,6 +1121,18 @@ packages:
     engines: {node: ^14.13.1 || >=16.0.0}
     dependencies:
       '@portabletext/types': 2.0.8
+    dev: false
+
+  /@portabletext/toolkit@2.0.12:
+    resolution: {integrity: sha512-uSA8bDAuRht3uuFRXxVmDD3OkoqNYhT/R0JaCuoiaxr5WwEbFW/Rgngai/QInH9VxlDvfOpVCyt+DIIAm2W/uA==}
+    engines: {node: ^14.13.1 || >=16.0.0}
+    dependencies:
+      '@portabletext/types': 2.0.10
+    dev: false
+
+  /@portabletext/types@2.0.10:
+    resolution: {integrity: sha512-pyyT3w8bV2v0LjOiSMHMEqzUhUO9FD54xU4tdLDt9WKBShrvP9NTQO5BO4bUljp1l5I5yyai0Y/OTKI8VAE9BQ==}
+    engines: {node: ^14.13.1 || >=16.0.0 || >=18.0.0}
     dev: false
 
   /@portabletext/types@2.0.8:
@@ -2239,11 +2251,11 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /astro-portabletext@0.9.6:
-    resolution: {integrity: sha512-v8YKRgjCpaxr94NefXRsH5ti9YoXqCrYah46epdJ4AdwtvIiLZA8vONFQjk5Y2cJ2UEEeGd+/8lo+tWmlo3aPw==}
+  /astro-portabletext@0.9.7:
+    resolution: {integrity: sha512-kU2C0FQ+DE2DkoTkPDNbJXH/+V/9ioDy4udQp2uT3qsGqQaKDhVBbkWcVuCVgxB006cq71SUbj6svEtiFzKLCg==}
     dependencies:
-      '@portabletext/toolkit': 2.0.10
-      '@portabletext/types': 2.0.8
+      '@portabletext/toolkit': 2.0.12
+      '@portabletext/types': 2.0.10
     dev: false
 
   /astro@4.5.6(typescript@5.4.2):
