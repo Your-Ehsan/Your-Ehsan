@@ -68,8 +68,8 @@ devDependencies:
     specifier: ^0.5.12
     version: 0.5.12(prettier-plugin-astro@0.13.0)(prettier@3.2.5)
   vite:
-    specifier: ^5.2.2
-    version: 5.2.2
+    specifier: ^5.2.6
+    version: 5.2.6
 
 packages:
 
@@ -3718,8 +3718,8 @@ packages:
       tsconfck: 3.0.1(typescript@5.4.3)
       unist-util-visit: 5.0.0
       vfile: 6.0.1
-      vite: 5.2.2
-      vitefu: 0.2.5(vite@5.2.2)
+      vite: 5.2.6
+      vitefu: 0.2.5(vite@5.2.6)
       which-pm: 2.1.1
       yargs-parser: 21.1.1
       zod: 3.22.4
@@ -9179,8 +9179,8 @@ packages:
       fsevents: 2.3.3
     dev: false
 
-  /vite@5.2.2:
-    resolution: {integrity: sha512-FWZbz0oSdLq5snUI0b6sULbz58iXFXdvkZfZWR/F0ZJuKTSPO7v72QPXt6KqYeMFb0yytNp6kZosxJ96Nr/wDQ==}
+  /vite@5.2.6:
+    resolution: {integrity: sha512-FPtnxFlSIKYjZ2eosBQamz4CbyrTizbZ3hnGJlh/wMtCrlp1Hah6AzBLjGI5I2urTfNnpovpHdrL6YRuBOPnCA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -9213,7 +9213,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.3
 
-  /vitefu@0.2.5(vite@5.2.2):
+  /vitefu@0.2.5(vite@5.2.6):
     resolution: {integrity: sha512-SgHtMLoqaeeGnd2evZ849ZbACbnwQCIwRH57t18FxcXoZop0uQu0uzlIhJBlF/eWVzuce0sHeqPcDo+evVcg8Q==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0
@@ -9221,7 +9221,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.2.2
+      vite: 5.2.6
     dev: false
 
   /void-elements@3.1.0:
