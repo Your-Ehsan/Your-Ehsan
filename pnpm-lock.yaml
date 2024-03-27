@@ -16,19 +16,19 @@ dependencies:
     version: 3.1.1
   '@astrojs/tailwind':
     specifier: ^5.1.0
-    version: 5.1.0(astro@4.5.9)(tailwindcss@3.4.1)
+    version: 5.1.0(astro@4.5.10)(tailwindcss@3.4.1)
   '@sanity/client':
     specifier: ^6.15.7
     version: 6.15.7
   '@sentry/astro':
     specifier: ^7.108.0
-    version: 7.108.0(astro@4.5.9)
+    version: 7.108.0(astro@4.5.10)
   '@spotlightjs/astro':
     specifier: ^1.0.18
-    version: 1.0.18(@sentry/astro@7.108.0)(astro@4.5.9)
+    version: 1.0.18(@sentry/astro@7.108.0)(astro@4.5.10)
   astro:
-    specifier: ^4.5.9
-    version: 4.5.9(typescript@5.4.3)
+    specifier: ^4.5.10
+    version: 4.5.10(typescript@5.4.3)
   astro-portabletext:
     specifier: ^0.9.7
     version: 0.9.7
@@ -155,8 +155,8 @@ packages:
       - typescript
     dev: false
 
-  /@astrojs/markdown-remark@4.3.1:
-    resolution: {integrity: sha512-eJFi600tkRjTFiwzY9oD8AgCgB7gFqyWCKWuZ33dATVBgLiROD+zlMZ8STZzU7+ZALvmiUAun/K7umTmP5YfVQ==}
+  /@astrojs/markdown-remark@4.3.2:
+    resolution: {integrity: sha512-4Oa4VaYiBd0MatB+rWIU/0A8pZH/sK3c2QkRYb+OO2lPl+qzevJtWaZY8hAQc4qurIOlRdn6B6ofDAGhWw+DSg==}
     dependencies:
       '@astrojs/prism': 3.0.0
       github-slugger: 2.0.0
@@ -201,13 +201,13 @@ packages:
       zod: 3.22.4
     dev: false
 
-  /@astrojs/tailwind@5.1.0(astro@4.5.9)(tailwindcss@3.4.1):
+  /@astrojs/tailwind@5.1.0(astro@4.5.10)(tailwindcss@3.4.1):
     resolution: {integrity: sha512-BJoCDKuWhU9FT2qYg+fr6Nfb3qP4ShtyjXGHKA/4mHN94z7BGcmauQK23iy+YH5qWvTnhqkd6mQPQ1yTZTe9Ig==}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0
       tailwindcss: ^3.0.24
     dependencies:
-      astro: 4.5.9(typescript@5.4.3)
+      astro: 4.5.10(typescript@5.4.3)
       autoprefixer: 10.4.17(postcss@8.4.33)
       postcss: 8.4.33
       postcss-load-config: 4.0.2(postcss@8.4.33)
@@ -2854,7 +2854,7 @@ packages:
       '@sentry/utils': 7.108.0
     dev: false
 
-  /@sentry/astro@7.108.0(astro@4.5.9):
+  /@sentry/astro@7.108.0(astro@4.5.10):
     resolution: {integrity: sha512-TFyIT26ctyOeWpK5VLmTnTNUJ7mO+FvHTeqkklNBr/JEJeVFvuWM0YtD93wWxm0pr5jh6vGdcukGXQXVdLNp+A==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -2866,7 +2866,7 @@ packages:
       '@sentry/types': 7.108.0
       '@sentry/utils': 7.108.0
       '@sentry/vite-plugin': 2.13.0
-      astro: 4.5.9(typescript@5.4.3)
+      astro: 4.5.10(typescript@5.4.3)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -3050,16 +3050,16 @@ packages:
     resolution: {integrity: sha512-OlFvx+nyr5C8zpcMBnSGir0YPD6K11uYhouqhNmm1qLiis4GA7SsGtu07r9gKS9omks8RtQqHrJL4S+lqWK01A==}
     dev: false
 
-  /@spotlightjs/astro@1.0.18(@sentry/astro@7.108.0)(astro@4.5.9):
+  /@spotlightjs/astro@1.0.18(@sentry/astro@7.108.0)(astro@4.5.10):
     resolution: {integrity: sha512-8wzgIkduqGtohnicH0MreToRP3rsxMnGDymFi6f27zV90eqcMNA9JAHc+Uzo/bY96ojDLCZ1R6QGfrd4olgNUw==}
     peerDependencies:
       '@sentry/astro': '>=7.84.0'
       astro: '>=3.4.0 || >=4.0.0-beta'
     dependencies:
-      '@sentry/astro': 7.108.0(astro@4.5.9)
+      '@sentry/astro': 7.108.0(astro@4.5.10)
       '@spotlightjs/overlay': 1.8.1
       '@spotlightjs/sidecar': 1.4.0
-      astro: 4.5.9(typescript@5.4.3)
+      astro: 4.5.10(typescript@5.4.3)
       source-map: 0.7.4
     dev: false
 
@@ -3527,14 +3527,14 @@ packages:
       '@portabletext/types': 2.0.10
     dev: false
 
-  /astro@4.5.9(typescript@5.4.3):
-    resolution: {integrity: sha512-GheU72Goz7dYQNKaqTxB2H49cNvHfahGSbNkTvMXk+gyHf/g633qadqlO2ZQbTUacoUWmDzvS5fhMZt2/w4naQ==}
+  /astro@4.5.10(typescript@5.4.3):
+    resolution: {integrity: sha512-xW/ZTSqSHEQyzWzXHJa9gEQXC+MUD3mhzEBJyrMp/JWT+geLgUK2m0Rrc/AnBl8EfdS/6uFadiJV1fWao4lc7w==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
       '@astrojs/compiler': 2.7.0
       '@astrojs/internal-helpers': 0.3.0
-      '@astrojs/markdown-remark': 4.3.1
+      '@astrojs/markdown-remark': 4.3.2
       '@astrojs/telemetry': 3.0.4
       '@babel/core': 7.24.3
       '@babel/generator': 7.24.1
