@@ -22,7 +22,7 @@
     "astro": "^4.5.12",
     "astro-portabletext": "^0.9.7",
     "nanostores": "^0.10.0",
-    "sanity": "^3.36.1",
+    "sanity": "^3.36.2",
     "tailwind-merge": "^2.2.2",
     "tailwindcss": "^3.4.3",
     "typescript": "^5.4.3"
