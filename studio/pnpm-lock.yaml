@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@sanity/vision':
-    specifier: ^3.36.3
-    version: 3.36.3(@babel/runtime@7.23.9)(@codemirror/lint@6.4.2)(@codemirror/theme-one-dark@6.1.2)(@lezer/common@1.2.1)(codemirror@6.0.1)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(styled-components@6.1.8)
+    specifier: ^3.36.4
+    version: 3.36.4(@babel/runtime@7.23.9)(@codemirror/lint@6.4.2)(@codemirror/theme-one-dark@6.1.2)(@lezer/common@1.2.1)(codemirror@6.0.1)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(styled-components@6.1.8)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -2500,8 +2500,8 @@ packages:
       uuid: 8.3.2
     dev: false
 
-  /@sanity/vision@3.36.3(@babel/runtime@7.23.9)(@codemirror/lint@6.4.2)(@codemirror/theme-one-dark@6.1.2)(@lezer/common@1.2.1)(codemirror@6.0.1)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(styled-components@6.1.8):
-    resolution: {integrity: sha512-MFl+JO8kCVqsVoes9Y4zUj+TpsJ5AIjr8o8dhxF8QinaYVj46OsQBz2EgZiy96zQCvMXjMEyJQ3Bd+5pxGfG3g==}
+  /@sanity/vision@3.36.4(@babel/runtime@7.23.9)(@codemirror/lint@6.4.2)(@codemirror/theme-one-dark@6.1.2)(@lezer/common@1.2.1)(codemirror@6.0.1)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(styled-components@6.1.8):
+    resolution: {integrity: sha512-wJB1TBZGRU9If+QK6I8nxKvzf1ihZZ7aWxOcMwMNhFWS5s0U8E70xkobIbJy9Wb6lfyka7GPIW9hcrWr8JHAhg==}
     peerDependencies:
       react: ^18
       styled-components: ^5.2 || ^6
