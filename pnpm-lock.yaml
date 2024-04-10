@@ -16,19 +16,19 @@ dependencies:
     version: 3.1.2
   '@astrojs/tailwind':
     specifier: ^5.1.0
-    version: 5.1.0(astro@4.5.16)(tailwindcss@3.4.3)
+    version: 5.1.0(astro@4.5.18)(tailwindcss@3.4.3)
   '@sanity/client':
     specifier: ^6.15.11
     version: 6.15.11
   '@sentry/astro':
     specifier: ^7.109.0
-    version: 7.109.0(astro@4.5.16)
+    version: 7.109.0(astro@4.5.18)
   '@spotlightjs/astro':
     specifier: ^1.0.20
-    version: 1.0.20(@sentry/astro@7.109.0)(astro@4.5.16)
+    version: 1.0.20(@sentry/astro@7.109.0)(astro@4.5.18)
   astro:
-    specifier: ^4.5.16
-    version: 4.5.16(typescript@5.4.4)
+    specifier: ^4.5.18
+    version: 4.5.18(typescript@5.4.4)
   astro-portabletext:
     specifier: ^0.9.7
     version: 0.9.7
@@ -205,13 +205,13 @@ packages:
       zod: 3.22.4
     dev: false
 
-  /@astrojs/tailwind@5.1.0(astro@4.5.16)(tailwindcss@3.4.3):
+  /@astrojs/tailwind@5.1.0(astro@4.5.18)(tailwindcss@3.4.3):
     resolution: {integrity: sha512-BJoCDKuWhU9FT2qYg+fr6Nfb3qP4ShtyjXGHKA/4mHN94z7BGcmauQK23iy+YH5qWvTnhqkd6mQPQ1yTZTe9Ig==}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0
       tailwindcss: ^3.0.24
     dependencies:
-      astro: 4.5.16(typescript@5.4.4)
+      astro: 4.5.18(typescript@5.4.4)
       autoprefixer: 10.4.17(postcss@8.4.33)
       postcss: 8.4.33
       postcss-load-config: 4.0.2(postcss@8.4.33)
@@ -2860,7 +2860,7 @@ packages:
       '@sentry/utils': 7.109.0
     dev: false
 
-  /@sentry/astro@7.109.0(astro@4.5.16):
+  /@sentry/astro@7.109.0(astro@4.5.18):
     resolution: {integrity: sha512-1C+5w0LJLwzA1tD0qbhFCvIzI2zD997EvfXfgwPRR7u5uBrtpWKNK4h8l48CZQl7zKp04zFNeS3wIc9aUI8iCA==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -2872,7 +2872,7 @@ packages:
       '@sentry/types': 7.109.0
       '@sentry/utils': 7.109.0
       '@sentry/vite-plugin': 2.13.0
-      astro: 4.5.16(typescript@5.4.4)
+      astro: 4.5.18(typescript@5.4.4)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -3056,16 +3056,16 @@ packages:
     resolution: {integrity: sha512-OlFvx+nyr5C8zpcMBnSGir0YPD6K11uYhouqhNmm1qLiis4GA7SsGtu07r9gKS9omks8RtQqHrJL4S+lqWK01A==}
     dev: false
 
-  /@spotlightjs/astro@1.0.20(@sentry/astro@7.109.0)(astro@4.5.16):
+  /@spotlightjs/astro@1.0.20(@sentry/astro@7.109.0)(astro@4.5.18):
     resolution: {integrity: sha512-3j4GqodpdaNPcsP2KbQylg2dF2nlRLe1z8UH/TgWx1MZJM16V2WP474nHUeP54kVmBaFwaJmF9OCkCMBqfKYfw==}
     peerDependencies:
       '@sentry/astro': '>=7.84.0'
       astro: '>=3.4.0 || >=4.0.0-beta'
     dependencies:
-      '@sentry/astro': 7.109.0(astro@4.5.16)
+      '@sentry/astro': 7.109.0(astro@4.5.18)
       '@spotlightjs/overlay': 1.8.3
       '@spotlightjs/sidecar': 1.4.0
-      astro: 4.5.16(typescript@5.4.4)
+      astro: 4.5.18(typescript@5.4.4)
       source-map: 0.7.4
     dev: false
 
@@ -3533,8 +3533,8 @@ packages:
       '@portabletext/types': 2.0.10
     dev: false
 
-  /astro@4.5.16(typescript@5.4.4):
-    resolution: {integrity: sha512-1nOVsMq2OJiXnG6gO0Y77vTAboGN9nLQSy/8SGazq4h6x+alzbsMbQbArBgvaLzOSUXD0m91XLs3D8bOSuavrQ==}
+  /astro@4.5.18(typescript@5.4.4):
+    resolution: {integrity: sha512-iytLnUfyUneKMjIQdj79zzniByXtcmGNDobIV/gjGsatC9vAyPqeCT8TbMqfkRBMeYGs+S/wCzSoPqaaMJiQnw==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
