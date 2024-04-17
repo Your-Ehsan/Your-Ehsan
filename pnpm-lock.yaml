@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@astrojs/check':
     specifier: ^0.5.10
-    version: 0.5.10(prettier-plugin-astro@0.13.0)(prettier@3.2.5)(typescript@5.4.4)
+    version: 0.5.10(prettier-plugin-astro@0.13.0)(prettier@3.2.5)(typescript@5.4.5)
   '@astrojs/rss':
     specifier: ^4.0.5
     version: 4.0.5
@@ -28,7 +28,7 @@ dependencies:
     version: 1.0.20(@sentry/astro@7.109.0)(astro@4.5.16)
   astro:
     specifier: ^4.5.16
-    version: 4.5.16(typescript@5.4.4)
+    version: 4.5.16(typescript@5.4.5)
   astro-portabletext:
     specifier: ^0.9.7
     version: 0.9.7
@@ -45,8 +45,8 @@ dependencies:
     specifier: ^3.4.3
     version: 3.4.3
   typescript:
-    specifier: ^5.4.4
-    version: 5.4.4
+    specifier: ^5.4.5
+    version: 5.4.5
 
 devDependencies:
   '@sanity/image-url':
@@ -93,17 +93,17 @@ packages:
       is-potential-custom-element-name: 1.0.1
     dev: false
 
-  /@astrojs/check@0.5.10(prettier-plugin-astro@0.13.0)(prettier@3.2.5)(typescript@5.4.4):
+  /@astrojs/check@0.5.10(prettier-plugin-astro@0.13.0)(prettier@3.2.5)(typescript@5.4.5):
     resolution: {integrity: sha512-vliHXM9cu/viGeKiksUM4mXfO816ohWtawTl2ADPgTsd4nUMjFiyAl7xFZhF34yy4hq4qf7jvK1F2PlR3b5I5w==}
     hasBin: true
     peerDependencies:
       typescript: ^5.0.0
     dependencies:
-      '@astrojs/language-server': 2.8.4(prettier-plugin-astro@0.13.0)(prettier@3.2.5)(typescript@5.4.4)
+      '@astrojs/language-server': 2.8.4(prettier-plugin-astro@0.13.0)(prettier@3.2.5)(typescript@5.4.5)
       chokidar: 3.5.3
       fast-glob: 3.3.2
       kleur: 4.1.5
-      typescript: 5.4.4
+      typescript: 5.4.5
       yargs: 17.7.2
     transitivePeerDependencies:
       - prettier
@@ -125,7 +125,7 @@ packages:
     resolution: {integrity: sha512-6B13lz5n6BrbTqCTwhXjJXuR1sqiX/H6rTxzlXx+lN1NnV4jgnq/KJldCQaUWJzPL5SiWahQyinxAbxQtwgPHA==}
     dev: false
 
-  /@astrojs/language-server@2.8.4(prettier-plugin-astro@0.13.0)(prettier@3.2.5)(typescript@5.4.4):
+  /@astrojs/language-server@2.8.4(prettier-plugin-astro@0.13.0)(prettier@3.2.5)(typescript@5.4.5):
     resolution: {integrity: sha512-sJH5vGTBkhgA8+hdhzX78UUp4cFz4Mt7xkEkevD188OS5bDMkaue6hK+dtXWM47mnrXFveXA2u38K7S+5+IRjA==}
     hasBin: true
     peerDependencies:
@@ -139,7 +139,7 @@ packages:
     dependencies:
       '@astrojs/compiler': 2.7.0
       '@jridgewell/sourcemap-codec': 1.4.15
-      '@volar/kit': 2.1.5(typescript@5.4.4)
+      '@volar/kit': 2.1.5(typescript@5.4.5)
       '@volar/language-core': 2.1.5
       '@volar/language-server': 2.1.5
       '@volar/language-service': 2.1.5
@@ -211,7 +211,7 @@ packages:
       astro: ^3.0.0 || ^4.0.0
       tailwindcss: ^3.0.24
     dependencies:
-      astro: 4.5.16(typescript@5.4.4)
+      astro: 4.5.16(typescript@5.4.5)
       autoprefixer: 10.4.17(postcss@8.4.33)
       postcss: 8.4.33
       postcss-load-config: 4.0.2(postcss@8.4.33)
@@ -2872,7 +2872,7 @@ packages:
       '@sentry/types': 7.109.0
       '@sentry/utils': 7.109.0
       '@sentry/vite-plugin': 2.13.0
-      astro: 4.5.16(typescript@5.4.4)
+      astro: 4.5.16(typescript@5.4.5)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -3065,7 +3065,7 @@ packages:
       '@sentry/astro': 7.109.0(astro@4.5.16)
       '@spotlightjs/overlay': 1.8.3
       '@spotlightjs/sidecar': 1.4.0
-      astro: 4.5.16(typescript@5.4.4)
+      astro: 4.5.16(typescript@5.4.5)
       source-map: 0.7.4
     dev: false
 
@@ -3308,7 +3308,7 @@ packages:
       - supports-color
     dev: false
 
-  /@volar/kit@2.1.5(typescript@5.4.4):
+  /@volar/kit@2.1.5(typescript@5.4.5):
     resolution: {integrity: sha512-L4bHJ1TsKNjsmxSGBuzkUvii4EQoQAT9JoHy8aL4Y17qU/z0JWI1BzUDGpMl4oDlsc+WpWIVGo6KZAnclrUx/w==}
     peerDependencies:
       typescript: '*'
@@ -3316,7 +3316,7 @@ packages:
       '@volar/language-service': 2.1.5
       '@volar/typescript': 2.1.5
       typesafe-path: 0.2.2
-      typescript: 5.4.4
+      typescript: 5.4.5
       vscode-languageserver-textdocument: 1.0.11
       vscode-uri: 3.0.8
     dev: false
@@ -3533,7 +3533,7 @@ packages:
       '@portabletext/types': 2.0.10
     dev: false
 
-  /astro@4.5.16(typescript@5.4.4):
+  /astro@4.5.16(typescript@5.4.5):
     resolution: {integrity: sha512-1nOVsMq2OJiXnG6gO0Y77vTAboGN9nLQSy/8SGazq4h6x+alzbsMbQbArBgvaLzOSUXD0m91XLs3D8bOSuavrQ==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
@@ -3591,7 +3591,7 @@ packages:
       shiki: 1.2.0
       string-width: 7.1.0
       strip-ansi: 7.1.0
-      tsconfck: 3.0.1(typescript@5.4.4)
+      tsconfck: 3.0.1(typescript@5.4.5)
       unist-util-visit: 5.0.0
       vfile: 6.0.1
       vite: 5.2.8
@@ -8620,7 +8620,7 @@ packages:
   /ts-interface-checker@0.1.13:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
 
-  /tsconfck@3.0.1(typescript@5.4.4):
+  /tsconfck@3.0.1(typescript@5.4.5):
     resolution: {integrity: sha512-7ppiBlF3UEddCLeI1JRx5m2Ryq+xk4JrZuq4EuYXykipebaq1dV0Fhgr1hb7CkmHt32QSgOZlcqVLEtHBG4/mg==}
     engines: {node: ^18 || >=20}
     hasBin: true
@@ -8630,7 +8630,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      typescript: 5.4.4
+      typescript: 5.4.5
     dev: false
 
   /tsconfig-paths@4.2.0:
@@ -8698,8 +8698,8 @@ packages:
       semver: 7.5.4
     dev: false
 
-  /typescript@5.4.4:
-    resolution: {integrity: sha512-dGE2Vv8cpVvw28v8HCPqyb08EzbBURxDpuhJvTrusShUfGnhHBafDsLdS1EhhxyL6BJQE+2cT3dDPAv+MQ6oLw==}
+  /typescript@5.4.5:
+    resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: false
