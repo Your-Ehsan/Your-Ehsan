@@ -17,7 +17,7 @@
     "@astrojs/sitemap": "^3.1.2",
     "@astrojs/tailwind": "^5.1.0",
     "@sanity/client": "^6.15.14",
-    "@sentry/astro": "^7.109.0",
+    "@sentry/astro": "^7.111.0",
     "@spotlightjs/astro": "^1.0.20",
     "astro": "^4.5.16",
     "astro-portabletext": "^0.9.7",
