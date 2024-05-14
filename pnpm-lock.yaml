@@ -18,8 +18,8 @@ dependencies:
     specifier: ^5.1.0
     version: 5.1.0(astro@4.8.2)(tailwindcss@3.4.3)
   '@sanity/client':
-    specifier: ^6.18.0
-    version: 6.18.0
+    specifier: ^6.18.1
+    version: 6.18.1
   '@sentry/astro':
     specifier: ^7.114.0
     version: 7.114.0(astro@4.8.2)
@@ -2724,7 +2724,7 @@ packages:
     hasBin: true
     dependencies:
       '@babel/traverse': 7.24.5
-      '@sanity/client': 6.18.0(debug@4.3.4)
+      '@sanity/client': 6.18.1(debug@4.3.4)
       '@sanity/codegen': 3.41.1
       '@sanity/telemetry': 0.7.7
       '@sanity/util': 3.41.1(debug@4.3.4)
@@ -2745,8 +2745,8 @@ packages:
       - supports-color
     dev: false
 
-  /@sanity/client@6.18.0:
-    resolution: {integrity: sha512-K6G5ZJm+ZW4LaH8JB8GlER8k97C4cPClcCDj/oEINEL59EZcMGjC2SLlx9zInocoxpcUkpvff2+1VsTkhUvMYA==}
+  /@sanity/client@6.18.1:
+    resolution: {integrity: sha512-z/O5AbO2lXxJlltzu/Twq1tZCg8/b+iMhJHV3vUBxlCKHk1U3xZ7tLvJEFGJYiSgnwfDbAVYtSRTrAh3CAN+LA==}
     engines: {node: '>=14.18'}
     dependencies:
       '@sanity/eventsource': 5.0.2
@@ -2756,8 +2756,8 @@ packages:
       - debug
     dev: false
 
-  /@sanity/client@6.18.0(debug@3.2.7):
-    resolution: {integrity: sha512-K6G5ZJm+ZW4LaH8JB8GlER8k97C4cPClcCDj/oEINEL59EZcMGjC2SLlx9zInocoxpcUkpvff2+1VsTkhUvMYA==}
+  /@sanity/client@6.18.1(debug@3.2.7):
+    resolution: {integrity: sha512-z/O5AbO2lXxJlltzu/Twq1tZCg8/b+iMhJHV3vUBxlCKHk1U3xZ7tLvJEFGJYiSgnwfDbAVYtSRTrAh3CAN+LA==}
     engines: {node: '>=14.18'}
     dependencies:
       '@sanity/eventsource': 5.0.2
@@ -2767,8 +2767,8 @@ packages:
       - debug
     dev: false
 
-  /@sanity/client@6.18.0(debug@4.3.4):
-    resolution: {integrity: sha512-K6G5ZJm+ZW4LaH8JB8GlER8k97C4cPClcCDj/oEINEL59EZcMGjC2SLlx9zInocoxpcUkpvff2+1VsTkhUvMYA==}
+  /@sanity/client@6.18.1(debug@4.3.4):
+    resolution: {integrity: sha512-z/O5AbO2lXxJlltzu/Twq1tZCg8/b+iMhJHV3vUBxlCKHk1U3xZ7tLvJEFGJYiSgnwfDbAVYtSRTrAh3CAN+LA==}
     engines: {node: '>=14.18'}
     dependencies:
       '@sanity/eventsource': 5.0.2
@@ -2934,7 +2934,7 @@ packages:
     engines: {node: '>=18'}
     dependencies:
       '@bjoerge/mutiny': 0.5.3
-      '@sanity/client': 6.18.0(debug@4.3.4)
+      '@sanity/client': 6.18.1(debug@4.3.4)
       '@sanity/types': 3.41.1(debug@4.3.4)
       '@sanity/util': 3.41.1(debug@4.3.4)
       arrify: 2.0.1
@@ -2993,15 +2993,15 @@ packages:
       - supports-color
     dev: false
 
-  /@sanity/presentation@1.15.1(@sanity/client@6.18.0)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(styled-components@6.1.8):
+  /@sanity/presentation@1.15.1(@sanity/client@6.18.1)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(styled-components@6.1.8):
     resolution: {integrity: sha512-bFghEY8rlUneLR5lWFXxdn52oMUwOrNucKrwinzykH9/m3NxrHA5ObvwoSu02lu+ebVLk0KY8ptczfoz6WDlWA==}
     engines: {node: '>=16.14'}
     peerDependencies:
       '@sanity/client': ^6.18.0
     dependencies:
-      '@sanity/client': 6.18.0(debug@4.3.4)
+      '@sanity/client': 6.18.1(debug@4.3.4)
       '@sanity/icons': 2.11.8(react@18.2.0)
-      '@sanity/preview-url-secret': 1.6.12(@sanity/client@6.18.0)
+      '@sanity/preview-url-secret': 1.6.12(@sanity/client@6.18.1)
       '@sanity/ui': 2.1.6(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(styled-components@6.1.8)
       '@sanity/uuid': 3.0.2
       '@types/lodash.isequal': 4.5.8
@@ -3020,13 +3020,13 @@ packages:
       - styled-components
     dev: false
 
-  /@sanity/preview-url-secret@1.6.12(@sanity/client@6.18.0):
+  /@sanity/preview-url-secret@1.6.12(@sanity/client@6.18.1):
     resolution: {integrity: sha512-DoXtOVSlT7YjCpRfwhT2B7tpxS+xtxlh0piSCK0ur5NbPy3TvcGtZxuc3I5VCXcWO8O+BEv7BxEjXsctLngPYw==}
     engines: {node: '>=18'}
     peerDependencies:
       '@sanity/client': ^6.17.2
     dependencies:
-      '@sanity/client': 6.18.0(debug@4.3.4)
+      '@sanity/client': 6.18.1(debug@4.3.4)
       '@sanity/uuid': 3.0.2
     dev: false
 
@@ -3076,7 +3076,7 @@ packages:
   /@sanity/types@3.37.2(debug@4.3.4):
     resolution: {integrity: sha512-1EfKkNlJ86wIDtc7oFHb79JI8lKDOxKDYrkmwhvuHgJY83GpSABc1kFdbwAtWZfrWVWyqVXUv/KlNwA3b99y/g==}
     dependencies:
-      '@sanity/client': 6.18.0(debug@4.3.4)
+      '@sanity/client': 6.18.1(debug@4.3.4)
       '@types/react': 18.2.56
     transitivePeerDependencies:
       - debug
@@ -3085,7 +3085,7 @@ packages:
   /@sanity/types@3.41.1(debug@3.2.7):
     resolution: {integrity: sha512-29pRfXQ6a89ozbZFQaUI/ldHde4bl/DL634CBj0gxTMYuFY7x/wLgCsjjDnMcJsB9Eiq+8enV8LNKdChGhW0Hg==}
     dependencies:
-      '@sanity/client': 6.18.0(debug@3.2.7)
+      '@sanity/client': 6.18.1(debug@3.2.7)
       '@types/react': 18.2.56
     transitivePeerDependencies:
       - debug
@@ -3094,7 +3094,7 @@ packages:
   /@sanity/types@3.41.1(debug@4.3.4):
     resolution: {integrity: sha512-29pRfXQ6a89ozbZFQaUI/ldHde4bl/DL634CBj0gxTMYuFY7x/wLgCsjjDnMcJsB9Eiq+8enV8LNKdChGhW0Hg==}
     dependencies:
-      '@sanity/client': 6.18.0(debug@4.3.4)
+      '@sanity/client': 6.18.1(debug@4.3.4)
       '@types/react': 18.2.56
     transitivePeerDependencies:
       - debug
@@ -3125,7 +3125,7 @@ packages:
     resolution: {integrity: sha512-hq0eLjyV2iaOm9ivtPw12YTQ4QsE3jnV/Ui0zhclEhu8Go5JiaEhFt2+WM2lLGRH6qcSA414QbsCNCcyhJL6rA==}
     engines: {node: '>=18'}
     dependencies:
-      '@sanity/client': 6.18.0(debug@4.3.4)
+      '@sanity/client': 6.18.1(debug@4.3.4)
       '@sanity/types': 3.37.2(debug@4.3.4)
       get-random-values-esm: 1.0.2
       moment: 2.30.1
@@ -3138,7 +3138,7 @@ packages:
     resolution: {integrity: sha512-rMOKJqXiJwLvGXx91SiAiBwV1pm4MelAfLOuld3wDWc4XANKSicfX2jcfLhgU3WprOM4aaOEumiA1JEnqdanaQ==}
     engines: {node: '>=18'}
     dependencies:
-      '@sanity/client': 6.18.0(debug@3.2.7)
+      '@sanity/client': 6.18.1(debug@3.2.7)
       '@sanity/types': 3.41.1(debug@3.2.7)
       get-random-values-esm: 1.0.2
       moment: 2.30.1
@@ -3151,7 +3151,7 @@ packages:
     resolution: {integrity: sha512-rMOKJqXiJwLvGXx91SiAiBwV1pm4MelAfLOuld3wDWc4XANKSicfX2jcfLhgU3WprOM4aaOEumiA1JEnqdanaQ==}
     engines: {node: '>=18'}
     dependencies:
-      '@sanity/client': 6.18.0(debug@4.3.4)
+      '@sanity/client': 6.18.1(debug@4.3.4)
       '@sanity/types': 3.41.1(debug@4.3.4)
       get-random-values-esm: 1.0.2
       moment: 2.30.1
@@ -8328,7 +8328,7 @@ packages:
       '@sanity/bifur-client': 0.3.1
       '@sanity/block-tools': 3.41.1
       '@sanity/cli': 3.41.1
-      '@sanity/client': 6.18.0(debug@4.3.4)
+      '@sanity/client': 6.18.1(debug@4.3.4)
       '@sanity/color': 3.0.6
       '@sanity/diff': 3.41.1
       '@sanity/diff-match-patch': 3.1.1
@@ -8341,7 +8341,7 @@ packages:
       '@sanity/migrate': 3.41.1
       '@sanity/mutator': 3.41.1
       '@sanity/portable-text-editor': 3.41.1(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)(styled-components@6.1.8)
-      '@sanity/presentation': 1.15.1(@sanity/client@6.18.0)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(styled-components@6.1.8)
+      '@sanity/presentation': 1.15.1(@sanity/client@6.18.1)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(styled-components@6.1.8)
       '@sanity/schema': 3.41.1(debug@4.3.4)
       '@sanity/telemetry': 0.7.7
       '@sanity/types': 3.41.1(debug@4.3.4)
