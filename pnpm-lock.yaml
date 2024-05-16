@@ -16,19 +16,19 @@ dependencies:
     version: 3.1.4
   '@astrojs/tailwind':
     specifier: ^5.1.0
-    version: 5.1.0(astro@4.8.3)(tailwindcss@3.4.3)
+    version: 5.1.0(astro@4.8.4)(tailwindcss@3.4.3)
   '@sanity/client':
     specifier: ^6.18.2
     version: 6.18.2
   '@sentry/astro':
     specifier: ^8.0.0
-    version: 8.0.0(astro@4.8.3)
+    version: 8.0.0(astro@4.8.4)
   '@spotlightjs/astro':
     specifier: ^1.0.20
-    version: 1.0.20(@sentry/astro@8.0.0)(astro@4.8.3)
+    version: 1.0.20(@sentry/astro@8.0.0)(astro@4.8.4)
   astro:
-    specifier: ^4.8.3
-    version: 4.8.3(typescript@5.4.5)
+    specifier: ^4.8.4
+    version: 4.8.4(typescript@5.4.5)
   astro-portabletext:
     specifier: ^0.10.0
     version: 0.10.0
@@ -206,13 +206,13 @@ packages:
       zod: 3.23.5
     dev: false
 
-  /@astrojs/tailwind@5.1.0(astro@4.8.3)(tailwindcss@3.4.3):
+  /@astrojs/tailwind@5.1.0(astro@4.8.4)(tailwindcss@3.4.3):
     resolution: {integrity: sha512-BJoCDKuWhU9FT2qYg+fr6Nfb3qP4ShtyjXGHKA/4mHN94z7BGcmauQK23iy+YH5qWvTnhqkd6mQPQ1yTZTe9Ig==}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0
       tailwindcss: ^3.0.24
     dependencies:
-      astro: 4.8.3(typescript@5.4.5)
+      astro: 4.8.4(typescript@5.4.5)
       autoprefixer: 10.4.17(postcss@8.4.33)
       postcss: 8.4.33
       postcss-load-config: 4.0.2(postcss@8.4.33)
@@ -3309,8 +3309,8 @@ packages:
       chalk: 4.1.2
       debug: 4.3.4
       decompress: 4.2.1
-      esbuild: 0.21.1
-      esbuild-register: 3.5.0(esbuild@0.21.1)
+      esbuild: 0.21.2
+      esbuild-register: 3.5.0(esbuild@0.21.2)
       get-it: 8.4.30(debug@4.3.4)
       groq-js: 1.8.0
       node-machine-id: 1.1.12
@@ -3786,7 +3786,7 @@ packages:
       '@sentry/utils': 8.0.0
     dev: false
 
-  /@sentry/astro@8.0.0(astro@4.8.3):
+  /@sentry/astro@8.0.0(astro@4.8.4):
     resolution: {integrity: sha512-lSKGdjXUPJTxJBnokqoYD0z0T5dNRmISnFPMyVCdltc5IJBbwI0eaX2iWj6K90JyAZItVw53EgDxPutFiD6VYw==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -3798,7 +3798,7 @@ packages:
       '@sentry/types': 8.0.0
       '@sentry/utils': 8.0.0
       '@sentry/vite-plugin': 2.16.1
-      astro: 4.8.3(typescript@5.4.5)
+      astro: 4.8.4(typescript@5.4.5)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -4016,16 +4016,16 @@ packages:
     resolution: {integrity: sha512-xjV63pRUBvxA1LsxOUhRKLPh0uUjwBLzAKLdEuYSLIylo71sYuwDcttqNP01Ib1TZlLfO840CXHPlgUUsYFjzg==}
     dev: false
 
-  /@spotlightjs/astro@1.0.20(@sentry/astro@8.0.0)(astro@4.8.3):
+  /@spotlightjs/astro@1.0.20(@sentry/astro@8.0.0)(astro@4.8.4):
     resolution: {integrity: sha512-3j4GqodpdaNPcsP2KbQylg2dF2nlRLe1z8UH/TgWx1MZJM16V2WP474nHUeP54kVmBaFwaJmF9OCkCMBqfKYfw==}
     peerDependencies:
       '@sentry/astro': '>=7.84.0'
       astro: '>=3.4.0 || >=4.0.0-beta'
     dependencies:
-      '@sentry/astro': 8.0.0(astro@4.8.3)
+      '@sentry/astro': 8.0.0(astro@4.8.4)
       '@spotlightjs/overlay': 1.8.3
       '@spotlightjs/sidecar': 1.4.0
-      astro: 4.8.3(typescript@5.4.5)
+      astro: 4.8.4(typescript@5.4.5)
       source-map: 0.7.4
     dev: false
 
@@ -4657,8 +4657,8 @@ packages:
       '@portabletext/types': 2.0.13
     dev: false
 
-  /astro@4.8.3(typescript@5.4.5):
-    resolution: {integrity: sha512-pgIKopkmAUXY3EJHdG7zQpudtBzYAsd94A1R7jmLpH2LFZvzHEkAdHnunmSVmgikJCNqtEo3bUCHgLnCPQaN1g==}
+  /astro@4.8.4(typescript@5.4.5):
+    resolution: {integrity: sha512-3UExI/Pq47tvdSmYJTDkoyuygIibO+293MBkwc5iUzK5Cu/U4H7P3LwTyP8Gp/wQX+2zBEUifEb4oNO1HfUn2g==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
     dependencies:
@@ -5725,6 +5725,17 @@ packages:
     dependencies:
       debug: 4.3.4
       esbuild: 0.21.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /esbuild-register@3.5.0(esbuild@0.21.2):
+    resolution: {integrity: sha512-+4G/XmakeBAsvJuDugJvtyF1x+XJT4FMocynNpxrvEBViirpfUn2PgNpCHedfWhF4WokNsO/OvMKrmJOIJsI5A==}
+    peerDependencies:
+      esbuild: '>=0.12 <1'
+    dependencies:
+      debug: 4.3.4
+      esbuild: 0.21.2
     transitivePeerDependencies:
       - supports-color
     dev: false
