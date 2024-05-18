@@ -1,0 +1,5 @@
+.bg-doted {
+  background-color: var(--b1);
+  background-image: radial-gradient(#444cf7 0.5px, var(--fallback-b1, oklch(var(--b1))) 1px);
+  background-size: 10px 10px;
+}

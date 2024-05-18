@@ -2,7 +2,7 @@
 import BaseHead from '../components/BaseHead.astro'
 import Footer from '../components/Footer.astro'
 import Header from '../components/Header.astro'
-import { getLangFromUrl } from '../i18n/utils'
+import {getLangFromUrl} from '../i18n/utils'
 
 type Props = {
   title: string
@@ -17,18 +17,11 @@ const {description, title} = Astro.props
   <head>
     <BaseHead description={description} title={title} />
   </head>
-  <body>
-    <style is:global>
-      .bg-doted {
-        background-color: var(--b1);
-        background-image: radial-gradient(#444cf7 0.5px, var(--fallback-b1, oklch(var(--b1))) 1px);
-        background-size: 10px 10px;
-      }
-    </style>
+  <body class='font-sans'>
     <Header />
     <slot />
     <Footer />
-    <script is:inline>
+    <script is:inline defer>
       const theme =
         typeof localStorage.getItem('theme') === 'string'
           ? localStorage.getItem('theme')
