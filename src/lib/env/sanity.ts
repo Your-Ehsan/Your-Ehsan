@@ -1,7 +1,7 @@
 import type {ClientConfig} from '@sanity/client'
 import assertValue from '../handlers/assertValue'
 
-const sanity: ClientConfig = {
+export const sanity = {
   /**
    * Project ID for sanity client
    */
@@ -38,6 +38,4 @@ const sanity: ClientConfig = {
     value: import.meta.env.SANITY_ACCESS_TOKEN,
     errorMessage: 'SANITY_ACCESS_TOKEN not found',
   }),
-}
-
-export default sanity
+} satisfies ClientConfig

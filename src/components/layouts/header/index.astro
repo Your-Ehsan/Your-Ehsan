@@ -1,5 +1,6 @@
 ---
-import {state} from '../lib/store'
+import {data} from '../../../lib/data'
+import {state} from '../../../lib/store'
 ---
 
 <header>
@@ -35,7 +36,7 @@ import {state} from '../lib/store'
     </div>
     <div class='navbar-center hidden lg:flex'>
       <ul class='menu menu-horizontal px-1'>
-        <li><a>Item 1</a></li>
+        <!-- <li><a>Item 1</a></li>
         <li>
           <details>
             <summary>Parent</summary>
@@ -45,7 +46,16 @@ import {state} from '../lib/store'
             </ul>
           </details>
         </li>
-        <li><a>Item 3</a></li>
+        <li><a>Item 3</a></li> -->
+        {
+          data.links.header.map(({href, name}) => {
+            return (
+              <li>
+                <a href={href}>{name}</a>
+              </li>
+            )
+          })
+        }
       </ul>
     </div>
     <div class='navbar-end'>

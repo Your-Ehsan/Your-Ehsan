@@ -1,17 +1,11 @@
 ---
-import {getRelativeLocaleUrl} from 'astro:i18n'
 import type {HTMLAttributes} from 'astro/types'
-import { getLangFromUrl } from '../../i18n/utils'
 
 type Props = HTMLAttributes<'a'>
 
-const {href: to, class: className, ...props} = Astro.props
+const {href, class: className, ...props} = Astro.props
 ---
 
-<a
-  href={getRelativeLocaleUrl(getLangFromUrl(Astro.url), to as string)}
-  class:list={[className]}
-  {...props}
->
+<a href={href} class:list={[className]} {...props}>
   <slot />
 </a>

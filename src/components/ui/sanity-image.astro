@@ -1,0 +1,28 @@
+---
+import {Image} from 'astro:assets'
+import imageUrlBuilder from '@sanity/image-url'
+import type {ImageType} from '../../lib/types/siteConfigs.types'
+import env from '../../lib/env'
+
+type Props = {
+  className?: string
+  loading?: 'eager' | 'lazy'
+  sanitySrc: ImageType
+  height: number
+  width: number
+  alt: string
+}
+
+const {sanitySrc, className, ...restProps} = Astro.props
+---
+
+<Image
+  src={imageUrlBuilder({
+    projectId: env.sanity.projectId,
+    dataset: env.sanity.dataset,
+  })
+    .image(sanitySrc)
+    .url()}
+  class:list={className}
+  {...restProps}
+/>

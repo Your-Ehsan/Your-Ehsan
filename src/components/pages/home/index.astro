@@ -1,0 +1,20 @@
+---
+import type {ImageType} from '../../../lib/types/siteConfigs.types'
+import MainLayout from '../../layouts/main/index.astro'
+import HeroSection from './components/hero-section.astro'
+
+type Props = {
+  title: string
+  description: string
+  poster: ImageType
+}
+
+const {description, title} = Astro.props
+---
+
+<MainLayout title={title} description={description}>
+  <HeroSection />
+  <div class='px-24'>
+    <span class='divider divider-primary'></span>
+  </div>
+</MainLayout>

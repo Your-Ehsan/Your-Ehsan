@@ -14,20 +14,20 @@ import {defaultLang, locales} from './src/i18n/ui'
 // https://astro.build/config
 export default defineConfig({
   site: 'https://example.com',
-  i18n: {
-    defaultLocale: defaultLang,
-    locales: locales,
-    // ['en', 'fr'],
-    routing: {
-      prefixDefaultLocale: true,
-    },
-  },
+  // i18n: {
+  //   // defaultLocale: defaultLang,
+  //   // locales: locales,
+  //   // // ['en', 'fr'],
+  //   // routing: {
+  //   //   prefixDefaultLocale: true,
+  //   // },
+  // },
   // output: 'server', // TODO: learn about this completely, later 🔥
   integrations: [
     // mdx(),
-    sentry(),
+    // sentry(),
     sitemap(),
-    spotlightjs(),
+    // spotlightjs(),
     tailwind({nesting: true}),
     // react({ experimentalReactChildren: true }),
   ],

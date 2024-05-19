@@ -1,4 +1,4 @@
-import sanity from './sanity'
+import {sanity} from './sanity'
 
 const env = {
   /**

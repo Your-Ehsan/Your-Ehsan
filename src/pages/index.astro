@@ -1,0 +1,14 @@
+---
+import Home from '../components/pages/home/index.astro'
+import client from '../lib/sanity/client'
+import queries from '../lib/sanity/queries'
+import {state} from '../lib/store'
+import type {SiteConfigsType} from '../lib/types/siteConfigs.types'
+
+const siteConfigsData: SiteConfigsType[] = await client.fetch(queries.siteConfigs),
+  {overview, poster, title} = siteConfigsData[0]
+
+state.set({data: siteConfigsData[0]})
+---
+
+<Home description={overview} poster={poster} title={title} />

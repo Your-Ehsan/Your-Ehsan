@@ -3,7 +3,7 @@
   "compilerOptions": {
     // "baseUrl": "C:/Users/pc/Desktop/— Astro/your-ehsan",
     "strictNullChecks": true,
-    "verbatimModuleSyntax": true,
+    "verbatimModuleSyntax": true
     // "paths": {
     //   "@/*": ["./src/*"]
     // },
