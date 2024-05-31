@@ -16,7 +16,7 @@
     "@astrojs/rss": "^4.0.6",
     "@astrojs/sitemap": "^3.1.5",
     "@astrojs/tailwind": "^5.1.0",
-    "@sanity/client": "^6.18.2",
+    "@sanity/client": "^6.19.1",
     "@sentry/astro": "^8.0.0",
     "@spotlightjs/astro": "^1.0.20",
     "astro": "^4.8.4",
