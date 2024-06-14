@@ -65,8 +65,8 @@ devDependencies:
     specifier: ^0.14.0
     version: 0.14.0
   prettier-plugin-tailwindcss:
-    specifier: ^0.6.1
-    version: 0.6.1(prettier-plugin-astro@0.14.0)(prettier@3.3.2)
+    specifier: ^0.6.4
+    version: 0.6.4(prettier-plugin-astro@0.14.0)(prettier@3.3.2)
   vite:
     specifier: ^5.2.12
     version: 5.2.12
@@ -8618,8 +8618,8 @@ packages:
       prettier: 3.3.2
       sass-formatter: 0.7.9
 
-  /prettier-plugin-tailwindcss@0.6.1(prettier-plugin-astro@0.14.0)(prettier@3.3.2):
-    resolution: {integrity: sha512-AnbeYZu0WGj+QgKciUgdMnRxrqcxltleZPgdwfA5104BHM3siBLONN/HLW1yS2HvzSNkzpQ/JAj+LN0jcJO+0w==}
+  /prettier-plugin-tailwindcss@0.6.4(prettier-plugin-astro@0.14.0)(prettier@3.3.2):
+    resolution: {integrity: sha512-3vhbIvlKyAWPaw9bUr2cw6M1BGx2Oy9CCLJyv+nxEiBGCTcL69WcAz2IFMGqx8IXSzQCInGSo2ujAByg9poHLQ==}
     engines: {node: '>=14.21.3'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
