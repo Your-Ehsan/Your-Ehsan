@@ -16,19 +16,19 @@ dependencies:
     version: 3.1.6
   '@astrojs/tailwind':
     specifier: ^5.1.0
-    version: 5.1.0(astro@4.10.2)(tailwindcss@3.4.4)
+    version: 5.1.0(astro@4.11.0)(tailwindcss@3.4.4)
   '@sanity/client':
     specifier: ^6.20.1
     version: 6.20.1
   '@sentry/astro':
     specifier: ^8.9.2
-    version: 8.9.2(astro@4.10.2)
+    version: 8.9.2(astro@4.11.0)
   '@spotlightjs/astro':
     specifier: ^2.0.0
-    version: 2.0.0(@sentry/astro@8.9.2)(astro@4.10.2)
+    version: 2.0.0(@sentry/astro@8.9.2)(astro@4.11.0)
   astro:
-    specifier: ^4.10.2
-    version: 4.10.2(typescript@5.4.5)
+    specifier: ^4.11.0
+    version: 4.11.0(typescript@5.4.5)
   astro-portabletext:
     specifier: ^0.10.0
     version: 0.10.0
@@ -170,7 +170,7 @@ packages:
       remark-parse: 11.0.0
       remark-rehype: 11.1.0
       remark-smartypants: 2.1.0
-      shiki: 1.6.4
+      shiki: 1.9.0
       unified: 11.0.4
       unist-util-remove-position: 5.0.0
       unist-util-visit: 5.0.0
@@ -202,13 +202,13 @@ packages:
       zod: 3.23.8
     dev: false
 
-  /@astrojs/tailwind@5.1.0(astro@4.10.2)(tailwindcss@3.4.4):
+  /@astrojs/tailwind@5.1.0(astro@4.11.0)(tailwindcss@3.4.4):
     resolution: {integrity: sha512-BJoCDKuWhU9FT2qYg+fr6Nfb3qP4ShtyjXGHKA/4mHN94z7BGcmauQK23iy+YH5qWvTnhqkd6mQPQ1yTZTe9Ig==}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0
       tailwindcss: ^3.0.24
     dependencies:
-      astro: 4.10.2(typescript@5.4.5)
+      astro: 4.11.0(typescript@5.4.5)
       autoprefixer: 10.4.19(postcss@8.4.38)
       postcss: 8.4.38
       postcss-load-config: 4.0.2(postcss@8.4.38)
@@ -3423,7 +3423,7 @@ packages:
       '@sentry/utils': 8.9.2
     dev: false
 
-  /@sentry/astro@8.9.2(astro@4.10.2):
+  /@sentry/astro@8.9.2(astro@4.11.0):
     resolution: {integrity: sha512-jYMJqvD3Yz9EAlGJD2etwsm7/Z6g4ueEXJfUYHqvSjhdRBeSmJuNLKJJBLpVJZiH+fpuBdP19UN/y7iYoAxR8g==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -3435,7 +3435,7 @@ packages:
       '@sentry/types': 8.9.2
       '@sentry/utils': 8.9.2
       '@sentry/vite-plugin': 2.18.0
-      astro: 4.10.2(typescript@5.4.5)
+      astro: 4.11.0(typescript@5.4.5)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -3650,20 +3650,20 @@ packages:
       - supports-color
     dev: false
 
-  /@shikijs/core@1.6.4:
-    resolution: {integrity: sha512-WTU9rzZae1p2v6LOxMf6LhtmZOkIHYYW160IuahUyJy7YXPPjyWZLR1ag+SgD22ZMxZtz1gfU6Tccc8t0Il/XA==}
+  /@shikijs/core@1.9.0:
+    resolution: {integrity: sha512-cbSoY8P/jgGByG8UOl3jnP/CWg/Qk+1q+eAKWtcrU3pNoILF8wTsLB0jT44qUBV8Ce1SvA9uqcM9Xf+u3fJFBw==}
     dev: false
 
-  /@spotlightjs/astro@2.0.0(@sentry/astro@8.9.2)(astro@4.10.2):
+  /@spotlightjs/astro@2.0.0(@sentry/astro@8.9.2)(astro@4.11.0):
     resolution: {integrity: sha512-dM7yC99seOWgTK24YmzYKFCCK51Jc2pQBsBIeKqSk/B5XqfWLqCymQlOkm6PVeFcmjIMR5uYuoW4wUTUlwhrvQ==}
     peerDependencies:
       '@sentry/astro': '>=7.84.0'
       astro: '>=3.4.0 || >=4.0.0-beta'
     dependencies:
-      '@sentry/astro': 8.9.2(astro@4.10.2)
+      '@sentry/astro': 8.9.2(astro@4.11.0)
       '@spotlightjs/overlay': 2.0.0
       '@spotlightjs/sidecar': 1.4.0
-      astro: 4.10.2(typescript@5.4.5)
+      astro: 4.11.0(typescript@5.4.5)
       source-map: 0.7.4
     dev: false
 
@@ -4179,6 +4179,12 @@ packages:
     hasBin: true
     dev: false
 
+  /acorn@8.12.0:
+    resolution: {integrity: sha512-RTvkC4w+KNXrM39/lWCUaG0IbRkWdCv7W/IOW9oU6SawyxulvkQy5HQPVTKxEjczcUvapcrw3cFx/60VN/NRNw==}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+    dev: false
+
   /agent-base@6.0.2:
     resolution: {integrity: sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==}
     engines: {node: '>= 6.0.0'}
@@ -4309,8 +4315,8 @@ packages:
       '@portabletext/types': 2.0.13
     dev: false
 
-  /astro@4.10.2(typescript@5.4.5):
-    resolution: {integrity: sha512-SBdkoOanPsxKlKVU4uu/XG0G7NYAFoqmfBtq9SPMJ34B7Hr1MxVdEugERs8IwYN6UaxdDVcqA++9PvH6Onq2cg==}
+  /astro@4.11.0(typescript@5.4.5):
+    resolution: {integrity: sha512-3VWxz/08sChQIX68tuE7Y769DUdjsT3Zq2/y4SkrDRlwN9IZ/aebwcRWr5a2yMSdO2vpFxtEdobq0mKnMlLErg==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
     dependencies:
@@ -4326,7 +4332,7 @@ packages:
       '@babel/types': 7.24.7
       '@types/babel__core': 7.20.5
       '@types/cookie': 0.6.0
-      acorn: 8.11.3
+      acorn: 8.12.0
       aria-query: 5.3.0
       axobject-query: 4.0.0
       boxen: 7.1.1
@@ -4365,7 +4371,7 @@ packages:
       rehype: 13.0.1
       resolve: 1.22.8
       semver: 7.6.2
-      shiki: 1.6.4
+      shiki: 1.9.0
       string-width: 7.1.0
       strip-ansi: 7.1.0
       tsconfck: 3.1.0(typescript@5.4.5)
@@ -9047,10 +9053,10 @@ packages:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
 
-  /shiki@1.6.4:
-    resolution: {integrity: sha512-X88chM7w8jnadoZtjPTi5ahCJx9pc9f8GfEkZAEYUTlcUZIEw2D/RY86HI/LkkE7Nj8TQWkiBfaFTJ3VJT6ESg==}
+  /shiki@1.9.0:
+    resolution: {integrity: sha512-i6//Lqgn7+7nZA0qVjoYH0085YdNk4MC+tJV4bo+HgjgRMJ0JmkLZzFAuvVioJqLkcGDK5GAMpghZEZkCnwxpQ==}
     dependencies:
-      '@shikijs/core': 1.6.4
+      '@shikijs/core': 1.9.0
     dev: false
 
   /shimmer@1.2.1:
