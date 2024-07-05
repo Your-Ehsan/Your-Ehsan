@@ -24,11 +24,11 @@ importers:
         specifier: ^6.20.1
         version: 6.20.1
       '@sentry/astro':
-        specifier: ^8.13.0
-        version: 8.13.0(astro@4.11.3(@types/node@20.12.12)(typescript@5.5.2))
+        specifier: ^8.14.0
+        version: 8.14.0(astro@4.11.3(@types/node@20.12.12)(typescript@5.5.2))
       '@spotlightjs/astro':
         specifier: ^2.0.0
-        version: 2.0.0(@sentry/astro@8.13.0(astro@4.11.3(@types/node@20.12.12)(typescript@5.5.2)))(astro@4.11.3(@types/node@20.12.12)(typescript@5.5.2))
+        version: 2.0.0(@sentry/astro@8.14.0(astro@4.11.3(@types/node@20.12.12)(typescript@5.5.2)))(astro@4.11.3(@types/node@20.12.12)(typescript@5.5.2))
       astro:
         specifier: ^4.11.3
         version: 4.11.3(@types/node@20.12.12)(typescript@5.5.2)
@@ -1488,8 +1488,8 @@ packages:
     resolution: {integrity: sha512-5xk5MSyQU9CrDho3Rsguj38jhijhD36Mk8S6mZo3huv6PM+t4M/5kJN2KFIxgvt4ONpvOEs1pVIZAV0cL0Vi+Q==}
     engines: {node: ^14.13.1 || >=16.0.0 || >=18.0.0}
 
-  '@prisma/instrumentation@5.16.0':
-    resolution: {integrity: sha512-MVzNRW2ikWvVNnMIEgQMcwWxpFD+XF2U2h0Qz7MjutRqJxrhWexWV2aSi2OXRaU8UL5wzWw7pnjdKUzYhWauLg==}
+  '@prisma/instrumentation@5.16.1':
+    resolution: {integrity: sha512-4m5gRFWnQb8s/yTyGbMZkL7A5uJgqOWcWJxapwcAD0T0kh5sGPEVSQl/zTQvE9aduXhFAxOtC3gO+R8Hb5xO1Q==}
 
   '@rexxars/react-json-inspector@8.0.1':
     resolution: {integrity: sha512-XAsgQwqG8fbDGpWnsvOesRMgPfvwuU7Cx3/cUf/fNIRmGP8lj2YYIf5La/4ayvZLWlSw4tTb4BPCKdmK9D8RuQ==}
@@ -1721,20 +1721,36 @@ packages:
     resolution: {integrity: sha512-lqq8BYbbs9KTlDuyB5NjdZB6P/llqQs32KUgaCQ/k5DFB4Zf56+BFHXObnMHxwx375X1uixtnEphagWZa+nsLQ==}
     engines: {node: '>=14.18'}
 
+  '@sentry-internal/browser-utils@8.14.0':
+    resolution: {integrity: sha512-ldIa3qeMYZ5WUdcuBqQhXOSrEPZwB09gmELzFietjcPZTK1naAE5g5On94gpj1je1dn1S0+tXJ0a7SJS9Tu4Sw==}
+    engines: {node: '>=14.18'}
+
   '@sentry-internal/feedback@8.13.0':
     resolution: {integrity: sha512-YyJ6SzpTonixvguAg0H9vkEp7Jq8ZeVY8M4n47ClR0+TtaAUp04ZhcJpHKF7PwBIAzc7DRr2XP112tmWgiVEcg==}
+    engines: {node: '>=14.18'}
+
+  '@sentry-internal/feedback@8.14.0':
+    resolution: {integrity: sha512-0mBSTdoCEgzWS4btIIZF8XSnAo0eK6gr7Md7xVVOZMd/er0DgYVKl+z3dMoidyijGcrAlJssECUxWHOV3iJitQ==}
     engines: {node: '>=14.18'}
 
   '@sentry-internal/replay-canvas@8.13.0':
     resolution: {integrity: sha512-lPlfWVIHX+gW4S8a/UOVutuqMyQhlkNUAay0W21MVhZJT5Mtj0p21D/Cz7nrOQRDIiLNq90KAGK2tLxx5NkiWA==}
     engines: {node: '>=14.18'}
 
+  '@sentry-internal/replay-canvas@8.14.0':
+    resolution: {integrity: sha512-8md1ZxuEk51PNFPbwxVDc7RJ7RSNWHiGLNWYQO/MTKonZf78x4OfQLNIHgQ4z4nMUP38NfjMVkNi21LGW+vMNA==}
+    engines: {node: '>=14.18'}
+
   '@sentry-internal/replay@8.13.0':
     resolution: {integrity: sha512-DJ1jF/Pab0FH4SeCvSGCnGAu/s0wJvhBWM5VjQp7Jjmcfunp+R3vJibqU8gAVZU1nYRLaqprLdIXrSyP2Km8nQ==}
     engines: {node: '>=14.18'}
 
-  '@sentry/astro@8.13.0':
-    resolution: {integrity: sha512-lAX8UAq7zEnyg2yEhRJOtOtuDplVHPMwiOxcCPoXdbBvKI0kh36WHpL09if8C8GKxJyE7Eu3iBVTreyobx6W0g==}
+  '@sentry-internal/replay@8.14.0':
+    resolution: {integrity: sha512-ntc4+1asXCUvM/Oiot/z3+mlCZ83imphbPdiI9ilLErQjDsXFsvNTXe6a0TMoCckKcnypTG6LFyQS62okDiG5Q==}
+    engines: {node: '>=14.18'}
+
+  '@sentry/astro@8.14.0':
+    resolution: {integrity: sha512-xjtxVhMhUonUf1C+i1TrHfrR+9M/CQk0GzdoTJQJnxsxK7Emlso/G3QtEh1bZICCQONK0BSPggf09tQX7j6s8Q==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       astro: '>=3.x || >=4.0.0-beta'
@@ -1745,6 +1761,10 @@ packages:
 
   '@sentry/browser@8.13.0':
     resolution: {integrity: sha512-/tp7HZ5qjwDLtwooPMoexdAi2PG7gMNY0bHeMlwy20hs8mclC8RW8ZiJA6czXHfgnbmvxfrHaY53IJyz//JnlA==}
+    engines: {node: '>=14.18'}
+
+  '@sentry/browser@8.14.0':
+    resolution: {integrity: sha512-XQ28e/vcxtI+TwSpvfqS86nZtY0538ZUdda1vZmkpu9eXT632tzk1P8rNhiIUs0lCssQw8sakTUzjxZxEe0+ZA==}
     engines: {node: '>=14.18'}
 
   '@sentry/bundler-plugin-core@2.20.1':
@@ -1801,12 +1821,16 @@ packages:
     resolution: {integrity: sha512-N9Qg4ZGxZWp8eb2eUUHVVKgjBLtFIjS805nG92s6yJmkvOpKm6mLtcUaT/iDf3Hta6nG+xRkhbE3r+Z4cbXG8w==}
     engines: {node: '>=14.18'}
 
-  '@sentry/node@8.13.0':
-    resolution: {integrity: sha512-OeZ7K90RhyxfwfreerIi4cszzHrPRRH36STJno2+p3sIGbG5VScOccqXzYEOAqHpByxnti4KQN34BLAT2BFOEA==}
+  '@sentry/core@8.14.0':
+    resolution: {integrity: sha512-kEB8R3hMxdJRzwZwNqIxwrnmKx/iNl2ZHL/48/ywJu4u+qkBqQs9OsR+ACa+eZyAZTY5T0cPRGsUcNdnwy1ZAg==}
     engines: {node: '>=14.18'}
 
-  '@sentry/opentelemetry@8.13.0':
-    resolution: {integrity: sha512-NYn/HNE/SxFXe8pfnxJknhrrRzYRMHNssCoi5M1CeR5G7F2BGxxVmaGsd8j0WyTCpUS4i97G4vhYtDGxHvWN6w==}
+  '@sentry/node@8.14.0':
+    resolution: {integrity: sha512-C/Gwk4iHo2AbMX3X8aoZR1pYhr5WwaeTZZXSytglbKJgy5Udi/jB/3PKJqJnzJX4xCSvNj7rp75QM+E+3fAzbw==}
+    engines: {node: '>=14.18'}
+
+  '@sentry/opentelemetry@8.14.0':
+    resolution: {integrity: sha512-Kf7mzxhmHQFf3G1tueAhKHFF3wfGiAyCGzSof7QwhHaUp2a3iHOFHGpzcPaq+RS9O01qAQDq0GYChj0VpBH34g==}
     engines: {node: '>=14.18'}
     peerDependencies:
       '@opentelemetry/api': ^1.9.0
@@ -1825,8 +1849,16 @@ packages:
     resolution: {integrity: sha512-r63s/H5gvQnQM9tTGBXz2xErUbxZALh4e2Lg/1aHj4zIvGLBjA2z5qWsh6TEZYbpmgAyGShLDr6+rWeUVf9yBQ==}
     engines: {node: '>=14.18'}
 
+  '@sentry/types@8.14.0':
+    resolution: {integrity: sha512-RTXp96JPY3OM7Y3J8CaAYEkhosyTXrT/2uE7dTmPn1z7Oxunp8MYyyfSU4HtvDeMA3dxbI4dhNmXpfRyclV4Ew==}
+    engines: {node: '>=14.18'}
+
   '@sentry/utils@8.13.0':
     resolution: {integrity: sha512-PxV0v9VbGWH9zP37P5w2msLUFDr287nYjoY2XVF+RSolyiTs1CQNI5ZMUO3o4MsSac/dpXxjyrZXQd72t/jRYA==}
+    engines: {node: '>=14.18'}
+
+  '@sentry/utils@8.14.0':
+    resolution: {integrity: sha512-EWlBrYEqdgmDn/C8iRr+z2jSwUXOQL73NG+cbsJtGWSDGSmBLsGNPk2wgKq6U5Nu7Icyw2+10QbbqS5F1Q1bvQ==}
     engines: {node: '>=14.18'}
 
   '@sentry/vite-plugin@2.20.1':
@@ -6991,7 +7023,7 @@ snapshots:
 
   '@portabletext/types@2.0.13': {}
 
-  '@prisma/instrumentation@5.16.0':
+  '@prisma/instrumentation@5.16.1':
     dependencies:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/instrumentation': 0.52.1(@opentelemetry/api@1.9.0)
@@ -7200,7 +7232,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@sanity/insert-menu@1.0.6(@sanity/types@3.48.1)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
+  '@sanity/insert-menu@1.0.6(@sanity/types@3.48.1(debug@4.3.5))(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
     dependencies:
       '@sanity/icons': 3.2.0(react@18.3.1)
       '@sanity/types': 3.48.1(debug@4.3.5)
@@ -7405,11 +7437,23 @@ snapshots:
       '@sentry/types': 8.13.0
       '@sentry/utils': 8.13.0
 
+  '@sentry-internal/browser-utils@8.14.0':
+    dependencies:
+      '@sentry/core': 8.14.0
+      '@sentry/types': 8.14.0
+      '@sentry/utils': 8.14.0
+
   '@sentry-internal/feedback@8.13.0':
     dependencies:
       '@sentry/core': 8.13.0
       '@sentry/types': 8.13.0
       '@sentry/utils': 8.13.0
+
+  '@sentry-internal/feedback@8.14.0':
+    dependencies:
+      '@sentry/core': 8.14.0
+      '@sentry/types': 8.14.0
+      '@sentry/utils': 8.14.0
 
   '@sentry-internal/replay-canvas@8.13.0':
     dependencies:
@@ -7418,6 +7462,13 @@ snapshots:
       '@sentry/types': 8.13.0
       '@sentry/utils': 8.13.0
 
+  '@sentry-internal/replay-canvas@8.14.0':
+    dependencies:
+      '@sentry-internal/replay': 8.14.0
+      '@sentry/core': 8.14.0
+      '@sentry/types': 8.14.0
+      '@sentry/utils': 8.14.0
+
   '@sentry-internal/replay@8.13.0':
     dependencies:
       '@sentry-internal/browser-utils': 8.13.0
@@ -7425,13 +7476,20 @@ snapshots:
       '@sentry/types': 8.13.0
       '@sentry/utils': 8.13.0
 
-  '@sentry/astro@8.13.0(astro@4.11.3(@types/node@20.12.12)(typescript@5.5.2))':
+  '@sentry-internal/replay@8.14.0':
     dependencies:
-      '@sentry/browser': 8.13.0
-      '@sentry/core': 8.13.0
-      '@sentry/node': 8.13.0
-      '@sentry/types': 8.13.0
-      '@sentry/utils': 8.13.0
+      '@sentry-internal/browser-utils': 8.14.0
+      '@sentry/core': 8.14.0
+      '@sentry/types': 8.14.0
+      '@sentry/utils': 8.14.0
+
+  '@sentry/astro@8.14.0(astro@4.11.3(@types/node@20.12.12)(typescript@5.5.2))':
+    dependencies:
+      '@sentry/browser': 8.14.0
+      '@sentry/core': 8.14.0
+      '@sentry/node': 8.14.0
+      '@sentry/types': 8.14.0
+      '@sentry/utils': 8.14.0
       '@sentry/vite-plugin': 2.20.1
       astro: 4.11.3(@types/node@20.12.12)(typescript@5.5.2)
     transitivePeerDependencies:
@@ -7449,6 +7507,16 @@ snapshots:
       '@sentry/core': 8.13.0
       '@sentry/types': 8.13.0
       '@sentry/utils': 8.13.0
+
+  '@sentry/browser@8.14.0':
+    dependencies:
+      '@sentry-internal/browser-utils': 8.14.0
+      '@sentry-internal/feedback': 8.14.0
+      '@sentry-internal/replay': 8.14.0
+      '@sentry-internal/replay-canvas': 8.14.0
+      '@sentry/core': 8.14.0
+      '@sentry/types': 8.14.0
+      '@sentry/utils': 8.14.0
 
   '@sentry/bundler-plugin-core@2.20.1':
     dependencies:
@@ -7509,7 +7577,12 @@ snapshots:
       '@sentry/types': 8.13.0
       '@sentry/utils': 8.13.0
 
-  '@sentry/node@8.13.0':
+  '@sentry/core@8.14.0':
+    dependencies:
+      '@sentry/types': 8.14.0
+      '@sentry/utils': 8.14.0
+
+  '@sentry/node@8.14.0':
     dependencies:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/context-async-hooks': 1.25.1(@opentelemetry/api@1.9.0)
@@ -7533,26 +7606,26 @@ snapshots:
       '@opentelemetry/resources': 1.25.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/sdk-trace-base': 1.25.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/semantic-conventions': 1.25.1
-      '@prisma/instrumentation': 5.16.0
-      '@sentry/core': 8.13.0
-      '@sentry/opentelemetry': 8.13.0(@opentelemetry/api@1.9.0)(@opentelemetry/core@1.25.1(@opentelemetry/api@1.9.0))(@opentelemetry/instrumentation@0.52.1(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.25.1(@opentelemetry/api@1.9.0))(@opentelemetry/semantic-conventions@1.25.1)
-      '@sentry/types': 8.13.0
-      '@sentry/utils': 8.13.0
+      '@prisma/instrumentation': 5.16.1
+      '@sentry/core': 8.14.0
+      '@sentry/opentelemetry': 8.14.0(@opentelemetry/api@1.9.0)(@opentelemetry/core@1.25.1(@opentelemetry/api@1.9.0))(@opentelemetry/instrumentation@0.52.1(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.25.1(@opentelemetry/api@1.9.0))(@opentelemetry/semantic-conventions@1.25.1)
+      '@sentry/types': 8.14.0
+      '@sentry/utils': 8.14.0
     optionalDependencies:
       opentelemetry-instrumentation-fetch-node: 1.2.0
     transitivePeerDependencies:
       - supports-color
 
-  '@sentry/opentelemetry@8.13.0(@opentelemetry/api@1.9.0)(@opentelemetry/core@1.25.1(@opentelemetry/api@1.9.0))(@opentelemetry/instrumentation@0.52.1(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.25.1(@opentelemetry/api@1.9.0))(@opentelemetry/semantic-conventions@1.25.1)':
+  '@sentry/opentelemetry@8.14.0(@opentelemetry/api@1.9.0)(@opentelemetry/core@1.25.1(@opentelemetry/api@1.9.0))(@opentelemetry/instrumentation@0.52.1(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.25.1(@opentelemetry/api@1.9.0))(@opentelemetry/semantic-conventions@1.25.1)':
     dependencies:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/core': 1.25.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/instrumentation': 0.52.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/sdk-trace-base': 1.25.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/semantic-conventions': 1.25.1
-      '@sentry/core': 8.13.0
-      '@sentry/types': 8.13.0
-      '@sentry/utils': 8.13.0
+      '@sentry/core': 8.14.0
+      '@sentry/types': 8.14.0
+      '@sentry/utils': 8.14.0
 
   '@sentry/react@8.13.0(react@18.3.1)':
     dependencies:
@@ -7565,9 +7638,15 @@ snapshots:
 
   '@sentry/types@8.13.0': {}
 
+  '@sentry/types@8.14.0': {}
+
   '@sentry/utils@8.13.0':
     dependencies:
       '@sentry/types': 8.13.0
+
+  '@sentry/utils@8.14.0':
+    dependencies:
+      '@sentry/types': 8.14.0
 
   '@sentry/vite-plugin@2.20.1':
     dependencies:
@@ -7579,9 +7658,9 @@ snapshots:
 
   '@shikijs/core@1.9.0': {}
 
-  '@spotlightjs/astro@2.0.0(@sentry/astro@8.13.0(astro@4.11.3(@types/node@20.12.12)(typescript@5.5.2)))(astro@4.11.3(@types/node@20.12.12)(typescript@5.5.2))':
+  '@spotlightjs/astro@2.0.0(@sentry/astro@8.14.0(astro@4.11.3(@types/node@20.12.12)(typescript@5.5.2)))(astro@4.11.3(@types/node@20.12.12)(typescript@5.5.2))':
     dependencies:
-      '@sentry/astro': 8.13.0(astro@4.11.3(@types/node@20.12.12)(typescript@5.5.2))
+      '@sentry/astro': 8.14.0(astro@4.11.3(@types/node@20.12.12)(typescript@5.5.2))
       '@spotlightjs/overlay': 2.0.0
       '@spotlightjs/sidecar': 1.4.0
       astro: 4.11.3(@types/node@20.12.12)(typescript@5.5.2)
@@ -10778,7 +10857,7 @@ snapshots:
       '@sanity/icons': 3.2.0(react@18.3.1)
       '@sanity/image-url': 1.0.2
       '@sanity/import': 3.37.4
-      '@sanity/insert-menu': 1.0.6(@sanity/types@3.48.1)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+      '@sanity/insert-menu': 1.0.6(@sanity/types@3.48.1(debug@4.3.5))(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@sanity/logos': 2.1.11(@sanity/color@3.0.6)(react@18.3.1)
       '@sanity/migrate': 3.48.1
       '@sanity/mutator': 3.48.1
