@@ -11,9 +11,7 @@ const title = state.get().data?.title!
 const {} = Astro.props
 ---
 
-<section
-  class='bg-doted mx-6 flex items-center gap-4 border-l-4 border-current p-4 max-md:flex-col md:mx-12'
->
+<div class='flex h-[calc(100dvh_-_20vh)] items-center max-md:flex-col'>
   <div class='flex w-full items-center justify-center'>
     <SanityImage
       className='mask mask-squircle ml-8'
@@ -46,4 +44,4 @@ const {} = Astro.props
       >
     </div>
   </div>
-</section>
+</div>

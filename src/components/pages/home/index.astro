@@ -1,7 +1,10 @@
 ---
 import type {ImageType} from '../../../lib/types/siteConfigs.types'
 import MainLayout from '../../layouts/main/index.astro'
+import AboutMe from './components/about-me-section.astro'
 import HeroSection from './components/hero-section.astro'
+import ProjectsSection from './components/projects-section.astro'
+import ResumeSection from './components/resume-section.astro'
 
 type Props = {
   title: string
@@ -13,8 +16,16 @@ const {description, title} = Astro.props
 ---
 
 <MainLayout title={title} description={description}>
-  <HeroSection />
-  <div class='px-24'>
-    <span class='divider divider-primary'></span>
-  </div>
+  <section class='bg-doted mx-6 gap-4 border-l-4 border-current p-4 md:mx-12'>
+    <HeroSection />
+    <div class='px-24'>
+      <span class='divider'></span>
+    </div>
+    <AboutMe />
+    <ProjectsSection />
+    <div class='px-24'>
+      <span class='divider'></span>
+    </div>
+    <ResumeSection />
+  </section>
 </MainLayout>

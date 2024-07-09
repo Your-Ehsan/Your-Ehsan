@@ -1,0 +1,64 @@
+---
+import {data} from '../../../../lib/data'
+import ReactIcon from '../../../icons/svgs/react-icon.astro'
+
+type Props = {}
+
+const {} = Astro.props
+---
+
+<section class='body-font'>
+  <div class='container mx-auto flex flex-wrap items-center px-5 py-24'>
+    <div
+      class='mb-10 rounded-md border border-primary bg-base-100 p-4 pb-10 md:mb-0 md:w-1/2 md:py-8 md:pr-12'
+    >
+      <h2 class='title-font mb-2 text-2xl font-medium sm:text-3xl'>About me ツ</h2>
+      <p class='text-base leading-relaxed'>
+        Hello! I'm {data.creator.name}, a passionate web developer with a strong foundation in both
+        front-end and back-end technologies. Based in {data.creator.country}, I specialize in
+        creating robust, scalable, and user-friendly web applications. With a keen eye for detail
+        and a commitment to staying up-to-date with the latest industry trends, I ensure that my
+        projects not only meet but exceed client expectations.
+      </p>
+      <a class='mt-4 inline-flex items-center text-primary'
+        >Learn More
+        <svg
+          fill='none'
+          stroke='currentColor'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-width='2'
+          class='ml-2 h-4 w-4'
+          viewBox='0 0 24 24'
+        >
+          <path d='M5 12h14M12 5l7 7-7 7'></path>
+        </svg>
+      </a>
+    </div>
+    <div class='flex flex-col md:w-1/2 md:pl-12'>
+      <h2 class='title-font mb-3 font-semibold tracking-wider text-xl'>My Skill set.</h2>
+      <nav class='-mb-1 flex list-none flex-wrap'>
+        <li class='mb-1 w-1/2 lg:w-1/2'>
+          <span class='tooltip tooltip-right tooltip-open' data-tip='React.js'>
+            <ReactIcon class='h-20 w-20 fill-primary' />
+          </span>
+        </li>
+        <li class='mb-1 w-1/2 lg:w-1/2'>
+          <span class='tooltip tooltip-right tooltip-open' data-tip='React.js'>
+            <ReactIcon class='h-20 w-20 fill-primary' />
+          </span>
+        </li>
+        <li class='mb-1 w-1/2 lg:w-1/2'>
+          <span class='tooltip tooltip-right tooltip-open' data-tip='React.js'>
+            <ReactIcon class='h-20 w-20 fill-primary' />
+          </span>
+        </li>
+        <li class='mb-1 w-1/2 lg:w-1/2'>
+          <span class='tooltip tooltip-right tooltip-open' data-tip='React.js'>
+            <ReactIcon class='h-20 w-20 fill-primary' />
+          </span>
+        </li>
+      </nav>
+    </div>
+  </div>
+</section>

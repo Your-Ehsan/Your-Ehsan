@@ -1,5 +1,5 @@
 ---
-import ThemeToggle from './scripts/theme-toggle.astro'
+import ThemeToggleScript from './scripts/theme-toggle-script.astro'
 import Footer from '../footer/index.astro'
 import Header from '../header/index.astro'
 import Head from './components/head.astro'
@@ -20,6 +20,6 @@ const {description, title, image = '/blog-placeholder-1.jpg'} = Astro.props
     <Header />
     <slot />
     <Footer />
-    <ThemeToggle />
+    <ThemeToggleScript />
   </body>
 </html>
