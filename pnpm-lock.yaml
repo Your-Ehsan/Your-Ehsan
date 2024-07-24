@@ -27,8 +27,8 @@ importers:
         specifier: ^8.18.0
         version: 8.18.0(astro@4.12.2(@types/node@20.12.12)(typescript@5.5.3))
       '@spotlightjs/astro':
-        specifier: ^2.0.0
-        version: 2.0.0(@sentry/astro@8.18.0(astro@4.12.2(@types/node@20.12.12)(typescript@5.5.3)))(astro@4.12.2(@types/node@20.12.12)(typescript@5.5.3))
+        specifier: ^2.1.1
+        version: 2.1.1(@sentry/astro@8.18.0(astro@4.12.2(@types/node@20.12.12)(typescript@5.5.3)))(astro@4.12.2(@types/node@20.12.12)(typescript@5.5.3))
       astro:
         specifier: ^4.12.2
         version: 4.12.2(@types/node@20.12.12)(typescript@5.5.3)
@@ -1913,17 +1913,21 @@ packages:
   '@shikijs/core@1.10.3':
     resolution: {integrity: sha512-D45PMaBaeDHxww+EkcDQtDAtzv00Gcsp72ukBtaLSmqRvh0WgGMq3Al0rl1QQBZfuneO75NXMIzEZGFitThWbg==}
 
-  '@spotlightjs/astro@2.0.0':
-    resolution: {integrity: sha512-dM7yC99seOWgTK24YmzYKFCCK51Jc2pQBsBIeKqSk/B5XqfWLqCymQlOkm6PVeFcmjIMR5uYuoW4wUTUlwhrvQ==}
+  '@spotlightjs/astro@2.1.1':
+    resolution: {integrity: sha512-zjRIndOWUb4egpfomSuMxpcPXcPVztcXYd0oIsFismWZ1K/jVyTgsgRR5SgKbOzXwvoiOz1AHDUzSUy5lEWM8g==}
     peerDependencies:
       '@sentry/astro': '>=7.84.0'
-      astro: '>=3.4.0 || >=4.0.0-beta'
+      astro: '>=4.0.0'
 
-  '@spotlightjs/overlay@2.0.0':
-    resolution: {integrity: sha512-6P2Kwko9NPxat+Z5/QxWHr9+PLZtbXb/Bi2bdFmKc1yWTBVTJcbvntU9Xy+Qd8L4tFFFfqSORiXg7L4Bk6z4Jw==}
+  '@spotlightjs/overlay@2.1.0':
+    resolution: {integrity: sha512-4A718MNG81N1q81lH45BppN/Z94lEHa9U8dUtfjpBdnSngJnwz6Ku3gmFhQQfEOcei+xtPdLgCVP3ODfu0etsg==}
 
-  '@spotlightjs/sidecar@1.4.0':
-    resolution: {integrity: sha512-onj/phrNtDI8a79zc8jfxJ5BITQk5klO4xSoQXxiYeQWTZcegVeO8VftOVfWPBnMY/axnh+ltxJm/cHaV5SP6Q==}
+  '@spotlightjs/sidecar@1.5.0':
+    resolution: {integrity: sha512-ASGHrRKQ40+kN/SAVEVD5GY3tt7gJM4lziEALHKb5rBXKHKIDqCckgEY4n8FhzpTo1N8azVFVHEIriPtpWTEsg==}
+    hasBin: true
+
+  '@spotlightjs/spotlight@2.1.1':
+    resolution: {integrity: sha512-i67sfCEIXvsHMtGMfE7U0F0MQMcrMRc54ToyaqvzZZ4aRCcUpPdl50KChcixY1ksuI7KiiP0q4h+NbjOzrrX7w==}
     hasBin: true
 
   '@tailwindcss/typography@0.5.13':
@@ -7713,17 +7717,22 @@ snapshots:
     dependencies:
       '@types/hast': 3.0.4
 
-  '@spotlightjs/astro@2.0.0(@sentry/astro@8.18.0(astro@4.12.2(@types/node@20.12.12)(typescript@5.5.3)))(astro@4.12.2(@types/node@20.12.12)(typescript@5.5.3))':
+  '@spotlightjs/astro@2.1.1(@sentry/astro@8.18.0(astro@4.12.2(@types/node@20.12.12)(typescript@5.5.3)))(astro@4.12.2(@types/node@20.12.12)(typescript@5.5.3))':
     dependencies:
       '@sentry/astro': 8.18.0(astro@4.12.2(@types/node@20.12.12)(typescript@5.5.3))
-      '@spotlightjs/overlay': 2.0.0
-      '@spotlightjs/sidecar': 1.4.0
+      '@spotlightjs/spotlight': 2.1.1
       astro: 4.12.2(@types/node@20.12.12)(typescript@5.5.3)
+
+  '@spotlightjs/overlay@2.1.0': {}
+
+  '@spotlightjs/sidecar@1.5.0': {}
+
+  '@spotlightjs/spotlight@2.1.1':
+    dependencies:
+      '@spotlightjs/overlay': 2.1.0
+      '@spotlightjs/sidecar': 1.5.0
+      import-meta-resolve: 4.1.0
       source-map: 0.7.4
-
-  '@spotlightjs/overlay@2.0.0': {}
-
-  '@spotlightjs/sidecar@1.4.0': {}
 
   '@tailwindcss/typography@0.5.13(tailwindcss@3.4.6)':
     dependencies:
