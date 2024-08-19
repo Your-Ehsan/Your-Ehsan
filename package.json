@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@sanity/image-url": "^1.0.2",
-    "@tailwindcss/typography": "^0.5.13",
+    "@tailwindcss/typography": "^0.5.14",
     "daisyui": "^4.12.10",
     "prettier": "^3.3.2",
     "prettier-plugin-astro": "^0.14.1",
