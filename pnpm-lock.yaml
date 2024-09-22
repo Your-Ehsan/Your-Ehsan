@@ -70,8 +70,8 @@ importers:
         specifier: ^0.6.6
         version: 0.6.6(prettier-plugin-astro@0.14.1)(prettier@3.3.2)
       vite:
-        specifier: ^5.4.6
-        version: 5.4.6(@types/node@20.12.12)
+        specifier: ^5.4.7
+        version: 5.4.7(@types/node@20.12.12)
 
 packages:
 
@@ -5258,8 +5258,8 @@ packages:
       terser:
         optional: true
 
-  vite@5.4.6:
-    resolution: {integrity: sha512-IeL5f8OO5nylsgzd9tq4qD2QqI0k2CQLGrWD0rCN0EQJZpBK5vJAx0I+GDkMOXxQX/OfFHMuLIx6ddAxGX/k+Q==}
+  vite@5.4.7:
+    resolution: {integrity: sha512-5l2zxqMEPVENgvzTuBpHer2awaetimj2BGkhBPdnwKbPNOlHsODU+oiazEZzLK7KhAnOrO+XGYJYn4ZlUhDtDQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -5716,7 +5716,7 @@ snapshots:
   '@babel/code-frame@7.24.7':
     dependencies:
       '@babel/highlight': 7.24.7
-      picocolors: 1.0.1
+      picocolors: 1.1.0
 
   '@babel/compat-data@7.25.2': {}
 
@@ -5885,7 +5885,7 @@ snapshots:
       '@babel/helper-validator-identifier': 7.24.7
       chalk: 2.4.2
       js-tokens: 4.0.0
-      picocolors: 1.0.1
+      picocolors: 1.1.0
 
   '@babel/parser@7.25.3':
     dependencies:
@@ -8187,8 +8187,8 @@ snapshots:
       tsconfck: 3.1.1(typescript@5.5.3)
       unist-util-visit: 5.0.0
       vfile: 6.0.3
-      vite: 5.4.6(@types/node@20.12.12)
-      vitefu: 0.2.5(vite@5.4.6(@types/node@20.12.12))
+      vite: 5.4.7(@types/node@20.12.12)
+      vitefu: 0.2.5(vite@5.4.7(@types/node@20.12.12))
       which-pm: 3.0.0
       xxhash-wasm: 1.0.2
       yargs-parser: 21.1.1
@@ -8586,7 +8586,7 @@ snapshots:
   css-tree@2.3.1:
     dependencies:
       mdn-data: 2.0.30
-      source-map-js: 1.2.0
+      source-map-js: 1.2.1
 
   css-what@6.1.0: {}
 
@@ -9536,7 +9536,7 @@ snapshots:
 
   launch-editor@2.8.0:
     dependencies:
-      picocolors: 1.0.1
+      picocolors: 1.1.0
       shell-quote: 1.8.1
 
   lazystream@1.0.1:
@@ -11564,13 +11564,13 @@ snapshots:
     dependencies:
       browserslist: 4.23.0
       escalade: 3.1.2
-      picocolors: 1.0.1
+      picocolors: 1.1.0
 
   update-browserslist-db@1.1.0(browserslist@4.23.2):
     dependencies:
       browserslist: 4.23.2
       escalade: 3.1.2
-      picocolors: 1.0.1
+      picocolors: 1.1.0
 
   url-parse@1.5.10:
     dependencies:
@@ -11641,13 +11641,13 @@ snapshots:
   vite@4.5.3(@types/node@20.12.12):
     dependencies:
       esbuild: 0.18.20
-      postcss: 8.4.41
+      postcss: 8.4.47
       rollup: 3.29.4
     optionalDependencies:
       '@types/node': 20.12.12
       fsevents: 2.3.3
 
-  vite@5.4.6(@types/node@20.12.12):
+  vite@5.4.7(@types/node@20.12.12):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.47
@@ -11656,9 +11656,9 @@ snapshots:
       '@types/node': 20.12.12
       fsevents: 2.3.3
 
-  vitefu@0.2.5(vite@5.4.6(@types/node@20.12.12)):
+  vitefu@0.2.5(vite@5.4.7(@types/node@20.12.12)):
     optionalDependencies:
-      vite: 5.4.6(@types/node@20.12.12)
+      vite: 5.4.7(@types/node@20.12.12)
 
   void-elements@3.1.0: {}
 
