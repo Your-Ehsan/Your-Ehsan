@@ -18,8 +18,8 @@ importers:
         specifier: ^3.2.0
         version: 3.2.0
       '@astrojs/tailwind':
-        specifier: ^5.1.1
-        version: 5.1.1(astro@4.15.12(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3))(tailwindcss@3.4.13)
+        specifier: ^5.1.2
+        version: 5.1.2(astro@4.15.12(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3))(tailwindcss@3.4.13)
       '@sanity/client':
         specifier: ^6.22.1
         version: 6.22.1(debug@4.3.7)
@@ -126,8 +126,8 @@ packages:
   '@astrojs/sitemap@3.2.0':
     resolution: {integrity: sha512-SkrOCL3Z6HxdiXreZ1+aPBWgnBMJ31EgPdcscgQeLqI2Gqk/4EKLuw9q0SqKU9MmHpcPXXtcd0odfCk4barPoA==}
 
-  '@astrojs/tailwind@5.1.1':
-    resolution: {integrity: sha512-LwurA10uIKcGRxQP2R81RvAnBT0WPKzBntXZBF4hrAefDgM5Uumn0nsGr6tdIjSARgYz4X+Cq/Vh78t3bql3yw==}
+  '@astrojs/tailwind@5.1.2':
+    resolution: {integrity: sha512-IvOF0W/dtHElcXvhrPR35nHmhyV3cfz1EzPitMGtU7sYy9Hci3BNK1To6FWmVuuNKPxza1IgCGetSynJZL7fOg==}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0 || ^5.0.0-beta.0
       tailwindcss: ^3.0.24
@@ -2341,11 +2341,6 @@ packages:
   browserify-zlib@0.1.4:
     resolution: {integrity: sha512-19OEpq7vWgsH6WkvkBJQDFvJS1uPcbFOQ4v9CU839dO+ZZXUZO6XpE6hNCqvlIIj+4fZvRiJ6DsAQ382GwiyTQ==}
 
-  browserslist@4.23.3:
-    resolution: {integrity: sha512-btwCFJVjI4YWDNfau8RhZ+B1Q/VLoUITrm3RlP6y1tYGWIOa+InuYiRGXUBXo8nA1qKmHMyLB/iVQg5TT4eFoA==}
-    engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
-    hasBin: true
-
   browserslist@4.24.0:
     resolution: {integrity: sha512-Rmb62sR1Zpjql25eSanFGEhAxcFwfA1K0GuQcLoaJBAcENegrQut3hYdhXFF1obQfiDyqIW/cLM5HSJ/9k884A==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
@@ -2401,9 +2396,6 @@ packages:
 
   camelize@1.0.1:
     resolution: {integrity: sha512-dU+Tx2fsypxTgtLoE36npi3UqcjSSMNYfkqgmoEhtZrraP5VWq0K7FkWVTYa8eMPtnU/G2txVsfdCJTn9uzpuQ==}
-
-  caniuse-lite@1.0.30001662:
-    resolution: {integrity: sha512-sgMUVwLmGseH8ZIrm1d51UbrhqMCH3jvS7gF/M6byuHOnKyLOBL7W8yz5V02OHwgLGA36o/AFhWzzh4uc5aqTA==}
 
   caniuse-lite@1.0.30001667:
     resolution: {integrity: sha512-7LTwJjcRkzKFmtqGsibMeuXmvFDfZq/nzIjnmgCGzKKRVzjD72selLDK1oPF/Oxzmt4fNcPvTDvGqSDG4tCALw==}
@@ -2810,9 +2802,6 @@ packages:
 
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
-
-  electron-to-chromium@1.5.27:
-    resolution: {integrity: sha512-o37j1vZqCoEgBuWWXLHQgTN/KDKe7zwpiY5CPeq2RvUqOyJw9xnrULzZAEVQ5p4h+zjMk7hgtOoPdnLxr7m/jw==}
 
   electron-to-chromium@1.5.33:
     resolution: {integrity: sha512-+cYTcFB1QqD4j4LegwLfpCNxifb6dDFUAwk6RsLusCwIaZI6or2f+q8rs5tTB2YC53HhOlIbEaqHMAAC8IOIwA==}
@@ -5695,7 +5684,7 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.23.8
 
-  '@astrojs/tailwind@5.1.1(astro@4.15.12(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3))(tailwindcss@3.4.13)':
+  '@astrojs/tailwind@5.1.2(astro@4.15.12(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3))(tailwindcss@3.4.13)':
     dependencies:
       astro: 4.15.12(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3)
       autoprefixer: 10.4.20(postcss@8.4.47)
@@ -8260,8 +8249,8 @@ snapshots:
 
   autoprefixer@10.4.20(postcss@8.4.47):
     dependencies:
-      browserslist: 4.23.3
-      caniuse-lite: 1.0.30001662
+      browserslist: 4.24.0
+      caniuse-lite: 1.0.30001667
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.1.0
@@ -8354,13 +8343,6 @@ snapshots:
     dependencies:
       pako: 0.2.9
 
-  browserslist@4.23.3:
-    dependencies:
-      caniuse-lite: 1.0.30001662
-      electron-to-chromium: 1.5.27
-      node-releases: 2.0.18
-      update-browserslist-db: 1.1.0(browserslist@4.23.3)
-
   browserslist@4.24.0:
     dependencies:
       caniuse-lite: 1.0.30001667
@@ -8410,8 +8392,6 @@ snapshots:
   camelcase@8.0.0: {}
 
   camelize@1.0.1: {}
-
-  caniuse-lite@1.0.30001662: {}
 
   caniuse-lite@1.0.30001667: {}
 
@@ -8817,8 +8797,6 @@ snapshots:
       stream-shift: 1.0.3
 
   eastasianwidth@0.2.0: {}
-
-  electron-to-chromium@1.5.27: {}
 
   electron-to-chromium@1.5.33: {}
 
@@ -11590,12 +11568,6 @@ snapshots:
       chokidar: 3.6.0
       webpack-sources: 3.2.3
       webpack-virtual-modules: 0.5.0
-
-  update-browserslist-db@1.1.0(browserslist@4.23.3):
-    dependencies:
-      browserslist: 4.23.3
-      escalade: 3.1.2
-      picocolors: 1.1.0
 
   update-browserslist-db@1.1.0(browserslist@4.24.0):
     dependencies:
