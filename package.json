@@ -19,7 +19,7 @@
     "@sanity/client": "^6.22.2",
     "@sentry/astro": "^8.36.0",
     "@spotlightjs/astro": "^2.1.11",
-    "astro": "^4.16.8",
+    "astro": "^4.16.12",
     "astro-portabletext": "^0.10.0",
     "nanostores": "^0.11.3",
     "sanity": "^3.60.0",
