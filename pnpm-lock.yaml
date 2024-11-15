@@ -19,19 +19,19 @@ importers:
         version: 3.2.1
       '@astrojs/tailwind':
         specifier: ^5.1.2
-        version: 5.1.2(astro@4.16.8(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3))(tailwindcss@3.4.14)
+        version: 5.1.2(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3))(tailwindcss@3.4.14)
       '@sanity/client':
         specifier: ^6.22.4
         version: 6.22.4(debug@4.3.7)
       '@sentry/astro':
         specifier: ^8.38.0
-        version: 8.38.0(astro@4.16.8(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3))
+        version: 8.38.0(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3))
       '@spotlightjs/astro':
         specifier: ^2.1.11
-        version: 2.1.11(@sentry/astro@8.38.0(astro@4.16.8(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3)))(astro@4.16.8(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3))
+        version: 2.1.11(@sentry/astro@8.38.0(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3)))(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3))
       astro:
-        specifier: ^4.16.8
-        version: 4.16.8(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3)
+        specifier: ^4.16.13
+        version: 4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3)
       astro-portabletext:
         specifier: ^0.10.1
         version: 0.10.1
@@ -261,11 +261,6 @@ packages:
   '@babel/helpers@7.26.0':
     resolution: {integrity: sha512-tbhNuIxNcVb21pInl3ZSjksLCvgdZy9KwJ8brv993QtIVKJBBkYXz4q4ZbAv31GdnC+R90np23L5FbEBlthAEw==}
     engines: {node: '>=6.9.0'}
-
-  '@babel/parser@7.25.7':
-    resolution: {integrity: sha512-aZn7ETtQsjjGG5HruveUK06cU3Hljuhd9Iojm4M8WWv3wLE6OkE5PWbDUkItmMgegmccaITudyuW5RPYrYlgWw==}
-    engines: {node: '>=6.0.0'}
-    hasBin: true
 
   '@babel/parser@7.26.2':
     resolution: {integrity: sha512-DWMCZH9WA4Maitz2q21SRKHo9QXZxkDsbNZoVD62gusNtNBBqDg9i7uOhASfTfIGNzW+O+r7+jAlM8dwphcJKQ==}
@@ -2268,8 +2263,8 @@ packages:
   astro-portabletext@0.10.1:
     resolution: {integrity: sha512-AwuUxYzOO7Xzlo+UvCmtiERoeYzub3Aj3dEV672Ro/hNZIIRqbsHpCveq5OoaCkjjWso53D+DxxbBmqBPPIJAQ==}
 
-  astro@4.16.8:
-    resolution: {integrity: sha512-BRWFP0UQ8gkOr90KQW7oooedtgCk/j91pyv1WQUmgZwMUZk/v0HJRiddAZgvGCECOnmZFc9ZqRZnBsAMUgApNQ==}
+  astro@4.16.13:
+    resolution: {integrity: sha512-Mtd76+BC0zLWqoXpf9xc731AhdH4MNh5JFHYdLRvSH0Nqn48hA64dPGh/cWsJvh/DZFmC0NTZusM1Qq2gyNaVg==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -4009,8 +4004,8 @@ packages:
     resolution: {integrity: sha512-5b6Y85tPxZZ7QytO+BQzysW31HJku27cRIlkbAXaNx+BdcVi+LlRFmVXzeF6a7JCwJpyw5c4b+YSVImQIrBpuQ==}
     engines: {node: '>=10'}
 
-  ora@8.1.0:
-    resolution: {integrity: sha512-GQEkNkH/GHOhPFXcqZs3IDahXEQcQxsSjEkK4KvEEST4t7eNzoMjxTzef+EZ+JluDEV+Raoi3WQ2CflnRdSVnQ==}
+  ora@8.1.1:
+    resolution: {integrity: sha512-YWielGi1XzG1UTvOaCFaNgEnuhZVMSHYkW/FQ7UX8O26PtlpdM84c0f7wLPlkvx2RfiQmnzd61d/MGxmpQeJPw==}
     engines: {node: '>=18'}
 
   p-finally@2.0.1:
@@ -5726,9 +5721,9 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.23.8
 
-  '@astrojs/tailwind@5.1.2(astro@4.16.8(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3))(tailwindcss@3.4.14)':
+  '@astrojs/tailwind@5.1.2(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3))(tailwindcss@3.4.14)':
     dependencies:
-      astro: 4.16.8(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3)
+      astro: 4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3)
       autoprefixer: 10.4.20(postcss@8.4.47)
       postcss: 8.4.47
       postcss-load-config: 4.0.2(postcss@8.4.47)
@@ -5918,10 +5913,6 @@ snapshots:
   '@babel/helpers@7.26.0':
     dependencies:
       '@babel/template': 7.25.9
-      '@babel/types': 7.26.0
-
-  '@babel/parser@7.25.7':
-    dependencies:
       '@babel/types': 7.26.0
 
   '@babel/parser@7.26.2':
@@ -7680,7 +7671,7 @@ snapshots:
       '@sentry/types': 8.38.0
       '@sentry/utils': 8.38.0
 
-  '@sentry/astro@8.38.0(astro@4.16.8(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3))':
+  '@sentry/astro@8.38.0(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3))':
     dependencies:
       '@sentry/browser': 8.38.0
       '@sentry/core': 8.38.0
@@ -7688,7 +7679,7 @@ snapshots:
       '@sentry/types': 8.38.0
       '@sentry/utils': 8.38.0
       '@sentry/vite-plugin': 2.22.6
-      astro: 4.16.8(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3)
+      astro: 4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -7888,11 +7879,11 @@ snapshots:
 
   '@shikijs/vscode-textmate@9.3.0': {}
 
-  '@spotlightjs/astro@2.1.11(@sentry/astro@8.38.0(astro@4.16.8(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3)))(astro@4.16.8(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3))':
+  '@spotlightjs/astro@2.1.11(@sentry/astro@8.38.0(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3)))(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3))':
     dependencies:
-      '@sentry/astro': 8.38.0(astro@4.16.8(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3))
+      '@sentry/astro': 8.38.0(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3))
       '@spotlightjs/spotlight': 2.5.0
-      astro: 4.16.8(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3)
+      astro: 4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3)
 
   '@spotlightjs/overlay@2.6.0': {}
 
@@ -7933,7 +7924,7 @@ snapshots:
 
   '@types/babel__core@7.20.5':
     dependencies:
-      '@babel/parser': 7.25.7
+      '@babel/parser': 7.26.2
       '@babel/types': 7.26.0
       '@types/babel__generator': 7.6.8
       '@types/babel__template': 7.4.4
@@ -7945,7 +7936,7 @@ snapshots:
 
   '@types/babel__template@7.4.4':
     dependencies:
-      '@babel/parser': 7.25.7
+      '@babel/parser': 7.26.2
       '@babel/types': 7.26.0
 
   '@types/babel__traverse@7.20.6':
@@ -8244,7 +8235,7 @@ snapshots:
       '@portabletext/toolkit': 2.0.16
       '@portabletext/types': 2.0.13
 
-  astro@4.16.8(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3):
+  astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
@@ -8288,7 +8279,7 @@ snapshots:
       micromatch: 4.0.8
       mrmime: 2.0.0
       neotraverse: 0.6.18
-      ora: 8.1.0
+      ora: 8.1.1
       p-limit: 6.1.0
       p-queue: 8.0.1
       preferred-pm: 4.0.0
@@ -9732,7 +9723,7 @@ snapshots:
 
   magicast@0.3.5:
     dependencies:
-      '@babel/parser': 7.25.7
+      '@babel/parser': 7.26.2
       '@babel/types': 7.26.0
       source-map-js: 1.2.1
 
@@ -10286,7 +10277,7 @@ snapshots:
       strip-ansi: 6.0.1
       wcwidth: 1.0.1
 
-  ora@8.1.0:
+  ora@8.1.1:
     dependencies:
       chalk: 5.3.0
       cli-cursor: 5.0.0
