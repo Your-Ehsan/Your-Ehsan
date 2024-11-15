@@ -20,7 +20,7 @@
     "@sentry/astro": "^8.36.0",
     "@spotlightjs/astro": "^2.1.11",
     "astro": "^4.16.8",
-    "astro-portabletext": "^0.10.0",
+    "astro-portabletext": "^0.10.1",
     "nanostores": "^0.11.3",
     "sanity": "^3.60.0",
     "tailwind-merge": "^2.5.4",
