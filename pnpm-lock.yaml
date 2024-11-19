@@ -70,8 +70,8 @@ importers:
         specifier: ^0.6.8
         version: 0.6.8(prettier-plugin-astro@0.14.1)(prettier@3.3.2)
       vite:
-        specifier: ^5.4.10
-        version: 5.4.10(@types/node@20.12.12)
+        specifier: ^5.4.11
+        version: 5.4.11(@types/node@20.12.12)
 
 packages:
 
@@ -5295,8 +5295,8 @@ packages:
       terser:
         optional: true
 
-  vite@5.4.10:
-    resolution: {integrity: sha512-1hvaPshuPUtxeQ0hsVH3Mud0ZanOLwVTneA1EgbAM5LhaZEqyPWGRQ7BtaMvUrTDeEaC8pxtj6a6jku3x4z6SQ==}
+  vite@5.4.11:
+    resolution: {integrity: sha512-c7jFQRklXua0mTzneGW9QVyxFjUgwcihC4bXEtujIo2ouWCe1Ajt/amn2PCxYnhYfd5k09JX3SB7OYWFKYqj8Q==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -8294,8 +8294,8 @@ snapshots:
       tsconfck: 3.1.4(typescript@5.6.3)
       unist-util-visit: 5.0.0
       vfile: 6.0.3
-      vite: 5.4.10(@types/node@20.12.12)
-      vitefu: 1.0.3(vite@5.4.10(@types/node@20.12.12))
+      vite: 5.4.11(@types/node@20.12.12)
+      vitefu: 1.0.3(vite@5.4.11(@types/node@20.12.12))
       which-pm: 3.0.0
       xxhash-wasm: 1.0.2
       yargs-parser: 21.1.1
@@ -11755,7 +11755,7 @@ snapshots:
       '@types/node': 20.12.12
       fsevents: 2.3.3
 
-  vite@5.4.10(@types/node@20.12.12):
+  vite@5.4.11(@types/node@20.12.12):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.47
@@ -11764,9 +11764,9 @@ snapshots:
       '@types/node': 20.12.12
       fsevents: 2.3.3
 
-  vitefu@1.0.3(vite@5.4.10(@types/node@20.12.12)):
+  vitefu@1.0.3(vite@5.4.11(@types/node@20.12.12)):
     optionalDependencies:
-      vite: 5.4.10(@types/node@20.12.12)
+      vite: 5.4.11(@types/node@20.12.12)
 
   void-elements@3.1.0: {}
 
