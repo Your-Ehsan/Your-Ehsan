@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@astrojs/check':
         specifier: ^0.9.4
-        version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.3.2)(typescript@5.6.3)
+        version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.3.2)(typescript@5.7.2)
       '@astrojs/rss':
         specifier: ^4.0.9
         version: 4.0.9
@@ -19,19 +19,19 @@ importers:
         version: 3.2.1
       '@astrojs/tailwind':
         specifier: ^5.1.2
-        version: 5.1.2(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3))(tailwindcss@3.4.15)
+        version: 5.1.2(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.7.2))(tailwindcss@3.4.15)
       '@sanity/client':
         specifier: ^6.22.5
         version: 6.22.5(debug@4.3.7)
       '@sentry/astro':
         specifier: ^8.38.0
-        version: 8.38.0(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3))
+        version: 8.38.0(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.7.2))
       '@spotlightjs/astro':
         specifier: ^2.1.11
-        version: 2.1.11(@sentry/astro@8.38.0(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3)))(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3))
+        version: 2.1.11(@sentry/astro@8.38.0(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.7.2)))(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.7.2))
       astro:
         specifier: ^4.16.13
-        version: 4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3)
+        version: 4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.7.2)
       astro-portabletext:
         specifier: ^0.10.1
         version: 0.10.1
@@ -48,8 +48,8 @@ importers:
         specifier: ^3.4.15
         version: 3.4.15
       typescript:
-        specifier: ^5.6.3
-        version: 5.6.3
+        specifier: ^5.7.2
+        version: 5.7.2
     devDependencies:
       '@sanity/image-url':
         specifier: ^1.1.0
@@ -5102,8 +5102,8 @@ packages:
   typescript-auto-import-cache@0.3.3:
     resolution: {integrity: sha512-ojEC7+Ci1ij9eE6hp8Jl9VUNnsEKzztktP5gtYNRMrTmfXVwA1PITYYAkpxCvvupdSYa/Re51B6KMcv1CTZEUA==}
 
-  typescript@5.6.3:
-    resolution: {integrity: sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==}
+  typescript@5.7.2:
+    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -5643,12 +5643,12 @@ snapshots:
       css-tree: 2.3.1
       is-potential-custom-element-name: 1.0.1
 
-  '@astrojs/check@0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.3.2)(typescript@5.6.3)':
+  '@astrojs/check@0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.3.2)(typescript@5.7.2)':
     dependencies:
-      '@astrojs/language-server': 2.15.0(prettier-plugin-astro@0.14.1)(prettier@3.3.2)(typescript@5.6.3)
+      '@astrojs/language-server': 2.15.0(prettier-plugin-astro@0.14.1)(prettier@3.3.2)(typescript@5.7.2)
       chokidar: 4.0.1
       kleur: 4.1.5
-      typescript: 5.6.3
+      typescript: 5.7.2
       yargs: 17.7.2
     transitivePeerDependencies:
       - prettier
@@ -5660,12 +5660,12 @@ snapshots:
 
   '@astrojs/internal-helpers@0.4.1': {}
 
-  '@astrojs/language-server@2.15.0(prettier-plugin-astro@0.14.1)(prettier@3.3.2)(typescript@5.6.3)':
+  '@astrojs/language-server@2.15.0(prettier-plugin-astro@0.14.1)(prettier@3.3.2)(typescript@5.7.2)':
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/yaml2ts': 0.2.1
       '@jridgewell/sourcemap-codec': 1.5.0
-      '@volar/kit': 2.4.5(typescript@5.6.3)
+      '@volar/kit': 2.4.5(typescript@5.7.2)
       '@volar/language-core': 2.4.5
       '@volar/language-server': 2.4.5
       '@volar/language-service': 2.4.5
@@ -5724,9 +5724,9 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.23.8
 
-  '@astrojs/tailwind@5.1.2(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3))(tailwindcss@3.4.15)':
+  '@astrojs/tailwind@5.1.2(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.7.2))(tailwindcss@3.4.15)':
     dependencies:
-      astro: 4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3)
+      astro: 4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.7.2)
       autoprefixer: 10.4.20(postcss@8.4.47)
       postcss: 8.4.47
       postcss-load-config: 4.0.2(postcss@8.4.47)
@@ -7515,13 +7515,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@sanity/presentation@1.18.2(@sanity/client@6.22.5)(@sanity/color@3.0.6)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
+  '@sanity/presentation@1.18.2(@sanity/client@6.22.5(debug@4.3.7))(@sanity/color@3.0.6)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
     dependencies:
       '@sanity/client': 6.22.5(debug@4.3.7)
       '@sanity/comlink': 1.1.2
       '@sanity/icons': 3.4.0(react@18.3.1)
       '@sanity/logos': 2.1.13(@sanity/color@3.0.6)(react@18.3.1)
-      '@sanity/preview-url-secret': 2.0.3(@sanity/client@6.22.5)
+      '@sanity/preview-url-secret': 2.0.3(@sanity/client@6.22.5(debug@4.3.7))
       '@sanity/ui': 2.8.23(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@sanity/uuid': 3.0.2
       '@types/lodash.isequal': 4.5.8
@@ -7542,7 +7542,7 @@ snapshots:
       - react-is
       - styled-components
 
-  '@sanity/preview-url-secret@2.0.3(@sanity/client@6.22.5)':
+  '@sanity/preview-url-secret@2.0.3(@sanity/client@6.22.5(debug@4.3.7))':
     dependencies:
       '@sanity/client': 6.22.5(debug@4.3.7)
       '@sanity/uuid': 3.0.2
@@ -7674,7 +7674,7 @@ snapshots:
       '@sentry/types': 8.38.0
       '@sentry/utils': 8.38.0
 
-  '@sentry/astro@8.38.0(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3))':
+  '@sentry/astro@8.38.0(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.7.2))':
     dependencies:
       '@sentry/browser': 8.38.0
       '@sentry/core': 8.38.0
@@ -7682,7 +7682,7 @@ snapshots:
       '@sentry/types': 8.38.0
       '@sentry/utils': 8.38.0
       '@sentry/vite-plugin': 2.22.6
-      astro: 4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3)
+      astro: 4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.7.2)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -7882,11 +7882,11 @@ snapshots:
 
   '@shikijs/vscode-textmate@9.3.0': {}
 
-  '@spotlightjs/astro@2.1.11(@sentry/astro@8.38.0(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3)))(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3))':
+  '@spotlightjs/astro@2.1.11(@sentry/astro@8.38.0(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.7.2)))(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.7.2))':
     dependencies:
-      '@sentry/astro': 8.38.0(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3))
+      '@sentry/astro': 8.38.0(astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.7.2))
       '@spotlightjs/spotlight': 2.5.0
-      astro: 4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3)
+      astro: 4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.7.2)
 
   '@spotlightjs/overlay@2.6.0': {}
 
@@ -8081,12 +8081,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@volar/kit@2.4.5(typescript@5.6.3)':
+  '@volar/kit@2.4.5(typescript@5.7.2)':
     dependencies:
       '@volar/language-service': 2.4.5
       '@volar/typescript': 2.4.5
       typesafe-path: 0.2.2
-      typescript: 5.6.3
+      typescript: 5.7.2
       vscode-languageserver-textdocument: 1.0.11
       vscode-uri: 3.0.8
 
@@ -8238,7 +8238,7 @@ snapshots:
       '@portabletext/toolkit': 2.0.16
       '@portabletext/types': 2.0.13
 
-  astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.6.3):
+  astro@4.16.13(@types/node@20.12.12)(rollup@4.21.0)(typescript@5.7.2):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
@@ -8291,7 +8291,7 @@ snapshots:
       semver: 7.6.3
       shiki: 1.22.2
       tinyexec: 0.3.1
-      tsconfck: 3.1.4(typescript@5.6.3)
+      tsconfck: 3.1.4(typescript@5.7.2)
       unist-util-visit: 5.0.0
       vfile: 6.0.3
       vite: 5.4.11(@types/node@20.12.12)
@@ -8301,7 +8301,7 @@ snapshots:
       yargs-parser: 21.1.1
       zod: 3.23.8
       zod-to-json-schema: 3.23.5(zod@3.23.8)
-      zod-to-ts: 1.2.0(typescript@5.6.3)(zod@3.23.8)
+      zod-to-ts: 1.2.0(typescript@5.7.2)(zod@3.23.8)
     optionalDependencies:
       sharp: 0.33.4
     transitivePeerDependencies:
@@ -10498,7 +10498,7 @@ snapshots:
   postcss@8.4.38:
     dependencies:
       nanoid: 3.3.7
-      picocolors: 1.1.0
+      picocolors: 1.1.1
       source-map-js: 1.2.1
 
   postcss@8.4.47:
@@ -10997,7 +10997,7 @@ snapshots:
       '@sanity/logos': 2.1.11(@sanity/color@3.0.6)(react@18.3.1)
       '@sanity/migrate': 3.64.1
       '@sanity/mutator': 3.64.1
-      '@sanity/presentation': 1.18.2(@sanity/client@6.22.5)(@sanity/color@3.0.6)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+      '@sanity/presentation': 1.18.2(@sanity/client@6.22.5(debug@4.3.7))(@sanity/color@3.0.6)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@sanity/schema': 3.64.1(debug@4.3.7)
       '@sanity/telemetry': 0.7.8(react@18.3.1)
       '@sanity/types': 3.64.1(debug@4.3.7)
@@ -11530,9 +11530,9 @@ snapshots:
 
   ts-interface-checker@0.1.13: {}
 
-  tsconfck@3.1.4(typescript@5.6.3):
+  tsconfck@3.1.4(typescript@5.7.2):
     optionalDependencies:
-      typescript: 5.6.3
+      typescript: 5.7.2
 
   tsconfig-paths@4.2.0:
     dependencies:
@@ -11570,7 +11570,7 @@ snapshots:
     dependencies:
       semver: 7.6.3
 
-  typescript@5.6.3: {}
+  typescript@5.7.2: {}
 
   unbzip2-stream@1.4.3:
     dependencies:
@@ -12033,9 +12033,9 @@ snapshots:
     dependencies:
       zod: 3.23.8
 
-  zod-to-ts@1.2.0(typescript@5.6.3)(zod@3.23.8):
+  zod-to-ts@1.2.0(typescript@5.7.2)(zod@3.23.8):
     dependencies:
-      typescript: 5.6.3
+      typescript: 5.7.2
       zod: 3.23.8
 
   zod@3.23.8: {}
