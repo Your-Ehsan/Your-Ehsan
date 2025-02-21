@@ -25,7 +25,7 @@
     "sanity": "^3.65.1",
     "tailwind-merge": "^2.5.5",
     "tailwindcss": "^3.4.15",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.3"
   },
   "devDependencies": {
     "@sanity/image-url": "^1.1.0",
