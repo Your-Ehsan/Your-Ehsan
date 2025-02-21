@@ -34,7 +34,7 @@ importers:
         version: 4.16.16(@types/node@20.12.12)(rollup@4.31.0)(typescript@5.7.2)
       astro-portabletext:
         specifier: ^0.11.0
-        version: 0.11.0(astro@4.16.16(@types/node@20.12.12)(rollup@4.28.0)(typescript@5.7.2))
+        version: 0.11.0(astro@4.16.16(@types/node@20.12.12)(rollup@4.31.0)(typescript@5.7.2))
       nanostores:
         specifier: ^0.11.3
         version: 0.11.3
@@ -58,8 +58,8 @@ importers:
         specifier: ^0.5.15
         version: 0.5.15(tailwindcss@3.4.15)
       daisyui:
-        specifier: ^4.12.14
-        version: 4.12.14(postcss@8.4.47)
+        specifier: ^4.12.23
+        version: 4.12.23(postcss@8.4.47)
       prettier:
         specifier: ^3.4.1
         version: 3.4.1
@@ -3014,8 +3014,8 @@ packages:
   cyclist@1.0.2:
     resolution: {integrity: sha512-0sVXIohTfLqVIW3kb/0n6IiWF3Ifj5nm2XaSrLq2DI6fKIGa2fYAZdk917rUneaeLVpYfFcyXE2ft0fe3remsA==}
 
-  daisyui@4.12.14:
-    resolution: {integrity: sha512-hA27cdBasdwd4/iEjn+aidoCrRroDuo3G5W9NDKaVCJI437Mm/3eSL/2u7MkZ0pt8a+TrYF3aT2pFVemTS3how==}
+  daisyui@4.12.23:
+    resolution: {integrity: sha512-EM38duvxutJ5PD65lO/AFMpcw+9qEy6XAZrTpzp7WyaPeO/l+F/Qiq0ECHHmFNcFXh5aVoALY4MGrrxtCiaQCQ==}
     engines: {node: '>=16.9.0'}
 
   data-uri-to-buffer@1.2.0:
@@ -3943,9 +3943,11 @@ packages:
 
   lodash.get@4.4.2:
     resolution: {integrity: sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ==}
+    deprecated: This package is deprecated. Use the optional chaining (?.) operator instead.
 
   lodash.isequal@4.5.0:
     resolution: {integrity: sha512-pDo3lu8Jhfjqls6GkMgpahsF9kCyayhgykjyLMNFTKWrpVdAQtYyB4muAMWozBB4ig/dtWAmsMxLEI8wuz+DYQ==}
+    deprecated: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.
 
   lodash.isplainobject@4.0.6:
     resolution: {integrity: sha512-oSXzaWypCMHkPC3NvBEaPHf0KsA5mvPrOPgQWDsbg8n7orZ290M0BmC/jgRZ4vcJ6DTAhjrsSYgdsW/F+MFOBA==}
@@ -4523,9 +4525,6 @@ packages:
   pg-types@2.2.0:
     resolution: {integrity: sha512-qTAAlrEsl8s4OiEQY69wDvcMIdQN6wdz5ojQiOy6YRMuynxenON0O5oCpJI6lshc6scgAY8qvJ2On/p+CXY0GA==}
     engines: {node: '>=4'}
-
-  picocolors@1.1.0:
-    resolution: {integrity: sha512-TQ92mBOW0l3LeMeyLV6mzy/kWr8lkd/hp3mTg7wYK7zJhuBStmGMBG0BdeDZS/dZx1IukaX6Bk11zcln25o1Aw==}
 
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
@@ -9055,11 +9054,11 @@ snapshots:
 
   arrify@2.0.1: {}
 
-  astro-portabletext@0.11.0(astro@4.16.16(@types/node@20.12.12)(rollup@4.28.0)(typescript@5.7.2)):
+  astro-portabletext@0.11.0(astro@4.16.16(@types/node@20.12.12)(rollup@4.31.0)(typescript@5.7.2)):
     dependencies:
       '@portabletext/toolkit': 2.0.16
       '@portabletext/types': 2.0.13
-      astro: 4.16.16(@types/node@20.12.12)(rollup@4.28.0)(typescript@5.7.2)
+      astro: 4.16.16(@types/node@20.12.12)(rollup@4.31.0)(typescript@5.7.2)
 
   astro@4.16.16(@types/node@20.12.12)(rollup@4.31.0)(typescript@5.7.2):
     dependencies:
@@ -9154,7 +9153,7 @@ snapshots:
       caniuse-lite: 1.0.30001667
       fraction.js: 4.3.7
       normalize-range: 0.1.2
-      picocolors: 1.1.0
+      picocolors: 1.1.1
       postcss: 8.4.47
       postcss-value-parser: 4.2.0
 
@@ -9529,11 +9528,11 @@ snapshots:
 
   cyclist@1.0.2: {}
 
-  daisyui@4.12.14(postcss@8.4.47):
+  daisyui@4.12.23(postcss@8.4.47):
     dependencies:
       css-selector-tokenizer: 0.8.0
       culori: 3.3.0
-      picocolors: 1.1.0
+      picocolors: 1.1.1
       postcss-js: 4.0.1(postcss@8.4.47)
     transitivePeerDependencies:
       - postcss
@@ -11281,8 +11280,6 @@ snapshots:
       postgres-bytea: 1.0.0
       postgres-date: 1.0.7
       postgres-interval: 1.2.0
-
-  picocolors@1.1.0: {}
 
   picocolors@1.1.1: {}
 
