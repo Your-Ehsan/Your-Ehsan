@@ -19,28 +19,28 @@ importers:
         version: 3.2.1
       '@astrojs/tailwind':
         specifier: ^5.1.2
-        version: 5.1.2(astro@5.5.2(@types/node@22.13.10)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0))(tailwindcss@3.4.15)
+        version: 5.1.2(astro@5.5.2(@types/node@22.14.1)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0))(tailwindcss@3.4.15)
       '@sanity/client':
-        specifier: ^6.24.1
-        version: 6.24.1
+        specifier: ^6.29.0
+        version: 6.29.0(debug@4.4.0)
       '@sentry/astro':
         specifier: ^8.41.0
-        version: 8.41.0(astro@5.5.2(@types/node@22.13.10)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0))
+        version: 8.41.0(astro@5.5.2(@types/node@22.14.1)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0))
       '@spotlightjs/astro':
         specifier: ^2.3.0
-        version: 2.3.0(@sentry/astro@8.41.0(astro@5.5.2(@types/node@22.13.10)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0)))(astro@5.5.2(@types/node@22.13.10)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0))
+        version: 2.3.0(@sentry/astro@8.41.0(astro@5.5.2(@types/node@22.14.1)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0)))(astro@5.5.2(@types/node@22.14.1)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0))
       astro:
         specifier: ^5.5.2
-        version: 5.5.2(@types/node@22.13.10)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0)
+        version: 5.5.2(@types/node@22.14.1)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0)
       astro-portabletext:
         specifier: ^0.11.0
-        version: 0.11.0(astro@5.5.2(@types/node@22.13.10)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0))
+        version: 0.11.0(astro@5.5.2(@types/node@22.14.1)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0))
       nanostores:
         specifier: ^0.11.4
         version: 0.11.4
       sanity:
         specifier: ^3.79.0
-        version: 3.79.0(@emotion/is-prop-valid@1.2.2)(@types/babel__core@7.20.5)(@types/node@22.13.10)(@types/react@19.0.11)(jiti@1.21.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0)
+        version: 3.79.0(@emotion/is-prop-valid@1.2.2)(@types/babel__core@7.20.5)(@types/node@22.14.1)(@types/react@19.0.11)(jiti@1.21.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0)
       tailwind-merge:
         specifier: ^2.5.5
         version: 2.5.5
@@ -71,7 +71,7 @@ importers:
         version: 0.6.9(prettier-plugin-astro@0.14.1)(prettier@3.4.1)
       vite:
         specifier: ^6.0.11
-        version: 6.0.11(@types/node@22.13.10)(jiti@1.21.6)(terser@5.39.0)(yaml@2.7.0)
+        version: 6.0.11(@types/node@22.14.1)(jiti@1.21.6)(terser@5.39.0)(yaml@2.7.0)
 
 packages:
 
@@ -2359,12 +2359,8 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  '@sanity/client@6.24.1':
-    resolution: {integrity: sha512-k5aW5C8RdqVGnvuX0KZ+AAIlhYueb6sx3edhKkIMmr2UfD8vSTSW3oAXVt+/WlBstlMIqvkc5RCLLWZQcF3gaA==}
-    engines: {node: '>=14.18'}
-
-  '@sanity/client@6.28.3':
-    resolution: {integrity: sha512-/W/w0pl0wx1vn6RKUaOTNHVcBDvBcjZk6agpl4vwTCxvNQhh74nY9xk+/heap3KriSHp95ilChv/qVYMz2/l3w==}
+  '@sanity/client@6.29.0':
+    resolution: {integrity: sha512-JybptwwKmuNpKhkA++WPXVpVKs94bcLUww2kIlaK84SBHtwkXlr10lLT/DqMj6+utj9mx8svby9dbAJ6u6YGBQ==}
     engines: {node: '>=14.18'}
 
   '@sanity/codegen@3.79.0':
@@ -2805,11 +2801,11 @@ packages:
   '@types/node@17.0.45':
     resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
 
-  '@types/node@20.12.12':
-    resolution: {integrity: sha512-eWLDGF/FOSPtAvEqeRAQ4C8LSA7M1I7i0ky1I8U7kD1J5ITyW3AsRhQrKVoWf5pFKZ2kILsEGJhsI9r93PYnOw==}
-
   '@types/node@22.13.10':
     resolution: {integrity: sha512-I6LPUvlRH+O6VRUqYOcMudhaIdUVWfsjnZavnsraHvpBwaEyMN29ry+0UVJhImYL16xsscu0aske3yA+uPOWfw==}
+
+  '@types/node@22.14.1':
+    resolution: {integrity: sha512-u0HuPQwe/dHrItgHHpmw3N2fYCR6x4ivMNbPHRkBVP4CvN+kiRrKHWk3i8tXiO/joPwXLMYvF9TTF0eqgHIuOw==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -3765,16 +3761,16 @@ packages:
     resolution: {integrity: sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==}
     engines: {node: '>=0.8.x'}
 
-  eventsource-parser@3.0.0:
-    resolution: {integrity: sha512-T1C0XCUimhxVQzW4zFipdx0SficT651NnkR0ZSH3yQwh+mFMdLfgjABVi4YtMTtaL4s168593DaoaRLMqryavA==}
+  eventsource-parser@3.0.1:
+    resolution: {integrity: sha512-VARTJ9CYeuQYb0pZEPbzi740OWFgpHe7AYJ2WFZVnUDUQp5Dk2yJUgF36YsZ81cOyxT0QxmXD2EQpapAouzWVA==}
     engines: {node: '>=18.0.0'}
 
   eventsource@2.0.2:
     resolution: {integrity: sha512-IzUmBGPR3+oUG9dUeXynyNmf91/3zUSJg1lCktzKw47OXuhco54U3r9B7O4XX+Rb1Itm9OZ2b0RkTs10bICOxA==}
     engines: {node: '>=12.0.0'}
 
-  eventsource@3.0.5:
-    resolution: {integrity: sha512-LT/5J605bx5SNyE+ITBDiM3FxffBiq9un7Vx0EwMDM3vg8sWKx/tO2zC+LMqZ+smAM0F2hblaDZUVZF0te2pSw==}
+  eventsource@3.0.6:
+    resolution: {integrity: sha512-l19WpE2m9hSuyP06+FbuUUf1G+R0SFLrtQfbRb9PRr+oimOfxQhgGCbVaXg5IvZyyTThJsxh6L/srkMiCeBPDA==}
     engines: {node: '>=18.0.0'}
 
   execa@2.1.0:
@@ -3882,15 +3878,6 @@ packages:
     resolution: {integrity: sha512-Ik/6OCk9RQQ0T5Xw+hKNLWrjSMtv51dD4GRmJjbD5a58TIEpI5a5iXagKVl3Z5UuyslMCA8Xwnu76jQob62Yhg==}
     engines: {node: '>=10'}
 
-  follow-redirects@1.15.6:
-    resolution: {integrity: sha512-wWN62YITEaOpSK584EZXJafH1AGpO8RVgElfkuXbTOrPX4fIfOyEpW/CsiNd8JdYrAoOvafRTOEnvsO++qCqFA==}
-    engines: {node: '>=4.0'}
-    peerDependencies:
-      debug: '*'
-    peerDependenciesMeta:
-      debug:
-        optional: true
-
   follow-redirects@1.15.9:
     resolution: {integrity: sha512-gew4GsXizNgdoRyqmyfMHyAmXsZDk6mHkSxZFCzW9gwlbtOW44CDtYavM+y+72qD/Vq2l550kMF52DT8fOLJqQ==}
     engines: {node: '>=4.0'}
@@ -3972,10 +3959,6 @@ packages:
   get-intrinsic@1.3.0:
     resolution: {integrity: sha512-9fSjSaos/fRIVIp+xSJlE6lfwhES7LNtKaCBIamHsjr2na1BiABJPo0mOjjz8GJDURarmCPGqaiVg5mfjb98CQ==}
     engines: {node: '>= 0.4'}
-
-  get-it@8.6.5:
-    resolution: {integrity: sha512-o1hjPwrb/icm3WJbCweTSq8mKuDfJlqwbFauI+Pdgid99at/BFaBXFBJZE+uqvHyOVARE4z680S44vrDm8SsCw==}
-    engines: {node: '>=14.0.0'}
 
   get-it@8.6.7:
     resolution: {integrity: sha512-AMEotvykAlcEPTPmYeZPqr9w3K53Ni8z1tplo1mwNS8T4i/gr5T7mSfvaLhhIQhF+0thIH901kLdDA5d5bvDGA==}
@@ -5916,9 +5899,6 @@ packages:
     peerDependencies:
       rxjs: 7.x
 
-  rxjs@7.8.1:
-    resolution: {integrity: sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==}
-
   rxjs@7.8.2:
     resolution: {integrity: sha512-dhKf903U/PQZY6boNNtAGdWbG85WAbjT/1xYoZIC7FAY0yWapOBQVsVrDl58W86//e1VpMNBtRV4MaXfdMySFA==}
 
@@ -6428,11 +6408,11 @@ packages:
   uncrypto@0.1.3:
     resolution: {integrity: sha512-Ql87qFHB3s/De2ClA9e0gsnS6zXG27SkTiSJwjCc9MebbfapQfuPzumMIUMi38ezPZVNFcHI9sUIepeQfw8J8Q==}
 
-  undici-types@5.26.5:
-    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
-
   undici-types@6.20.0:
     resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
+
+  undici-types@6.21.0:
+    resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
 
   undici@5.28.5:
     resolution: {integrity: sha512-zICwjrDrcrUE0pyyJc1I2QzBkLM8FINsgOrt6WjA+BgajVq9Nxu2PbFFXUrAggLfDXlZGZBVZYw7WNV5KiBiBA==}
@@ -7236,9 +7216,9 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.23.8
 
-  '@astrojs/tailwind@5.1.2(astro@5.5.2(@types/node@22.13.10)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0))(tailwindcss@3.4.15)':
+  '@astrojs/tailwind@5.1.2(astro@5.5.2(@types/node@22.14.1)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0))(tailwindcss@3.4.15)':
     dependencies:
-      astro: 5.5.2(@types/node@22.13.10)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0)
+      astro: 5.5.2(@types/node@22.14.1)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0)
       autoprefixer: 10.4.20(postcss@8.4.47)
       postcss: 8.4.47
       postcss-load-config: 4.0.2(postcss@8.4.47)
@@ -8437,23 +8417,23 @@ snapshots:
 
   '@juggle/resize-observer@3.4.0': {}
 
-  '@microsoft/api-extractor-model@7.30.1(@types/node@22.13.10)':
+  '@microsoft/api-extractor-model@7.30.1(@types/node@22.14.1)':
     dependencies:
       '@microsoft/tsdoc': 0.15.1
       '@microsoft/tsdoc-config': 0.17.1
-      '@rushstack/node-core-library': 5.10.1(@types/node@22.13.10)
+      '@rushstack/node-core-library': 5.10.1(@types/node@22.14.1)
     transitivePeerDependencies:
       - '@types/node'
 
-  '@microsoft/api-extractor@7.48.1(@types/node@22.13.10)':
+  '@microsoft/api-extractor@7.48.1(@types/node@22.14.1)':
     dependencies:
-      '@microsoft/api-extractor-model': 7.30.1(@types/node@22.13.10)
+      '@microsoft/api-extractor-model': 7.30.1(@types/node@22.14.1)
       '@microsoft/tsdoc': 0.15.1
       '@microsoft/tsdoc-config': 0.17.1
-      '@rushstack/node-core-library': 5.10.1(@types/node@22.13.10)
+      '@rushstack/node-core-library': 5.10.1(@types/node@22.14.1)
       '@rushstack/rig-package': 0.5.3
-      '@rushstack/terminal': 0.14.4(@types/node@22.13.10)
-      '@rushstack/ts-command-line': 4.23.2(@types/node@22.13.10)
+      '@rushstack/terminal': 0.14.4(@types/node@22.14.1)
+      '@rushstack/ts-command-line': 4.23.2(@types/node@22.14.1)
       lodash: 4.17.21
       minimatch: 3.0.8
       resolve: 1.22.10
@@ -9455,7 +9435,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.36.0':
     optional: true
 
-  '@rushstack/node-core-library@5.10.1(@types/node@22.13.10)':
+  '@rushstack/node-core-library@5.10.1(@types/node@22.14.1)':
     dependencies:
       ajv: 8.13.0
       ajv-draft-04: 1.0.0(ajv@8.13.0)
@@ -9466,23 +9446,23 @@ snapshots:
       resolve: 1.22.10
       semver: 7.5.4
     optionalDependencies:
-      '@types/node': 22.13.10
+      '@types/node': 22.14.1
 
   '@rushstack/rig-package@0.5.3':
     dependencies:
       resolve: 1.22.10
       strip-json-comments: 3.1.1
 
-  '@rushstack/terminal@0.14.4(@types/node@22.13.10)':
+  '@rushstack/terminal@0.14.4(@types/node@22.14.1)':
     dependencies:
-      '@rushstack/node-core-library': 5.10.1(@types/node@22.13.10)
+      '@rushstack/node-core-library': 5.10.1(@types/node@22.14.1)
       supports-color: 8.1.1
     optionalDependencies:
-      '@types/node': 22.13.10
+      '@types/node': 22.14.1
 
-  '@rushstack/ts-command-line@4.23.2(@types/node@22.13.10)':
+  '@rushstack/ts-command-line@4.23.2(@types/node@22.14.1)':
     dependencies:
-      '@rushstack/terminal': 0.14.4(@types/node@22.13.10)
+      '@rushstack/terminal': 0.14.4(@types/node@22.14.1)
       '@types/argparse': 1.0.38
       argparse: 1.0.10
       string-argv: 0.3.2
@@ -9498,14 +9478,14 @@ snapshots:
 
   '@sanity/browserslist-config@1.0.5': {}
 
-  '@sanity/cli@3.79.0(@types/babel__core@7.20.5)(@types/node@22.13.10)(@types/react@19.0.11)(react@18.3.1)(typescript@5.8.2)':
+  '@sanity/cli@3.79.0(@types/babel__core@7.20.5)(@types/node@22.14.1)(@types/react@19.0.11)(react@18.3.1)(typescript@5.8.2)':
     dependencies:
       '@babel/traverse': 7.26.10
-      '@sanity/client': 6.28.3(debug@4.4.0)
+      '@sanity/client': 6.29.0(debug@4.4.0)
       '@sanity/codegen': 3.79.0
       '@sanity/runtime-cli': 1.4.1
       '@sanity/telemetry': 0.7.9(react@18.3.1)
-      '@sanity/template-validator': 2.4.0(@types/babel__core@7.20.5)(@types/node@22.13.10)(debug@4.4.0)(typescript@5.8.2)
+      '@sanity/template-validator': 2.4.0(@types/babel__core@7.20.5)(@types/node@22.14.1)(debug@4.4.0)(typescript@5.8.2)
       '@sanity/util': 3.79.0(@types/react@19.0.11)(debug@4.4.0)
       chalk: 4.1.2
       debug: 4.4.0(supports-color@8.1.1)
@@ -9527,15 +9507,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@sanity/client@6.24.1':
-    dependencies:
-      '@sanity/eventsource': 5.0.2
-      get-it: 8.6.5
-      rxjs: 7.8.1
-    transitivePeerDependencies:
-      - debug
-
-  '@sanity/client@6.28.3(debug@4.4.0)':
+  '@sanity/client@6.29.0(debug@4.4.0)':
     dependencies:
       '@sanity/eventsource': 5.0.2
       get-it: 8.6.7(debug@4.4.0)
@@ -9590,7 +9562,7 @@ snapshots:
 
   '@sanity/export@3.42.2(@types/react@19.0.11)':
     dependencies:
-      '@sanity/client': 6.28.3(debug@4.4.0)
+      '@sanity/client': 6.29.0(debug@4.4.0)
       '@sanity/util': 3.68.3(@types/react@19.0.11)(debug@4.4.0)
       archiver: 7.0.1
       debug: 4.4.0(supports-color@8.1.1)
@@ -9663,7 +9635,7 @@ snapshots:
 
   '@sanity/migrate@3.79.0(@types/react@19.0.11)':
     dependencies:
-      '@sanity/client': 6.28.3(debug@4.4.0)
+      '@sanity/client': 6.29.0(debug@4.4.0)
       '@sanity/mutate': 0.12.3(debug@4.4.0)
       '@sanity/types': 3.79.0(@types/react@19.0.11)(debug@4.4.0)
       '@sanity/util': 3.79.0(@types/react@19.0.11)(debug@4.4.0)
@@ -9678,7 +9650,7 @@ snapshots:
 
   '@sanity/mutate@0.12.3(debug@4.4.0)':
     dependencies:
-      '@sanity/client': 6.28.3(debug@4.4.0)
+      '@sanity/client': 6.29.0(debug@4.4.0)
       '@sanity/diff-match-patch': 3.2.0
       '@sanity/uuid': 3.0.2
       hotscript: 1.0.13
@@ -9700,12 +9672,12 @@ snapshots:
       - '@types/react'
       - supports-color
 
-  '@sanity/pkg-utils@6.13.4(@types/babel__core@7.20.5)(@types/node@22.13.10)(debug@4.4.0)(typescript@5.8.2)':
+  '@sanity/pkg-utils@6.13.4(@types/babel__core@7.20.5)(@types/node@22.14.1)(debug@4.4.0)(typescript@5.8.2)':
     dependencies:
       '@babel/core': 7.26.10
       '@babel/preset-typescript': 7.26.0(@babel/core@7.26.10)
       '@babel/types': 7.26.10
-      '@microsoft/api-extractor': 7.48.1(@types/node@22.13.10)
+      '@microsoft/api-extractor': 7.48.1(@types/node@22.14.1)
       '@microsoft/tsdoc-config': 0.17.1
       '@optimize-lodash/rollup-plugin': 5.0.0(rollup@4.36.0)
       '@rollup/plugin-alias': 5.1.1(rollup@4.36.0)
@@ -9750,17 +9722,17 @@ snapshots:
       - debug
       - supports-color
 
-  '@sanity/presentation-comlink@1.0.12(@sanity/client@6.28.3(debug@4.4.0))(@sanity/types@3.79.0(@types/react@19.0.11)(debug@4.4.0))':
+  '@sanity/presentation-comlink@1.0.12(@sanity/client@6.29.0)(@sanity/types@3.79.0(@types/react@19.0.11)(debug@4.4.0))':
     dependencies:
-      '@sanity/client': 6.28.3(debug@4.4.0)
+      '@sanity/client': 6.29.0(debug@4.4.0)
       '@sanity/comlink': 3.0.1
-      '@sanity/visual-editing-types': 1.0.11(@sanity/client@6.28.3(debug@4.4.0))(@sanity/types@3.79.0(@types/react@19.0.11)(debug@4.4.0))
+      '@sanity/visual-editing-types': 1.0.11(@sanity/client@6.29.0)(@sanity/types@3.79.0(@types/react@19.0.11)(debug@4.4.0))
     transitivePeerDependencies:
       - '@sanity/types'
 
-  '@sanity/preview-url-secret@2.1.6(@sanity/client@6.28.3(debug@4.4.0))':
+  '@sanity/preview-url-secret@2.1.6(@sanity/client@6.29.0)':
     dependencies:
-      '@sanity/client': 6.28.3(debug@4.4.0)
+      '@sanity/client': 6.29.0(debug@4.4.0)
       '@sanity/uuid': 3.0.2
 
   '@sanity/runtime-cli@1.4.1':
@@ -9768,7 +9740,7 @@ snapshots:
       '@oclif/core': 4.2.10
       '@oclif/plugin-help': 6.2.27
       '@oclif/plugin-plugins': 5.4.36
-      eventsource: 3.0.5
+      eventsource: 3.0.6
       jszip: 3.10.1
       mime-types: 2.1.35
       xdg-basedir: 5.1.0
@@ -9797,11 +9769,11 @@ snapshots:
       rxjs: 7.8.2
       typeid-js: 0.3.0
 
-  '@sanity/template-validator@2.4.0(@types/babel__core@7.20.5)(@types/node@22.13.10)(debug@4.4.0)(typescript@5.8.2)':
+  '@sanity/template-validator@2.4.0(@types/babel__core@7.20.5)(@types/node@22.14.1)(debug@4.4.0)(typescript@5.8.2)':
     dependencies:
       '@actions/core': 1.11.1
       '@actions/github': 6.0.0
-      '@sanity/pkg-utils': 6.13.4(@types/babel__core@7.20.5)(@types/node@22.13.10)(debug@4.4.0)(typescript@5.8.2)
+      '@sanity/pkg-utils': 6.13.4(@types/babel__core@7.20.5)(@types/node@22.14.1)(debug@4.4.0)(typescript@5.8.2)
       yaml: 2.7.0
     transitivePeerDependencies:
       - '@types/babel__core'
@@ -9813,14 +9785,14 @@ snapshots:
 
   '@sanity/types@3.68.3(@types/react@19.0.11)(debug@4.4.0)':
     dependencies:
-      '@sanity/client': 6.28.3(debug@4.4.0)
+      '@sanity/client': 6.29.0(debug@4.4.0)
       '@types/react': 19.0.11
     transitivePeerDependencies:
       - debug
 
   '@sanity/types@3.79.0(@types/react@19.0.11)(debug@4.4.0)':
     dependencies:
-      '@sanity/client': 6.28.3(debug@4.4.0)
+      '@sanity/client': 6.29.0(debug@4.4.0)
       '@types/react': 19.0.11
     transitivePeerDependencies:
       - debug
@@ -9845,7 +9817,7 @@ snapshots:
 
   '@sanity/util@3.68.3(@types/react@19.0.11)(debug@4.4.0)':
     dependencies:
-      '@sanity/client': 6.28.3(debug@4.4.0)
+      '@sanity/client': 6.29.0(debug@4.4.0)
       '@sanity/types': 3.68.3(@types/react@19.0.11)(debug@4.4.0)
       get-random-values-esm: 1.0.2
       moment: 2.30.1
@@ -9856,7 +9828,7 @@ snapshots:
 
   '@sanity/util@3.79.0(@types/react@19.0.11)(debug@4.4.0)':
     dependencies:
-      '@sanity/client': 6.28.3(debug@4.4.0)
+      '@sanity/client': 6.29.0(debug@4.4.0)
       '@sanity/types': 3.79.0(@types/react@19.0.11)(debug@4.4.0)
       get-random-values-esm: 1.0.2
       moment: 2.30.1
@@ -9870,9 +9842,9 @@ snapshots:
       '@types/uuid': 8.3.4
       uuid: 8.3.2
 
-  '@sanity/visual-editing-types@1.0.11(@sanity/client@6.28.3(debug@4.4.0))(@sanity/types@3.79.0(@types/react@19.0.11)(debug@4.4.0))':
+  '@sanity/visual-editing-types@1.0.11(@sanity/client@6.29.0)(@sanity/types@3.79.0(@types/react@19.0.11)(debug@4.4.0))':
     dependencies:
-      '@sanity/client': 6.28.3(debug@4.4.0)
+      '@sanity/client': 6.29.0(debug@4.4.0)
     optionalDependencies:
       '@sanity/types': 3.79.0(@types/react@19.0.11)(debug@4.4.0)
 
@@ -9916,14 +9888,14 @@ snapshots:
       '@sentry-internal/browser-utils': 8.55.0
       '@sentry/core': 8.55.0
 
-  '@sentry/astro@8.41.0(astro@5.5.2(@types/node@22.13.10)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0))':
+  '@sentry/astro@8.41.0(astro@5.5.2(@types/node@22.14.1)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0))':
     dependencies:
       '@sentry/browser': 8.41.0
       '@sentry/core': 8.41.0
       '@sentry/node': 8.41.0
       '@sentry/types': 8.41.0
       '@sentry/vite-plugin': 2.22.6
-      astro: 5.5.2(@types/node@22.13.10)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0)
+      astro: 5.5.2(@types/node@22.14.1)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -10161,11 +10133,11 @@ snapshots:
 
   '@shikijs/vscode-textmate@10.0.2': {}
 
-  '@spotlightjs/astro@2.3.0(@sentry/astro@8.41.0(astro@5.5.2(@types/node@22.13.10)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0)))(astro@5.5.2(@types/node@22.13.10)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0))':
+  '@spotlightjs/astro@2.3.0(@sentry/astro@8.41.0(astro@5.5.2(@types/node@22.14.1)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0)))(astro@5.5.2(@types/node@22.14.1)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0))':
     dependencies:
-      '@sentry/astro': 8.41.0(astro@5.5.2(@types/node@22.13.10)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0))
+      '@sentry/astro': 8.41.0(astro@5.5.2(@types/node@22.14.1)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0))
       '@spotlightjs/spotlight': 2.9.0
-      astro: 5.5.2(@types/node@22.13.10)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0)
+      astro: 5.5.2(@types/node@22.14.1)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -10241,7 +10213,7 @@ snapshots:
 
   '@types/connect@3.4.36':
     dependencies:
-      '@types/node': 22.13.10
+      '@types/node': 22.14.1
 
   '@types/cookie@0.6.0': {}
 
@@ -10257,7 +10229,7 @@ snapshots:
 
   '@types/follow-redirects@1.14.4':
     dependencies:
-      '@types/node': 20.12.12
+      '@types/node': 22.14.1
 
   '@types/hast@2.3.10':
     dependencies:
@@ -10277,7 +10249,7 @@ snapshots:
 
   '@types/mysql@2.15.26':
     dependencies:
-      '@types/node': 22.13.10
+      '@types/node': 22.14.1
 
   '@types/nlcst@2.0.3':
     dependencies:
@@ -10285,13 +10257,13 @@ snapshots:
 
   '@types/node@17.0.45': {}
 
-  '@types/node@20.12.12':
-    dependencies:
-      undici-types: 5.26.5
-
   '@types/node@22.13.10':
     dependencies:
       undici-types: 6.20.0
+
+  '@types/node@22.14.1':
+    dependencies:
+      undici-types: 6.21.0
 
   '@types/normalize-package-data@2.4.4': {}
 
@@ -10303,13 +10275,13 @@ snapshots:
 
   '@types/pg@8.6.1':
     dependencies:
-      '@types/node': 22.13.10
+      '@types/node': 22.14.1
       pg-protocol: 1.6.1
       pg-types: 2.2.0
 
   '@types/progress-stream@2.0.5':
     dependencies:
-      '@types/node': 20.12.12
+      '@types/node': 22.14.1
 
   '@types/react-is@19.0.0':
     dependencies:
@@ -10339,7 +10311,7 @@ snapshots:
 
   '@types/tedious@4.0.14':
     dependencies:
-      '@types/node': 22.13.10
+      '@types/node': 22.14.1
 
   '@types/trusted-types@2.0.7':
     optional: true
@@ -10354,14 +10326,14 @@ snapshots:
 
   '@ungap/structured-clone@1.3.0': {}
 
-  '@vitejs/plugin-react@4.3.4(vite@6.2.1(@types/node@22.13.10)(jiti@1.21.6)(terser@5.39.0)(yaml@2.7.0))':
+  '@vitejs/plugin-react@4.3.4(vite@6.2.1(@types/node@22.14.1)(jiti@1.21.6)(terser@5.39.0)(yaml@2.7.0))':
     dependencies:
       '@babel/core': 7.26.10
       '@babel/plugin-transform-react-jsx-self': 7.25.9(@babel/core@7.26.10)
       '@babel/plugin-transform-react-jsx-source': 7.25.9(@babel/core@7.26.10)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 6.2.1(@types/node@22.13.10)(jiti@1.21.6)(terser@5.39.0)(yaml@2.7.0)
+      vite: 6.2.1(@types/node@22.14.1)(jiti@1.21.6)(terser@5.39.0)(yaml@2.7.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -10545,13 +10517,13 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  astro-portabletext@0.11.0(astro@5.5.2(@types/node@22.13.10)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0)):
+  astro-portabletext@0.11.0(astro@5.5.2(@types/node@22.14.1)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0)):
     dependencies:
       '@portabletext/toolkit': 2.0.16
       '@portabletext/types': 2.0.13
-      astro: 5.5.2(@types/node@22.13.10)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0)
+      astro: 5.5.2(@types/node@22.14.1)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0)
 
-  astro@5.5.2(@types/node@22.13.10)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0):
+  astro@5.5.2(@types/node@22.14.1)(jiti@1.21.6)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0):
     dependencies:
       '@astrojs/compiler': 2.11.0
       '@astrojs/internal-helpers': 0.6.1
@@ -10603,8 +10575,8 @@ snapshots:
       unist-util-visit: 5.0.0
       unstorage: 1.15.0
       vfile: 6.0.3
-      vite: 6.2.1(@types/node@22.13.10)(jiti@1.21.6)(terser@5.39.0)(yaml@2.7.0)
-      vitefu: 1.0.6(vite@6.2.1(@types/node@22.13.10)(jiti@1.21.6)(terser@5.39.0)(yaml@2.7.0))
+      vite: 6.2.1(@types/node@22.14.1)(jiti@1.21.6)(terser@5.39.0)(yaml@2.7.0)
+      vitefu: 1.0.6(vite@6.2.1(@types/node@22.14.1)(jiti@1.21.6)(terser@5.39.0)(yaml@2.7.0))
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
       yocto-spinner: 0.2.1
@@ -11419,13 +11391,13 @@ snapshots:
 
   events@3.3.0: {}
 
-  eventsource-parser@3.0.0: {}
+  eventsource-parser@3.0.1: {}
 
   eventsource@2.0.2: {}
 
-  eventsource@3.0.5:
+  eventsource@3.0.6:
     dependencies:
-      eventsource-parser: 3.0.0
+      eventsource-parser: 3.0.1
 
   execa@2.1.0:
     dependencies:
@@ -11536,8 +11508,6 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  follow-redirects@1.15.6: {}
-
   follow-redirects@1.15.9(debug@4.4.0):
     optionalDependencies:
       debug: 4.4.0(supports-color@8.1.1)
@@ -11616,18 +11586,6 @@ snapshots:
       has-symbols: 1.1.0
       hasown: 2.0.2
       math-intrinsics: 1.1.0
-
-  get-it@8.6.5:
-    dependencies:
-      '@types/follow-redirects': 1.14.4
-      '@types/progress-stream': 2.0.5
-      decompress-response: 7.0.0
-      follow-redirects: 1.15.6
-      is-retry-allowed: 2.2.0
-      progress-stream: 2.0.0
-      tunnel-agent: 0.6.0
-    transitivePeerDependencies:
-      - debug
 
   get-it@8.6.7(debug@4.4.0):
     dependencies:
@@ -13774,10 +13732,6 @@ snapshots:
     dependencies:
       rxjs: 7.8.2
 
-  rxjs@7.8.1:
-    dependencies:
-      tslib: 2.6.2
-
   rxjs@7.8.2:
     dependencies:
       tslib: 2.8.1
@@ -13790,7 +13744,7 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  sanity@3.79.0(@emotion/is-prop-valid@1.2.2)(@types/babel__core@7.20.5)(@types/node@22.13.10)(@types/react@19.0.11)(jiti@1.21.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0):
+  sanity@3.79.0(@emotion/is-prop-valid@1.2.2)(@types/babel__core@7.20.5)(@types/node@22.14.1)(@types/react@19.0.11)(jiti@1.21.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0):
     dependencies:
       '@dnd-kit/core': 6.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@dnd-kit/modifiers': 6.0.1(@dnd-kit/core@6.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
@@ -13804,8 +13758,8 @@ snapshots:
       '@rexxars/react-json-inspector': 9.0.1(react@18.3.1)
       '@sanity/asset-utils': 2.2.1
       '@sanity/bifur-client': 0.4.1
-      '@sanity/cli': 3.79.0(@types/babel__core@7.20.5)(@types/node@22.13.10)(@types/react@19.0.11)(react@18.3.1)(typescript@5.8.2)
-      '@sanity/client': 6.28.3(debug@4.4.0)
+      '@sanity/cli': 3.79.0(@types/babel__core@7.20.5)(@types/node@22.14.1)(@types/react@19.0.11)(react@18.3.1)(typescript@5.8.2)
+      '@sanity/client': 6.29.0(debug@4.4.0)
       '@sanity/color': 3.0.6
       '@sanity/comlink': 3.0.1
       '@sanity/diff': 3.79.0
@@ -13820,8 +13774,8 @@ snapshots:
       '@sanity/logos': 2.1.13(@sanity/color@3.0.6)(react@18.3.1)
       '@sanity/migrate': 3.79.0(@types/react@19.0.11)
       '@sanity/mutator': 3.79.0(@types/react@19.0.11)
-      '@sanity/presentation-comlink': 1.0.12(@sanity/client@6.28.3(debug@4.4.0))(@sanity/types@3.79.0(@types/react@19.0.11)(debug@4.4.0))
-      '@sanity/preview-url-secret': 2.1.6(@sanity/client@6.28.3(debug@4.4.0))
+      '@sanity/presentation-comlink': 1.0.12(@sanity/client@6.29.0)(@sanity/types@3.79.0(@types/react@19.0.11)(debug@4.4.0))
+      '@sanity/preview-url-secret': 2.1.6(@sanity/client@6.29.0)
       '@sanity/schema': 3.79.0(@types/react@19.0.11)(debug@4.4.0)
       '@sanity/telemetry': 0.7.9(react@18.3.1)
       '@sanity/types': 3.79.0(@types/react@19.0.11)(debug@4.4.0)
@@ -13836,7 +13790,7 @@ snapshots:
       '@types/speakingurl': 13.0.6
       '@types/tar-stream': 3.1.3
       '@types/use-sync-external-store': 0.0.6
-      '@vitejs/plugin-react': 4.3.4(vite@6.2.1(@types/node@22.13.10)(jiti@1.21.6)(terser@5.39.0)(yaml@2.7.0))
+      '@vitejs/plugin-react': 4.3.4(vite@6.2.1(@types/node@22.14.1)(jiti@1.21.6)(terser@5.39.0)(yaml@2.7.0))
       archiver: 7.0.1
       arrify: 2.0.1
       async-mutex: 0.4.1
@@ -13919,7 +13873,7 @@ snapshots:
       use-sync-external-store: 1.4.0(react@18.3.1)
       uuid: 11.1.0
       valibot: 0.31.1
-      vite: 6.2.1(@types/node@22.13.10)(jiti@1.21.6)(terser@5.39.0)(yaml@2.7.0)
+      vite: 6.2.1(@types/node@22.14.1)(jiti@1.21.6)(terser@5.39.0)(yaml@2.7.0)
       yargs: 17.7.2
     transitivePeerDependencies:
       - '@emotion/is-prop-valid'
@@ -14474,9 +14428,9 @@ snapshots:
 
   uncrypto@0.1.3: {}
 
-  undici-types@5.26.5: {}
-
   undici-types@6.20.0: {}
+
+  undici-types@6.21.0: {}
 
   undici@5.28.5:
     dependencies:
@@ -14687,33 +14641,33 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vite@6.0.11(@types/node@22.13.10)(jiti@1.21.6)(terser@5.39.0)(yaml@2.7.0):
+  vite@6.0.11(@types/node@22.14.1)(jiti@1.21.6)(terser@5.39.0)(yaml@2.7.0):
     dependencies:
       esbuild: 0.24.2
       postcss: 8.5.1
       rollup: 4.31.0
     optionalDependencies:
-      '@types/node': 22.13.10
+      '@types/node': 22.14.1
       fsevents: 2.3.3
       jiti: 1.21.6
       terser: 5.39.0
       yaml: 2.7.0
 
-  vite@6.2.1(@types/node@22.13.10)(jiti@1.21.6)(terser@5.39.0)(yaml@2.7.0):
+  vite@6.2.1(@types/node@22.14.1)(jiti@1.21.6)(terser@5.39.0)(yaml@2.7.0):
     dependencies:
       esbuild: 0.25.1
       postcss: 8.5.3
       rollup: 4.35.0
     optionalDependencies:
-      '@types/node': 22.13.10
+      '@types/node': 22.14.1
       fsevents: 2.3.3
       jiti: 1.21.6
       terser: 5.39.0
       yaml: 2.7.0
 
-  vitefu@1.0.6(vite@6.2.1(@types/node@22.13.10)(jiti@1.21.6)(terser@5.39.0)(yaml@2.7.0)):
+  vitefu@1.0.6(vite@6.2.1(@types/node@22.14.1)(jiti@1.21.6)(terser@5.39.0)(yaml@2.7.0)):
     optionalDependencies:
-      vite: 6.2.1(@types/node@22.13.10)(jiti@1.21.6)(terser@5.39.0)(yaml@2.7.0)
+      vite: 6.2.1(@types/node@22.14.1)(jiti@1.21.6)(terser@5.39.0)(yaml@2.7.0)
 
   void-elements@3.1.0: {}
 
