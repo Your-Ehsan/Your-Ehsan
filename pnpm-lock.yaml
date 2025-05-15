@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@astrojs/check':
         specifier: ^0.9.4
-        version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.4.1)(typescript@5.8.2)
+        version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.4.1)(typescript@5.8.3)
       '@astrojs/rss':
         specifier: ^4.0.11
         version: 4.0.11
@@ -19,28 +19,28 @@ importers:
         version: 3.2.1
       '@astrojs/tailwind':
         specifier: ^6.0.2
-        version: 6.0.2(astro@5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.1))(tailwindcss@3.4.15)
+        version: 6.0.2(astro@5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.3)(yaml@2.7.1))(tailwindcss@3.4.15)
       '@sanity/client':
         specifier: ^6.29.0
         version: 6.29.0
       '@sentry/astro':
         specifier: ^9.18.0
-        version: 9.18.0(astro@5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.1))
+        version: 9.18.0(astro@5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.3)(yaml@2.7.1))
       '@spotlightjs/astro':
         specifier: ^2.3.0
-        version: 2.3.0(@sentry/astro@9.18.0(astro@5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.1)))(astro@5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.1))
+        version: 2.3.0(@sentry/astro@9.18.0(astro@5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.3)(yaml@2.7.1)))(astro@5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.3)(yaml@2.7.1))
       astro:
         specifier: ^5.7.13
-        version: 5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.1)
+        version: 5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.3)(yaml@2.7.1)
       astro-portabletext:
         specifier: ^0.11.0
-        version: 0.11.0(astro@5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.1))
+        version: 0.11.0(astro@5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.3)(yaml@2.7.1))
       nanostores:
         specifier: ^1.0.1
         version: 1.0.1
       sanity:
         specifier: ^3.79.0
-        version: 3.79.0(@emotion/is-prop-valid@1.2.2)(@types/babel__core@7.20.5)(@types/node@22.15.18)(@types/react@19.0.11)(jiti@1.21.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.1)
+        version: 3.79.0(@emotion/is-prop-valid@1.2.2)(@types/babel__core@7.20.5)(@types/node@22.15.18)(@types/react@19.0.11)(jiti@1.21.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.39.0)(typescript@5.8.3)(yaml@2.7.1)
       tailwind-merge:
         specifier: ^2.5.5
         version: 2.5.5
@@ -48,8 +48,8 @@ importers:
         specifier: ^3.4.15
         version: 3.4.15
       typescript:
-        specifier: ^5.8.2
-        version: 5.8.2
+        specifier: ^5.8.3
+        version: 5.8.3
     devDependencies:
       '@sanity/image-url':
         specifier: ^1.1.0
@@ -1294,8 +1294,8 @@ packages:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
 
-  '@fastify/otel@https://codeload.github.com/getsentry/fastify-otel/tar.gz/d6bb1756c3db3d00d4d82c39c93ee3316e06d305':
-    resolution: {tarball: https://codeload.github.com/getsentry/fastify-otel/tar.gz/d6bb1756c3db3d00d4d82c39c93ee3316e06d305}
+  '@fastify/otel@https://codeload.github.com/getsentry/fastify-otel/tar.gz/ae3088d65e286bdc94ac5d722573537d6a6671bb':
+    resolution: {tarball: https://codeload.github.com/getsentry/fastify-otel/tar.gz/ae3088d65e286bdc94ac5d722573537d6a6671bb}
     version: 0.8.0
     peerDependencies:
       '@opentelemetry/api': ^1.9.0
@@ -6257,8 +6257,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  typescript@5.8.2:
-    resolution: {integrity: sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==}
+  typescript@5.8.3:
+    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -6961,12 +6961,12 @@ snapshots:
       css-tree: 2.3.1
       is-potential-custom-element-name: 1.0.1
 
-  '@astrojs/check@0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.4.1)(typescript@5.8.2)':
+  '@astrojs/check@0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.4.1)(typescript@5.8.3)':
     dependencies:
-      '@astrojs/language-server': 2.15.0(prettier-plugin-astro@0.14.1)(prettier@3.4.1)(typescript@5.8.2)
+      '@astrojs/language-server': 2.15.0(prettier-plugin-astro@0.14.1)(prettier@3.4.1)(typescript@5.8.3)
       chokidar: 4.0.1
       kleur: 4.1.5
-      typescript: 5.8.2
+      typescript: 5.8.3
       yargs: 17.7.2
     transitivePeerDependencies:
       - prettier
@@ -6978,12 +6978,12 @@ snapshots:
 
   '@astrojs/internal-helpers@0.6.1': {}
 
-  '@astrojs/language-server@2.15.0(prettier-plugin-astro@0.14.1)(prettier@3.4.1)(typescript@5.8.2)':
+  '@astrojs/language-server@2.15.0(prettier-plugin-astro@0.14.1)(prettier@3.4.1)(typescript@5.8.3)':
     dependencies:
       '@astrojs/compiler': 2.12.0
       '@astrojs/yaml2ts': 0.2.1
       '@jridgewell/sourcemap-codec': 1.5.0
-      '@volar/kit': 2.4.5(typescript@5.8.2)
+      '@volar/kit': 2.4.5(typescript@5.8.3)
       '@volar/language-core': 2.4.5
       '@volar/language-server': 2.4.5
       '@volar/language-service': 2.4.5
@@ -7045,9 +7045,9 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.23.8
 
-  '@astrojs/tailwind@6.0.2(astro@5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.1))(tailwindcss@3.4.15)':
+  '@astrojs/tailwind@6.0.2(astro@5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.3)(yaml@2.7.1))(tailwindcss@3.4.15)':
     dependencies:
-      astro: 5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.1)
+      astro: 5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.3)(yaml@2.7.1)
       autoprefixer: 10.4.21(postcss@8.5.3)
       postcss: 8.5.3
       postcss-load-config: 4.0.2(postcss@8.5.3)
@@ -8275,7 +8275,7 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@fastify/otel@https://codeload.github.com/getsentry/fastify-otel/tar.gz/d6bb1756c3db3d00d4d82c39c93ee3316e06d305(@opentelemetry/api@1.9.0)':
+  '@fastify/otel@https://codeload.github.com/getsentry/fastify-otel/tar.gz/ae3088d65e286bdc94ac5d722573537d6a6671bb(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/core': 1.30.1(@opentelemetry/api@1.9.0)
@@ -9317,14 +9317,14 @@ snapshots:
 
   '@sanity/browserslist-config@1.0.5': {}
 
-  '@sanity/cli@3.79.0(@types/babel__core@7.20.5)(@types/node@22.15.18)(@types/react@19.0.11)(react@18.3.1)(typescript@5.8.2)':
+  '@sanity/cli@3.79.0(@types/babel__core@7.20.5)(@types/node@22.15.18)(@types/react@19.0.11)(react@18.3.1)(typescript@5.8.3)':
     dependencies:
       '@babel/traverse': 7.26.10
       '@sanity/client': 6.29.0(debug@4.4.1)
       '@sanity/codegen': 3.79.0
       '@sanity/runtime-cli': 1.4.1
       '@sanity/telemetry': 0.7.9(react@18.3.1)
-      '@sanity/template-validator': 2.4.0(@types/babel__core@7.20.5)(@types/node@22.15.18)(debug@4.4.1)(typescript@5.8.2)
+      '@sanity/template-validator': 2.4.0(@types/babel__core@7.20.5)(@types/node@22.15.18)(debug@4.4.1)(typescript@5.8.3)
       '@sanity/util': 3.79.0(@types/react@19.0.11)(debug@4.4.1)
       chalk: 4.1.2
       debug: 4.4.1(supports-color@8.1.1)
@@ -9527,7 +9527,7 @@ snapshots:
       - '@types/react'
       - supports-color
 
-  '@sanity/pkg-utils@6.13.4(@types/babel__core@7.20.5)(@types/node@22.15.18)(debug@4.4.1)(typescript@5.8.2)':
+  '@sanity/pkg-utils@6.13.4(@types/babel__core@7.20.5)(@types/node@22.15.18)(debug@4.4.1)(typescript@5.8.3)':
     dependencies:
       '@babel/core': 7.27.1
       '@babel/preset-typescript': 7.26.0(@babel/core@7.27.1)
@@ -9567,7 +9567,7 @@ snapshots:
       rollup-plugin-esbuild: 6.2.1(esbuild@0.24.2)(rollup@4.40.2)
       rxjs: 7.8.2
       treeify: 1.1.0
-      typescript: 5.8.2
+      typescript: 5.8.3
       uuid: 11.1.0
       zod: 3.24.1
       zod-validation-error: 3.4.0(zod@3.24.1)
@@ -9624,11 +9624,11 @@ snapshots:
       rxjs: 7.8.2
       typeid-js: 0.3.0
 
-  '@sanity/template-validator@2.4.0(@types/babel__core@7.20.5)(@types/node@22.15.18)(debug@4.4.1)(typescript@5.8.2)':
+  '@sanity/template-validator@2.4.0(@types/babel__core@7.20.5)(@types/node@22.15.18)(debug@4.4.1)(typescript@5.8.3)':
     dependencies:
       '@actions/core': 1.11.1
       '@actions/github': 6.0.0
-      '@sanity/pkg-utils': 6.13.4(@types/babel__core@7.20.5)(@types/node@22.15.18)(debug@4.4.1)(typescript@5.8.2)
+      '@sanity/pkg-utils': 6.13.4(@types/babel__core@7.20.5)(@types/node@22.15.18)(debug@4.4.1)(typescript@5.8.3)
       yaml: 2.7.1
     transitivePeerDependencies:
       - '@types/babel__core'
@@ -9757,13 +9757,13 @@ snapshots:
       '@sentry-internal/browser-utils': 9.18.0
       '@sentry/core': 9.18.0
 
-  '@sentry/astro@9.18.0(astro@5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.1))':
+  '@sentry/astro@9.18.0(astro@5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.3)(yaml@2.7.1))':
     dependencies:
       '@sentry/browser': 9.18.0
       '@sentry/core': 9.18.0
       '@sentry/node': 9.18.0
       '@sentry/vite-plugin': 2.23.0
-      astro: 5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.1)
+      astro: 5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.3)(yaml@2.7.1)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -9886,7 +9886,7 @@ snapshots:
 
   '@sentry/node@9.18.0':
     dependencies:
-      '@fastify/otel': https://codeload.github.com/getsentry/fastify-otel/tar.gz/d6bb1756c3db3d00d4d82c39c93ee3316e06d305(@opentelemetry/api@1.9.0)
+      '@fastify/otel': https://codeload.github.com/getsentry/fastify-otel/tar.gz/ae3088d65e286bdc94ac5d722573537d6a6671bb(@opentelemetry/api@1.9.0)
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/context-async-hooks': 1.30.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/core': 1.30.1(@opentelemetry/api@1.9.0)
@@ -9991,11 +9991,11 @@ snapshots:
 
   '@shikijs/vscode-textmate@10.0.2': {}
 
-  '@spotlightjs/astro@2.3.0(@sentry/astro@9.18.0(astro@5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.1)))(astro@5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.1))':
+  '@spotlightjs/astro@2.3.0(@sentry/astro@9.18.0(astro@5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.3)(yaml@2.7.1)))(astro@5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.3)(yaml@2.7.1))':
     dependencies:
-      '@sentry/astro': 9.18.0(astro@5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.1))
+      '@sentry/astro': 9.18.0(astro@5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.3)(yaml@2.7.1))
       '@spotlightjs/spotlight': 2.9.0
-      astro: 5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.1)
+      astro: 5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.3)(yaml@2.7.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -10209,12 +10209,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@volar/kit@2.4.5(typescript@5.8.2)':
+  '@volar/kit@2.4.5(typescript@5.8.3)':
     dependencies:
       '@volar/language-service': 2.4.5
       '@volar/typescript': 2.4.5
       typesafe-path: 0.2.2
-      typescript: 5.8.2
+      typescript: 5.8.3
       vscode-languageserver-textdocument: 1.0.11
       vscode-uri: 3.0.8
 
@@ -10389,13 +10389,13 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  astro-portabletext@0.11.0(astro@5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.1)):
+  astro-portabletext@0.11.0(astro@5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.3)(yaml@2.7.1)):
     dependencies:
       '@portabletext/toolkit': 2.0.16
       '@portabletext/types': 2.0.13
-      astro: 5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.1)
+      astro: 5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.3)(yaml@2.7.1)
 
-  astro@5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.1):
+  astro@5.7.13(@types/node@22.15.18)(jiti@1.21.6)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.3)(yaml@2.7.1):
     dependencies:
       '@astrojs/compiler': 2.12.0
       '@astrojs/internal-helpers': 0.6.1
@@ -10443,7 +10443,7 @@ snapshots:
       shiki: 3.4.0
       tinyexec: 0.3.2
       tinyglobby: 0.2.13
-      tsconfck: 3.1.5(typescript@5.8.2)
+      tsconfck: 3.1.5(typescript@5.8.3)
       ultrahtml: 1.6.0
       unifont: 0.5.0
       unist-util-visit: 5.0.0
@@ -10456,7 +10456,7 @@ snapshots:
       yocto-spinner: 0.2.2
       zod: 3.24.4
       zod-to-json-schema: 3.24.5(zod@3.24.4)
-      zod-to-ts: 1.2.0(typescript@5.8.2)(zod@3.24.4)
+      zod-to-ts: 1.2.0(typescript@5.8.3)(zod@3.24.4)
     optionalDependencies:
       sharp: 0.33.5
     transitivePeerDependencies:
@@ -13643,7 +13643,7 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  sanity@3.79.0(@emotion/is-prop-valid@1.2.2)(@types/babel__core@7.20.5)(@types/node@22.15.18)(@types/react@19.0.11)(jiti@1.21.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.1):
+  sanity@3.79.0(@emotion/is-prop-valid@1.2.2)(@types/babel__core@7.20.5)(@types/node@22.15.18)(@types/react@19.0.11)(jiti@1.21.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.39.0)(typescript@5.8.3)(yaml@2.7.1):
     dependencies:
       '@dnd-kit/core': 6.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@dnd-kit/modifiers': 6.0.1(@dnd-kit/core@6.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
@@ -13657,7 +13657,7 @@ snapshots:
       '@rexxars/react-json-inspector': 9.0.1(react@18.3.1)
       '@sanity/asset-utils': 2.2.1
       '@sanity/bifur-client': 0.4.1
-      '@sanity/cli': 3.79.0(@types/babel__core@7.20.5)(@types/node@22.15.18)(@types/react@19.0.11)(react@18.3.1)(typescript@5.8.2)
+      '@sanity/cli': 3.79.0(@types/babel__core@7.20.5)(@types/node@22.15.18)(@types/react@19.0.11)(react@18.3.1)(typescript@5.8.3)
       '@sanity/client': 6.29.0(debug@4.4.0)
       '@sanity/color': 3.0.6
       '@sanity/comlink': 3.0.1
@@ -14270,9 +14270,9 @@ snapshots:
 
   ts-interface-checker@0.1.13: {}
 
-  tsconfck@3.1.5(typescript@5.8.2):
+  tsconfck@3.1.5(typescript@5.8.3):
     optionalDependencies:
-      typescript: 5.8.2
+      typescript: 5.8.3
 
   tsconfig-paths@4.2.0:
     dependencies:
@@ -14318,7 +14318,7 @@ snapshots:
 
   typescript@5.4.2: {}
 
-  typescript@5.8.2: {}
+  typescript@5.8.3: {}
 
   ufo@1.6.1: {}
 
@@ -14861,9 +14861,9 @@ snapshots:
     dependencies:
       zod: 3.24.4
 
-  zod-to-ts@1.2.0(typescript@5.8.2)(zod@3.24.4):
+  zod-to-ts@1.2.0(typescript@5.8.3)(zod@3.24.4):
     dependencies:
-      typescript: 5.8.2
+      typescript: 5.8.3
       zod: 3.24.4
 
   zod-validation-error@3.4.0(zod@3.24.1):
