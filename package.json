@@ -33,7 +33,7 @@
     "daisyui": "^5.0.35",
     "prettier": "^3.5.3",
     "prettier-plugin-astro": "^0.14.1",
-    "prettier-plugin-tailwindcss": "^0.6.9",
+    "prettier-plugin-tailwindcss": "^0.6.12",
     "vite": "^6.3.5"
   }
 }
