@@ -64,7 +64,7 @@ console.log('🚀 Shipping with:', myApp);
 ## 📫 Let's Connect
 
 - 🌐 Website: [developerEhsan.vercel.app](https://developerEhsan.vercel.app)
-- 💼 LinkedIn: [@developerEhsan](https://linkedin.com/in/developer-ehsan)
+- 💼 LinkedIn: [@developerEhsan](https://www.linkedin.com/in/developer-ehsan)
 - 📝 Medium: [@developerEhsan](https://medium.com/@developerEhsan)
 - 🧑‍💻 Dev.to: [@developerEhsan](https://dev.to/developerEhsan)
 - 📧 Email: ehsanshahid787@gmail.com
