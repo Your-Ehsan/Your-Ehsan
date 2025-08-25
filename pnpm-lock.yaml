@@ -21,8 +21,8 @@ importers:
         specifier: ^6.0.2
         version: 6.0.2(astro@5.13.3(@types/node@24.3.0)(jiti@1.21.7)(rollup@4.48.0)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0))(tailwindcss@3.4.17)
       '@sanity/client':
-        specifier: ^7.8.2
-        version: 7.8.2
+        specifier: ^7.9.0
+        version: 7.9.0
       '@sentry/astro':
         specifier: ^10.5.0
         version: 10.5.0(astro@5.13.3(@types/node@24.3.0)(jiti@1.21.7)(rollup@4.48.0)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0))
@@ -2360,8 +2360,8 @@ packages:
     resolution: {integrity: sha512-BQRCMeDlBxwnMbFtB61HUxFf9aSb4HNVrpfrC7IFVqFf4cwcc3o5H8/nlrL9U3cDFedbe4W0AXt1mQzwbY/ljw==}
     engines: {node: '>=14.18'}
 
-  '@sanity/client@7.8.2':
-    resolution: {integrity: sha512-Me3/eh71VFdbSHghuea80rcDQZir/NgtwANKug/mPbbwwENYASJSEHpAy2VZwn4FyHHIR9d2pNRIyXMzGab+dQ==}
+  '@sanity/client@7.9.0':
+    resolution: {integrity: sha512-CTkelmFDylaIXw8M76GkkfJyYd/f9NFcsLwhuLU0NOqNcnwqlTqUWyy6MY7h5IJC9IJbDttZeRhMwnc/WGcLXg==}
     engines: {node: '>=20'}
 
   '@sanity/codegen@3.79.0':
@@ -9908,7 +9908,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@sanity/client@7.8.2':
+  '@sanity/client@7.9.0':
     dependencies:
       '@sanity/eventsource': 5.0.2
       get-it: 8.6.10
